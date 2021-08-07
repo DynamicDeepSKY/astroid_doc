@@ -1,5 +1,5 @@
 .. Astroid Manual documentation master file, created by
-   sphinx-quickstart on Sat Aug  7 16:25:57 2021.
+   sphinx-quickstart on Sat Aug  7 17:04:50 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
