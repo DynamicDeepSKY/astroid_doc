@@ -11,12 +11,6 @@ Welcome to Astroid Manual!
 
 .. toctree:: 
    :maxdepth: 2 
-   :caption: Updates:
-
-   update
-
-.. toctree:: 
-   :maxdepth: 2 
    :caption: Contents:
 
    basic
@@ -33,4 +27,8 @@ Welcome to Astroid Manual!
    recovery
    issues
 
+.. toctree:: 
+   :maxdepth: 2 
+   :caption: Updates:
 
+   update

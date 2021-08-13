@@ -1,6 +1,6 @@
 .. _recovery:
 
-Basic Web User Interface
-========================
+Recovery Instruction
+====================
 
 
