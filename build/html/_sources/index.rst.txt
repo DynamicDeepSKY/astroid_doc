@@ -1,10 +1,6 @@
 Welcome to Astroid Manual!
 ==========================
 
-Thank you for purchasing the world's most advanced eFinder platform Astroid.
-
-.. figure:: /images/test.png
-
 
 
 .. toctree:: 
@@ -13,14 +9,27 @@ Thank you for purchasing the world's most advanced eFinder platform Astroid.
    
    quickstart   
 
+.. toctree:: 
+   :maxdepth: 2 
+   :caption: Updates:
 
-
+   update
 
 .. toctree:: 
    :maxdepth: 2 
    :caption: Contents:
-   
+
+   basic
+   efinder
+   eaa
+   drpole   
    asminstruction
+   recovery
+
+.. toctree:: 
+   :maxdepth: 2 
+   :caption: TroubleShooting:
+   
    trouble
    issues
 

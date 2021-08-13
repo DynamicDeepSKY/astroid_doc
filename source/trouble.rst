@@ -4,7 +4,9 @@
 Trouble Shooting 
 ================
 
-Power lack 
-GPS
+* System is extreamly slow
+* Power lack 
+* GPS
+* No wifi connection
 
 
