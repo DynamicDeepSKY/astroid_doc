@@ -17,7 +17,9 @@ Welcome to Astroid Manual!
    efinder
    eaa
    drpole   
+   systemupdate
    asminstruction
+   remotesystem  
    
 .. toctree:: 
    :maxdepth: 2 
