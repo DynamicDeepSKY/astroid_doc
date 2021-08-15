@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Astroid Manual'
+project = 'Astroid'
 copyright = '2021, DynamicDeepSKY'
 author = 'DynamicDeepSKY'
 
 # The short X.Y version
-version = ''
+version = 'V1.0.0'
 # The full version, including alpha/beta/rc tags
-release = 'Astroid'
+release = 'alpha'
 
 
 # -- General configuration ---------------------------------------------------
