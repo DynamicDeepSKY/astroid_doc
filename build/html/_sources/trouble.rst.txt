@@ -1,7 +1,7 @@
 .. _trouble:
 
 
-Trouble Shooting 
+Troubleshooting 
 ================
 
 General Problems
@@ -62,4 +62,11 @@ EAA Stacker Problems
 
 **Tone curbe adjust is not working on the phone**
 * This is a bug. It will be fixed in the next update
+
+
+
+
+Dr. Pole Problems
+--------------------
+
 

@@ -1,4 +1,4 @@
-Welcome to Astroid Manual!
+Astroid User Manual
 ==========================
 
 

@@ -5,9 +5,9 @@ Known Issues V1.0.0
 
 3D rendering problem 
 
-Mobile Scurbe problem 
+Tone curbe is not adjustable on mobile device
 
-Long stacking bright screen 
+Accumulated brightness problem on EAA
 
-Guider line value overlap
+Guider line value overlap problem
 
