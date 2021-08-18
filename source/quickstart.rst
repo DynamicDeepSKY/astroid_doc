@@ -25,9 +25,9 @@ eFinder
 EAA Stacker
 ---------------
 
-1. Slide the camera into 2 inch scope eyepiece holder or optinally you can purchase 1.25 inch extension tube and connect it to Astroid to slide it into eyepiece hole.
+1. Slide the camera into 2 inch scope eyepiece holder or optionally you can purchase 1.25 inch extension tube and connect it to Astroid to slide it into a eyepiece hole.
 2. Rotate the lens to adjust focus. Set exposure to 0.3 second and exposure to 150 for fast focusing
-3. Adjust your telescope's focus knob and see any star appears on the phone screen.
+3. Adjust your telescope's focus knob and see any star appears on the phone screen. 
 4. Click stack button start the image stacking.
 
 Dr. Pole
