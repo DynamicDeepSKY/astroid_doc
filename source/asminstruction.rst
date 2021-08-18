@@ -6,10 +6,7 @@ Assembly Instruction
 Assembly Instruction for DIY kit
 --------------------------------
 
-.. admonition:: Important
-    You must use ESD removing tools such as ESD Grounding Wrist Strap. The camera module is not ESD protected. It is very easy to damage the camera board if you do not handle ESD properly. DynamicDeepSKY is not responsorble for any damage caused by ESD. Every DIY kits are tested before shipped. If the camera does not work or sending a broken images, you have to purchase the camera PCB board again. 
-    
-    
+
 
 1. Unscrew top four M2.5 bolts
 2. Spread enclosed thermal grease to the cpu and ram pads. Spread it to be around 0.3mm thickness. 
@@ -19,6 +16,12 @@ Assembly Instruction for DIY kit
 6. Open the top cover again and see if the thermal grease is properly spreaded on the CPU and RAM.
 7. Close both cover and tightnen four M2.5 bolts. Don't tighten it too much as cover will be clamping the RPi board.
 
+.. admonition:: Important
+
+    You must use ESD removing tools such as ESD Grounding Wrist Strap. The camera module is not ESD protected. It is very easy to damage the camera board if you do not handle ESD properly. DynamicDeepSKY is not responsorble for any damage caused by ESD. Every DIY kits are tested before shipped. If the camera does not work or sending a broken images, you have to purchase the camera PCB board again. 
+    
+    
+    
 See the assembly video tutorial for more detailed instruction of above: https://youtu.be/C3kBiqK5P64
 
 It is highly recommanded to watch the video before you start.

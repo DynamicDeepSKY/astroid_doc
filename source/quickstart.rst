@@ -28,20 +28,31 @@ You need a Astroid holder to use it as eFinder. You can either 3D print it or an
 8. Red target mark is what your main lens is look at and green mark is what you need to go.
 
 
-See the following example longitude and lattitude
+.. list-table:: example longitude and lattitude
+   :widths: 25 25 50
+   :header-rows: 1
 
-Australia Brisbane 
-long: 152.550872, lat: -28.030904
-Korea 
-long:  127.667991, lat: 36.664273
-New Zealand
-long: 174.807480, lat: -36.866884
-Italy milano
-long: 9.184879, lat: 45.466708
-US Kansas
-long: -98.139525, lat: 38.396799
-Japan
-long: 140.002557, lat: 35.736418
+   * - Location
+     - long
+     - lat
+   * - Australia Brisbane
+     - 152.887277
+     - -28.030904 
+   * - Korea
+     - 127.667991
+     - 36.664273
+   * - New Zealand
+     - 174.807480
+     -  -36.866884
+   * - Italy milano
+     - 9.184879
+     - 45.466708 
+   * - US Kansas  
+     - -98.139525 
+     -  38.396799 
+   * - Japan
+     - 140.002557
+     - 35.736418
 
 
 

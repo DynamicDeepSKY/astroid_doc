@@ -102,7 +102,6 @@
 <li class="toctree-l2"><a class="reference internal" href="#setting-up-license">Setting Up License</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#hot-pixel-correction">Hot Pixel Correction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#image-download">Image Download</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id1">Hot Pixel Correction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#changing-wifi-ssid-and-pass">Changing WIFI SSID and Pass</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#writing-images-to-usb-memory">Writing Images to USB Memory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#changing-web-address">Changing Web Address</a></li>
@@ -119,7 +118,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="trouble.html">Trouble Shooting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="recovery.html">Recovery Instruction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="issues.html">Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Known Issues V1.0.0</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Updates:</span></p>
 <ul>
@@ -198,33 +197,41 @@
 </div>
 <div class="section" id="setting-up-license">
 <h2>Setting Up License<a class="headerlink" href="#setting-up-license" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.</p></li>
+<li><p>Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly</p></li>
+</ol>
 </div>
 <div class="section" id="hot-pixel-correction">
 <h2>Hot Pixel Correction<a class="headerlink" href="#hot-pixel-correction" title="Permalink to this headline">¶</a></h2>
+<p>Over time the number of hot pixel increses. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the following procedure to detect the hot pixels.</p>
+<ol class="arabic simple">
+<li><p>Complete block the lens port of Astroid. Turn off every light around the room and make it completely dar. The DDS made lens cover will be available soon.</p></li>
+<li><p>To go camera setting and increase exposure to maximum and set gain to 150.</p></li>
+<li><p>Go to system menu and adjust hot pixel level. Lower value will pick more hot pixels. Try with the default value and if you still see some week hot pixels, lower the value little bit more until satisfactory.</p></li>
+<li><p>Click hot pixel correction button.</p></li>
+<li><p>Run EAA stacker and see if hot pixels are disappeared</p></li>
+</ol>
 </div>
 <div class="section" id="image-download">
 <h2>Image Download<a class="headerlink" href="#image-download" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="id1">
-<h2>Hot Pixel Correction<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-</div>
 <div class="section" id="changing-wifi-ssid-and-pass">
 <h2>Changing WIFI SSID and Pass<a class="headerlink" href="#changing-wifi-ssid-and-pass" title="Permalink to this headline">¶</a></h2>
+<p>The default Wifi SSID is DDS_DIRECT but you can change it what ever you want. Just go to the system setup and type SSID and Pass you want and press set button.</p>
 </div>
 <div class="section" id="writing-images-to-usb-memory">
 <h2>Writing Images to USB Memory<a class="headerlink" href="#writing-images-to-usb-memory" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Format a usb memory with NTFS format</p></li>
 <li><p>Change name to DDS</p></li>
-<li><p>Insert the usb to Astroid</p></li>
+<li><p>Insert the usb to Astroid and see if USB buttons are recognized</p></li>
 <li><p>Click the save button</p></li>
 </ol>
-<p>Recommanded USB memory
-How to eject</p>
 </div>
 <div class="section" id="changing-web-address">
 <h2>Changing Web Address<a class="headerlink" href="#changing-web-address" title="Permalink to this headline">¶</a></h2>
-<p>Astroid.local to what you want</p>
+<p>If you have to run multiple Astroid camera under a same network you should change it’s host ID. Log in to Astroid using SSH and change host name in raspi-config.</p>
 </div>
 </div>
 

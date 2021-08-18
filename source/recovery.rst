@@ -10,5 +10,5 @@ You can recover your broken Astroid image to the factory setting by following st
 3. Pull out the OS SD card from Astroid and mount it to your computer either by SD card usb adaptor or built in sd card reader.
 4. Burn your SD card with the downloaded image.
 5. Put it back to Astroid and connect a power.
-6. Now, you need to setup your license and serial. Refers to :ref:`Assembly Instruction <_asminstruction>` to see how you set up the license and serial.
-7. Check the system version on the ShowInfo window and run update if it is outdated. See :ref:`System Update <_systemupdate>` for more information
+6. Now, you need to setup your license and serial. Refers to :ref:`Assembly Instruction <asminstruction>` to see how you set up the license and serial.
+7. Check the system version on the ShowInfo window and run update if it is outdated. See :ref:`System Update <systemupdate>` for more information
