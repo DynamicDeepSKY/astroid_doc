@@ -7,7 +7,7 @@ Assembly Instruction for DIY kit
 --------------------------------
 
 .. admonition:: Important
-    You must use ESD removing tools such as ESD Grounding Wrist Strap. The camera module is not ESD protected. It is very easy to damage the camera board if you do not handle ESD properly. Every DIY kits are tested before shipped. If the camera does not work or sending a broken images, you have to purchase the camera PCB board again. 
+    You must use ESD removing tools such as ESD Grounding Wrist Strap. The camera module is not ESD protected. It is very easy to damage the camera board if you do not handle ESD properly. DynamicDeepSKY is not responsorble for any damage caused by ESD. Every DIY kits are tested before shipped. If the camera does not work or sending a broken images, you have to purchase the camera PCB board again. 
     
     
 

@@ -45,7 +45,6 @@ The default Wifi SSID is DDS_DIRECT but you can change it what ever you want. Ju
 
 
 .. admonition:: Warnning
-
     If you cut the power without parking Astroid, sometime SD card is currped and you have to recover it to factory setup.
 
 
@@ -60,7 +59,6 @@ Writing Images to USB Memory
 
 
 .. admonition:: Warnning
-
     Use high speed USB memorys only. With low speed usb, Astroid will continue to write files to USB even after you finished recording which will drastically increases the chance of file curruption.
 
 .. admonition:: How to eject
