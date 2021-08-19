@@ -17,7 +17,6 @@ Camera Control
 
 
 
-
 2D Mode 
 ------------------
 
@@ -39,7 +38,7 @@ Setting Up License
 Hot Pixel Correction
 --------------------
 
-Over time the number of hot pixel increses. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the following procedure to detect the hot pixels. 
+The number of hot pixel naturally increses over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the following procedure to detect the hot pixels. 
 
 1. Complete block the lens port of Astroid. Turn off every light around the room and make it completely dar. The DDS made lens cover will be available soon.
 2. To go camera setting and increase exposure to maximum and set gain to 150.
@@ -89,6 +88,10 @@ Writing Images to USB Memory
 
 Making DDS USB
 ------------------------------
+
+1. Prepare a SanDisk 32GB Ultra Fit or equivalant. High speed USB memory is highly recommanded to prevent any data lost
+2. Format the disk with NTFS format and change name to DDS. 
+3. Insert the USB to Astroid and see if USB icon appears on the top.
 
 
 Changing Web Address

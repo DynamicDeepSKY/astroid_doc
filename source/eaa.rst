@@ -1,6 +1,6 @@
 .. _eaa:
 
-EAA
-===
+EAA Stacker
+===========
 
 
