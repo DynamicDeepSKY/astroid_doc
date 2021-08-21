@@ -33,20 +33,18 @@ EAA Stacker supports two stack modes: with and without tracking. Tracking mode a
 Mean Substraction
 ------------------
 
-If the stacked image is too bright check this. This option estimates the mean RGB value and subtract it from the the stacked image. Use this option if you are using EAA stacker under the sky with light pollution.
+If the stacked image is too bright check this option. This option estimates the mean RGB value of the stacked image and subtract it. Use this option if you are using EAA stacker under the sky with light pollution.
 
 
 Tone Curve
 -----------
 
-Tone curve is 
+
+
 
 Stacking Number
 ----------------
 
-
-4, 8, 16
-
-32, 64
+The number of images to be stacked can be adjusted through this option. The stacking number 4, 8, 16 add all the image on the buffer and devide by each stacking number whereas 32, 64 add without division for a darker lens. 
 
 

@@ -10,7 +10,6 @@ Time is automatically updated according to your device's time but you have to pu
 
 After setting your GPS location, it is good idea to double check it with other software such as stellarium-web.org. Check if the four cardinal directions and the location of Milky Way is identical on both side. 
 
-
 Marker
 ------------------
 
