@@ -18,8 +18,8 @@ Assembly Instruction for DIY kit
 .. figure:: /images/thermalpad_check.jpg
    :alt: Thermal pad check
    :align: center
-   :height: 403px
-   :width: 302 px
+   :width: 403px
+   :height: 302 px
    
    Failure case. The thermal grease was not enough on the ram pad.
    
