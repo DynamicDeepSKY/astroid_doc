@@ -14,6 +14,15 @@ Assembly Instruction for DIY kit
 4. Lift camera connector holder on RPi and insert the camera cable into it. Than lock the connector holder by gently pushing it. If the cable is short, pull it very carefully so that the FPC is not damaged. 
 5. Place the cover case to the RPi4 and press slightly. 
 6. Open the top cover again and see if the thermal grease is properly spreaded on the CPU and RAM.
+
+.. figure:: /images/thermalpad_check.jpg
+   :alt: Thermal pad check
+   :align: center
+   :height: 403px
+   :width: 302 px
+   
+   Failure case. The thermal grease was not enough on the ram pad.
+   
 7. Close both cover and tightnen four M2.5 bolts. Don't tighten it too much as cover will be clamping the RPi board.
 
 .. admonition:: Important
