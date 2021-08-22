@@ -7,9 +7,30 @@ Troubleshooting
 General Problems
 ----------------
 
+**DDS_DIRECT does not not appear**
+
+* Cut the power and reconnect
+* Turn on/off your device's wifi a couple of times
+* Connect HDMI to a monitor and see if OS is running. If OS is running and the wifi icon on the top-right corner is showing 'Could not communicate with wpa_supplicant', your WiFi setup is broken. This is currently an issue with V1.0.0. 
+
+    You have two options.
+    
+    1. If you don't have the HDMI cable and can't see if it is your case, simply running the system recovery will solve the problem.
+    
+    2. If you already confirmed the problem, open the commandline window and type the following two commands.
+    
+    Wifi reactivation commands:
+    ::
+
+        sudo systemctl enable dhcpcd
+        sudo service dhcpcd restart
+
+* Reassemble the housing - wifi signal related problem might disappear
+
+
 **Video is too slow or there are severe lags**
 
-* Try to get coloser to the device
+* Try to get closer to the device. 
 * Try other USB cable
 * Try other power source
 
@@ -19,19 +40,11 @@ General Problems
 * Turn off and on the device's WiFi a couple of times
 * Try the system recovery
 
-**DDS_DIRECT does not not appear**
-
-* Cut the power and reconnect
-* Connect HDMI to a monitor and see if OS is running. If OS is running, your WiFi setup is broken. Running the system recovery will solve the problem.
-* Try the system recovery
-* Reassemble it - wifi signal related problem might disappear
-
 **DDS_DIRECT is connected but astroid.local is not found**
 
 * Cut the power and reconnect
 * Try the system recovery
 * This might be a camera problem. Contact us for more information
-
 
 **RPi is dead. No monitor signal. No power light. No reading light**
 
@@ -60,7 +73,7 @@ eFinder Problems
 EAA Stacker Problems
 --------------------
 
-**Tone curbe adjust is not working on the phone**
+**Tone curbe adjust is not working on a mobile device**
 * This is a bug. It will be fixed in the next update
 
 

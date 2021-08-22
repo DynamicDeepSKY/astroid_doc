@@ -99,7 +99,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="basic.html">Web Interface</a></li>
 <li class="toctree-l1"><a class="reference internal" href="efinder.html">eFinder</a></li>
-<li class="toctree-l1"><a class="reference internal" href="eaa.html">EAA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="eaa.html">EAA Stacker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="drpole.html">Dr. Pole</a></li>
 <li class="toctree-l1"><a class="reference internal" href="systemupdate.html">System Update</a></li>
 <li class="toctree-l1"><a class="reference internal" href="asminstruction.html">Assembly Instruction</a></li>
@@ -191,9 +191,29 @@
 <span id="trouble"></span><h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="general-problems">
 <h2>General Problems<a class="headerlink" href="#general-problems" title="Permalink to this headline">¶</a></h2>
+<p><strong>DDS_DIRECT does not not appear</strong></p>
+<ul>
+<li><p>Cut the power and reconnect</p></li>
+<li><p>Turn on/off your device’s wifi a couple of times</p></li>
+<li><p>Connect HDMI to a monitor and see if OS is running. If OS is running and the wifi icon on the top-right corner is showing ‘Could not communicate with wpa_supplicant’, your WiFi setup is broken. This is currently an issue with V1.0.0.</p>
+<blockquote>
+<div><p>You have two options.</p>
+<ol class="arabic simple">
+<li><p>If you don’t have the HDMI cable and can’t see if it is your case, simply running the system recovery will solve the problem.</p></li>
+<li><p>If you already confirmed the problem, open the commandline window and type the following two commands.</p></li>
+</ol>
+<p>Wifi reactivation commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">systemctl</span> <span class="n">enable</span> <span class="n">dhcpcd</span>
+<span class="n">sudo</span> <span class="n">service</span> <span class="n">dhcpcd</span> <span class="n">restart</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Reassemble the housing - wifi signal related problem might disappear</p></li>
+</ul>
 <p><strong>Video is too slow or there are severe lags</strong></p>
 <ul class="simple">
-<li><p>Try to get coloser to the device</p></li>
+<li><p>Try to get closer to the device.</p></li>
 <li><p>Try other USB cable</p></li>
 <li><p>Try other power source</p></li>
 </ul>
@@ -202,13 +222,6 @@
 <li><p>Cut the power and reconnect</p></li>
 <li><p>Turn off and on the device’s WiFi a couple of times</p></li>
 <li><p>Try the system recovery</p></li>
-</ul>
-<p><strong>DDS_DIRECT does not not appear</strong></p>
-<ul class="simple">
-<li><p>Cut the power and reconnect</p></li>
-<li><p>Connect HDMI to a monitor and see if OS is running. If OS is running, your WiFi setup is broken. Running the system recovery will solve the problem.</p></li>
-<li><p>Try the system recovery</p></li>
-<li><p>Reassemble it - wifi signal related problem might disappear</p></li>
 </ul>
 <p><strong>DDS_DIRECT is connected but astroid.local is not found</strong></p>
 <ul class="simple">
@@ -237,7 +250,7 @@
 </div>
 <div class="section" id="eaa-stacker-problems">
 <h2>EAA Stacker Problems<a class="headerlink" href="#eaa-stacker-problems" title="Permalink to this headline">¶</a></h2>
-<p><strong>Tone curbe adjust is not working on the phone</strong>
+<p><strong>Tone curbe adjust is not working on a mobile device</strong>
 * This is a bug. It will be fixed in the next update</p>
 </div>
 <div class="section" id="dr-pole-problems">

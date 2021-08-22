@@ -11,3 +11,4 @@ Accumulated brightness problem on EAA
 
 Guider line value overlap problem
 
+Missing WIFI (DDS_DIRECT)

@@ -48,12 +48,6 @@ The number of hot pixel naturally increses over time. These hot pixels are espec
 
 
 
-
-Image Download
---------------
-
-
-
 Changing WIFI SSID and Pass
 ---------------------------
 
