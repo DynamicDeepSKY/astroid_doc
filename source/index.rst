@@ -14,6 +14,7 @@ Astroid User Manual
    :caption: Contents:
 
    basic
+   hardware
    efinder
    eaa
    drpole   
