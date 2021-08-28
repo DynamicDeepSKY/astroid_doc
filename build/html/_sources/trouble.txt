@@ -66,6 +66,10 @@ eFinder Problems
 
 * Normally the sky recognition takes 0.1~2 seconds
 * Adjust the Gain a bit higher or lower
+.. figure:: /images/gain_adjust.png
+   :alt: Finder align 
+   :align: center
+
 * Point the camera to a direction where no cloud, moon, building exists
 * Check your lens focus
 * Try other USB cable

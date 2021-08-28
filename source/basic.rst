@@ -3,7 +3,7 @@
 Web Interface
 ========================
 
-Layout
+GUI Layout
 --------------
 
 .. figure:: /images/screen_component.png
@@ -167,6 +167,13 @@ Setting Up License
 1. Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.
 2. Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly 
 
+.. figure:: /images/systeminfo.png
+   :alt: Version check
+   :align: center
+
+.. figure:: /images/license_check.png
+   :alt: Finder align 
+   :align: center
 
 
 Hot Pixel Correction

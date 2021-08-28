@@ -145,6 +145,8 @@ ZoomMode: Turning this optin will force Astroid to send down sized image in fast
 
 ZoomSize: Image size in pixel.
 
+
+
 2D Mode 
 ------------------
 
@@ -165,6 +167,13 @@ Setting Up License
 1. Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.
 2. Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly 
 
+.. figure:: /images/systeminfo.png
+   :alt: Version check
+   :align: center
+
+.. figure:: /images/license_check.png
+   :alt: Finder align 
+   :align: center
 
 
 Hot Pixel Correction
@@ -183,7 +192,7 @@ The number of hot pixel naturally increses over time. These hot pixels are espec
 Changing WIFI SSID and Pass
 ---------------------------
 
-* This option is currently not recommanded to use. Don't use this option until it is stabilized.
+* Using this option is currently not recommanded due to a bug. Don't use this option until there is further notice.
  
 The default Wifi SSID is DDS_DIRECT but you can change it what ever you want. Just go to the system setup and type SSID and Pass you want and press set button.
 
