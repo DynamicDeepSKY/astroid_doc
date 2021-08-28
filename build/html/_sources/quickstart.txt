@@ -26,7 +26,7 @@ Start Astroid
 Lens Mount
 -------------
 
-**eFinder** and **Dr. Pole** requires provided 5mm lens. When mounting the lens to Astroid, the lens should be carefully mounted otherwise the plastic thread on the camera will be destroid and cannot be used. See the following instruction.
+**eFinder** and **Dr. Pole** requires provided 5mm lens to be mounted. When mounting the lens to Astroid, the lens should be carefully placed otherwise the plastic thread on the camera will be destroid and cannot be used. See the following instruction.
 
 .. figure:: /images/lens_mnt.png
    :alt: Lens mount

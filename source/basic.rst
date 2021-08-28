@@ -132,6 +132,19 @@ Camera Control
    :alt: Finder align 
    :align: center
 
+Exposure: Sensor exposure time in second.
+
+Gain: Sensor gain 
+
+ImageQuality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.
+
+FlipImage: This option will flip image which might be useful in some mounting conditions.
+
+ZoomMode: Turning this optin will force Astroid to send down sized image in faster frame transfere rate. This option is usuful when focusing.
+
+
+ZoomSize: Image size in pixel.
+
 
 
 2D Mode 
@@ -147,6 +160,9 @@ Camera Control
 Setting Up License
 -----------------------
 
+.. admonition:: Information
+
+    You need to activate a license key only in two cases: 1. when you ordered a new app license code. 2. when you ordered a diy kit
 
 1. Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.
 2. Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly 
@@ -169,6 +185,8 @@ The number of hot pixel naturally increses over time. These hot pixels are espec
 Changing WIFI SSID and Pass
 ---------------------------
 
+* Using this option is currently not recommanded due to a bug. Don't use this option until there is further notice.
+ 
 The default Wifi SSID is DDS_DIRECT but you can change it what ever you want. Just go to the system setup and type SSID and Pass you want and press set button.
 
 

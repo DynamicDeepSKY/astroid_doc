@@ -26,7 +26,7 @@ Start Astroid
 Lens Mount
 -------------
 
-**eFinder** and **Dr. Pole** requires provided 5mm lens. When mounting the lens to Astroid, the lens should be carefully mounted otherwise the plastic thread on the camera will be destroid and cannot be used. See the following instruction.
+**eFinder** and **Dr. Pole** requires provided 5mm lens to be mounted. When mounting the lens to Astroid, the lens should be carefully placed otherwise the plastic thread on the camera will be destroid and cannot be used. See the following instruction.
 
 .. figure:: /images/lens_mnt.png
    :alt: Lens mount
@@ -125,7 +125,7 @@ You need a Astroid holder to use it as Dr. Pole. You can either 3D print it or a
 
 .. admonition:: Important
 
-    Astroid should be mounted on DEC axis or directly on lens, not like the other products. This gives you more flexibility when the pole star is not visible.  
+    Not like the other products, Astroid can be mounted on DEC axis or directly on lens. This gives you more flexibility when the pole star is not visible. You can mount Astroid on RA axis too. 
 
 
 3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 second and exposure to 150 for fast focusing
