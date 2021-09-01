@@ -40,7 +40,7 @@ You need a Astroid holder to use it as eFinder. You can either 3D print it or an
 1. Mount the holder to your telescope.  
 2. Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder. 
 3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 second and exposure to 150 for fast focusing
-4. If it is the first time to use or the location you use Astroid is far away from the last location, update the long and lat under Astro Tools menu. If you don't know your long and lat, go to google map and see what is your long and lat. *This manual GPS input will be changed to automatic in the next update. 
+4. If it is the first time to use or the location you use Astroid is far away from the last location, update the long and lat under Astro Tools menu. If you don't know your long and lat, go to google map and see what is your long and lat. *This manual GPS input will be changed to automatic in the next update.*
 
 .. figure:: /images/gps_google_maps.png
    :alt: GPS location from google maps
