@@ -3,17 +3,147 @@
 Web Interface
 ========================
 
+GUI Layout
+--------------
+
+.. figure:: /images/screen_component.png
+   :alt: Finder align 
+   :align: center
+
+1. Camera image
+2. Status icons
+3. Current frame number, Field of view, Current time
+4. Quick control icons
+
 Status Icons
 --------------
 
+|bolt_green| Unstable power
 
-App Icons
---------------
+|bolt_red| Power normal
+
+|eye_green| Sky recognized
+
+|eye_red| Sky recognition failed
+
+|eject_red| Don't eject USB
+
+|update| System update in progress
+
+|satellite_green| GPS valid
+
+|satellite_red| GPS input required
+
+|save_green| Inave save on
+
+|temp_green| CPU temparature is in normal range 
+
+|temp_red| CPU is overheated
+
+|usbmemory_green| USB recognized
+
+
+.. |bolt_green| image:: /images/bolt_green.png
+                :scale: 50 %
+.. |bolt_red| image:: /images/bolt_red.png
+                :scale: 50 %
+
+.. |eye_green| image:: /images/eye_green.png
+                :scale: 50 %
+.. |eye_red| image:: /images/eye_red.png
+                :scale: 50 %
+
+
+.. |eject_red| image:: /images/eject_red.png
+                :scale: 50 %
+.. |update| image:: /images/update.png
+                :scale: 50 %
+
+
+.. |satellite_green| image:: /images/satellite_green.png
+                :scale: 50 %
+.. |satellite_red| image:: /images/satellite_red.png
+                :scale: 50 %
+
+
+.. |save_green| image:: /images/save_green.png
+                :scale: 50 %
+.. |save_red| image:: /images/save_red.png
+                :scale: 50 %
+
+
+.. |temp_green| image:: /images/temp_green.png
+                :scale: 50 %
+.. |temp_red| image:: /images/temp_red.png
+                :scale: 50 %
+
+
+.. |usbmemory_green| image:: /images/usbmemory_green.png
+                :scale: 50 %
+.. |usbmemory_red| image:: /images/usbmemory_red.png
+                :scale: 50 %
+
+
+
+
+
+Quick control icons
+-------------------------
+
+|liveps| Live sky recognition on/off
+
+|bbtSearch| Star search
+
+|bbtSettings| Setting pannel
+
+|btAzimuthalGrid| Azimuthal grid
+
+|btEclipticGrid| Ecliptic grid
+
+|stack| Image stack
+
+|align| Pole align start
+
+
+.. |bbtSearch| image:: /images/bbtSearch-on.png
+                :scale: 60 %
+
+.. |bbtSettings| image:: /images/bbtSettings-on.png
+                :scale: 60 %
+.. |btAzimuthalGrid| image:: /images/btAzimuthalGrid-on.png
+                :scale: 70 %
+.. |liveps| image:: /images/liveps.png
+                :scale: 10 %
+.. |btEclipticGrid| image:: /images/btEclipticGrid-on.png
+                :scale: 70 %
+.. |stack| image:: /images/stack.png
+                :scale: 10 %
+
+.. |align| image:: /images/align.png
+                :scale: 10 %
 
 
 
 Camera Control
 --------------
+
+
+.. figure:: /images/camera_ctrl.png
+   :alt: Finder align 
+   :align: center
+
+Exposure: Sensor exposure time in second.
+
+Gain: Sensor gain 
+
+ImageQuality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.
+
+FlipImage: This option will flip image which might be useful in some mounting conditions.
+
+ZoomMode: Turning this optin will force Astroid to send down sized image in faster frame transfere rate. This option is usuful when focusing.
+
+
+ZoomSize: Image size in pixel.
 
 
 
@@ -30,9 +160,20 @@ Camera Control
 Setting Up License
 -----------------------
 
+.. admonition:: Information
+
+    You need to activate a license key only in two cases: 1. when you ordered a new app license code. 2. when you ordered a diy kit
+
 1. Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.
 2. Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly 
 
+.. figure:: /images/systeminfo.png
+   :alt: Version check
+   :align: center
+
+.. figure:: /images/license_check.png
+   :alt: Finder align 
+   :align: center
 
 
 Hot Pixel Correction
@@ -51,6 +192,8 @@ The number of hot pixel naturally increses over time. These hot pixels are espec
 Changing WIFI SSID and Pass
 ---------------------------
 
+* Using this option is currently not recommanded due to a bug. Don't use this option until there is further notice.
+ 
 The default Wifi SSID is DDS_DIRECT but you can change it what ever you want. Just go to the system setup and type SSID and Pass you want and press set button.
 
 

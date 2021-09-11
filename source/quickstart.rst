@@ -31,6 +31,53 @@ Lens Mount
 .. figure:: /images/lens_mnt.png
    :alt: Lens mount
    :align: center
+   
+   
+eFinder Align
+-------------
+
+If you would like to use astroid as a finder, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way in Astroid.
+
+
+.. admonition:: Important
+
+    The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope, the alignment can be done at night too.   
+
+1. Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.
+2. Press the eye button |liveps| to start sky recognition mode. 
+3. Press the setup button |toolbt| to open the setup panel.
+
+.. |toolbt| image:: /images/bbtSettings-on.png
+   :scale: 40 %
+   
+4. Open "Astro Tools" menu and check the following four options.
+
+.. figure:: /images/align_setup.png
+   :alt: Align setup
+   :align: center
+   
+5. Identify the location of the bright object in the image
+6. Adjust the joystick to move the red target mark toward the object  
+
+
+.. figure:: /images/target_mark.png
+   :alt: Target mark
+   :align: center   
+   
+   Target mark
+   
+.. figure:: /images/joystick_img.png
+   :alt: Joystick Image
+   :align: center   
+   
+   Joystick
+   
+7. Unchecking the FinderAlign will automatically save the current location so that you do not need to do the align next time. 
+
+
+
+
+
 
 eFinder 
 -----------
@@ -131,10 +178,10 @@ You need a Astroid holder to use it as Dr. Pole. You can either 3D print it or a
 3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 second and exposure to 150 for fast focusing
 4. Click the eye button to start live sky recognition. 
 5. Click the telescope icon on the buttom right corner.
-6. Move RA axis of the telescope to the first position and wait until the sky is recognized
-7. Press next button and move the RA axis again and repeat 6 for 2 more time. 
-8. Once the he axis finder is normally finished, the rotation axis and the SCP or NCP will be displayed on screen with a guide line.
-9. Adjust your mount according to the guide line
+6. Move RA axis of the telescope to the first position (-30 degree) and wait until the sky is recognized
+7. Press next button and move the RA axis again to 0 degree and repeat 6,7 for one more time. 
+8. Once the he axis finder is normally finished, the rotation axis and the SCP or NCP will be displayed on the screen with a guide line.
+9. Adjust your mount base according to the guide line
 
 
 How to Turn Off Astroid

@@ -7,7 +7,7 @@ Troubleshooting
 General Problems
 ----------------
 
-**DDS_DIRECT does not not appear**
+**DDS_DIRECT does not appear**
 
 * Cut the power and reconnect
 * Turn on/off your device's wifi a couple of times
@@ -26,6 +26,30 @@ General Problems
         sudo service dhcpcd restart
 
 * Reassemble the housing - wifi signal related problem might disappear
+
+**(Android) DDS_DIRECT does appear but nothing pop-out when I browse to 10.10.10.10**
+
+This can happen the connection between your phone and DDS device hasn't been properly established because DDS_DIRECT has no Internet access (This is Android system's issue rather than DDS). The following steps describe how to properly establish the connection.
+
+First, connect to DDS_DIRECT with the default password as shown
+
+.. figure:: /images/dds_direct_pass.png
+   :alt: DDS_DIRECT default passcode
+   :align: center
+
+There will be a notification informing that DDS_DIRECT has no Internet access.
+
+.. figure:: /images/dds_no_internet_access2.png
+    :alt: DDS_DIRECT default passcode 
+    :align: center
+
+Press "Tap for options" and there will be a pop-up asking if stay connected? Select "Yes". You then established the connection.
+
+.. figure:: /images/dds_no_internet_access.png
+    :alt: DDS_DIRECT default passcode 
+    :align: center
+
+If the connection is correctly established, you should be able to find a small wifi icon with a questionmark beside at the top of your screen.
 
 
 **Video is too slow or there are severe lags**
@@ -66,6 +90,11 @@ eFinder Problems
 
 * Normally the sky recognition takes 0.1~2 seconds
 * Adjust the Gain a bit higher or lower
+
+.. figure:: /images/gain_adjust.png
+   :alt: Finder align 
+   :align: center
+
 * Point the camera to a direction where no cloud, moon, building exists
 * Check your lens focus
 * Try other USB cable
