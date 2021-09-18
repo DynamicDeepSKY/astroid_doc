@@ -107,6 +107,11 @@ Follow the procedure below to use eFinder.
      - 35.736418
 
 
+.. admonition:: Tips
+
+    Once the sky is recognized, move your mount slowly so that Astroid does not lose the recognized stars. Once it lost the stars, it will take about 2~5 seconds to recover.
+    
+    
    
 eFinder Align
 -------------
@@ -167,7 +172,24 @@ Follow the procedure below to use EAA stacker with DSLR lens or telescope lens.
 4. Click the stack icon on the bottom right corner to start the image stacking.
 5. Stacking will show the best result if F number is low e.g. F2.
 
-To use EAA stacker with the basic lens, just activate click the stack icon.
+Stacking result on Samyang 85mm@F2. 
+
+.. figure:: /images/stacker85mm.png
+   :alt: Stacker 85mm
+   :align: center  
+
+
+To use the EAA stacker with the basic lens, just activate click the stack icon. Adjusting tone curve and lowering CurveHigh value will make the image even better like the following example.  
+
+.. figure:: /images/stacker5mm_onoff.png
+   :alt: Stacker
+   :align: center  
+
+When stacking is enabled in eFinder mode, the stacked image will be aligned to the sky. You can enable eFinder features such as displaying a constellation as shown in the following example.
+
+.. figure:: /images/stacker_const.png
+   :alt: Stacker
+   :align: center  
 
 Dr. Pole
 ---------------
