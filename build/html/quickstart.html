@@ -96,8 +96,8 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Start Guide</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#start-astroid">Start Astroid</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#lens-mount">Lens Mount</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#efinder-align">eFinder Align</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#efinder">eFinder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#efinder-align">eFinder Align</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#eaa-stacker">EAA Stacker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#dr-pole">Dr. Pole</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-turn-off-astroid">How to Turn Off Astroid</a></li>
@@ -107,7 +107,6 @@
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="basic.html">Web Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="hardware.html">Hardware</a></li>
 <li class="toctree-l1"><a class="reference internal" href="efinder.html">eFinder</a></li>
 <li class="toctree-l1"><a class="reference internal" href="eaa.html">EAA Stacker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="drpole.html">Dr. Pole</a></li>
@@ -217,43 +216,11 @@
 <img alt="Lens mount" src="_images/lens_mnt.png" />
 </div>
 </div>
-<div class="section" id="efinder-align">
-<h2>eFinder Align<a class="headerlink" href="#efinder-align" title="Permalink to this headline">¶</a></h2>
-<p>If you would like to use astroid as a finder, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way in Astroid.</p>
-<div class="admonition-important admonition">
-<p class="admonition-title">Important</p>
-<p>The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope, the alignment can be done at night too.</p>
-</div>
-<ol class="arabic simple">
-<li><p>Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.</p></li>
-<li><p>Press the eye button <a class="reference internal" href="_images/liveps.png"><img alt="liveps" src="_images/liveps.png" style="width: 25.6px; height: 25.6px;" /></a> to start sky recognition mode.</p></li>
-<li><p>Press the setup button <a class="reference internal" href="_images/bbtSettings-on.png"><img alt="toolbt" src="_images/bbtSettings-on.png" style="width: 22.400000000000002px; height: 22.400000000000002px;" /></a> to open the setup panel.</p></li>
-</ol>
-<ol class="arabic simple" start="4">
-<li><p>Open “Astro Tools” menu and check the following four options.</p></li>
-</ol>
-<div class="figure align-center">
-<img alt="Align setup" src="_images/align_setup.png" />
-</div>
-<ol class="arabic simple" start="5">
-<li><p>Identify the location of the bright object in the image</p></li>
-<li><p>Adjust the joystick to move the red target mark toward the object</p></li>
-</ol>
-<div class="figure align-center" id="id1">
-<img alt="Target mark" src="_images/target_mark.png" />
-<p class="caption"><span class="caption-text">Target mark</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-</div>
-<div class="figure align-center" id="id2">
-<img alt="Joystick Image" src="_images/joystick_img.png" />
-<p class="caption"><span class="caption-text">Joystick</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
-</div>
-<ol class="arabic simple" start="7">
-<li><p>Unchecking the FinderAlign will automatically save the current location so that you do not need to do the align next time.</p></li>
-</ol>
-</div>
 <div class="section" id="efinder">
 <h2>eFinder<a class="headerlink" href="#efinder" title="Permalink to this headline">¶</a></h2>
-<p>You need a Astroid holder to use it as eFinder. You can either 3D print it or an aluminum version will be available soon.</p>
+<p>This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in sensor and the basic lens, you can use Astroid as an electronic finder. Astroid’s eFinder does not just show you sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.</p>
+<p>To use Astroid as eFinder, you need a camera holder. You can either 3D print it or an aluminum version will be available soon.</p>
+<p>Follow the procedure below to use eFinder.</p>
 <ol class="arabic simple">
 <li><p>Mount the holder to your telescope.</p></li>
 <li><p>Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder.</p></li>
@@ -284,8 +251,8 @@
 <div class="figure align-center">
 <img alt="Guide line" src="_images/search_guideline.png" />
 </div>
-<table class="colwidths-given docutils align-default" id="id3">
-<caption><span class="caption-text">example longitude and lattitude</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given docutils align-default" id="id1">
+<caption><span class="caption-text">example longitude and lattitude</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -325,8 +292,44 @@
 </tbody>
 </table>
 </div>
+<div class="section" id="efinder-align">
+<h2>eFinder Align<a class="headerlink" href="#efinder-align" title="Permalink to this headline">¶</a></h2>
+<p>If you would like to use astroid as a finder, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.</p>
+<div class="admonition-important admonition">
+<p class="admonition-title">Important</p>
+<p>The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope, the alignment can be done at night too.</p>
+</div>
+<ol class="arabic simple">
+<li><p>Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.</p></li>
+<li><p>Press the eye button <a class="reference internal" href="_images/liveps.png"><img alt="liveps" src="_images/liveps.png" style="width: 25.6px; height: 25.6px;" /></a> to start sky recognition mode.</p></li>
+<li><p>Press the setup button <a class="reference internal" href="_images/bbtSettings-on.png"><img alt="toolbt" src="_images/bbtSettings-on.png" style="width: 22.400000000000002px; height: 22.400000000000002px;" /></a> to open the setup panel.</p></li>
+</ol>
+<ol class="arabic simple" start="4">
+<li><p>Open “Astro Tools” menu and check the following four options.</p></li>
+</ol>
+<div class="figure align-center">
+<img alt="Align setup" src="_images/align_setup.png" />
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Identify the location of the bright object in the image</p></li>
+<li><p>Adjust the joystick to move the red target mark toward the object</p></li>
+</ol>
+<div class="figure align-center" id="id2">
+<img alt="Target mark" src="_images/target_mark.png" />
+<p class="caption"><span class="caption-text">Target mark</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id3">
+<img alt="Joystick Image" src="_images/joystick_img.png" />
+<p class="caption"><span class="caption-text">Joystick</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="7">
+<li><p>Unchecking the FinderAlign will automatically save the current location so that you do not need to do the align next time.</p></li>
+</ol>
+</div>
 <div class="section" id="eaa-stacker">
 <h2>EAA Stacker<a class="headerlink" href="#eaa-stacker" title="Permalink to this headline">¶</a></h2>
+<p>Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration super easy. You can use this feature either for the basic lens, DLSR lens, or telescope. When the stacker is used with the basic lens, it will show the clear shape of the Milkyway which is often very useful to know the location of your interested sky object with respect to the Milkyway. DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with your bare eye.</p>
+<p>Follow the procedure below to use EAA stacker with DSLR lens or telescope lens.</p>
 <ol class="arabic simple">
 <li><p>Slide the camera into 2 inch scope eyepiece holder. Optionally you can purchase 1.25 inch extension tube and connect it to Astroid to slide it into a eyepiece hole.</p></li>
 <li><p>Set exposure to 0.3 second and gain to 150 for fast focusing</p></li>
@@ -334,10 +337,12 @@
 <li><p>Click the stack icon on the bottom right corner to start the image stacking.</p></li>
 <li><p>Stacking will show the best result if F number is low e.g. F2.</p></li>
 </ol>
+<p>To use EAA stacker with the basic lens, just activate click the stack icon.</p>
 </div>
 <div class="section" id="dr-pole">
 <h2>Dr. Pole<a class="headerlink" href="#dr-pole" title="Permalink to this headline">¶</a></h2>
-<p>You need a Astroid holder to use it as Dr. Pole. You can either 3D print it or an aluminum version will be available soon.</p>
+<p>Dr. Pole is a standalone polar alignment assistant tool for EQ mounts. Compared to the existing solution, Dr. Pole does not require the pole star to be within the camera view which makes the polar alignment much easier when you are in the Southern hemisphere or when the pole star is not visible around your place due to a tree or building.</p>
+<p>Follow the procedure below for the polar alignment.</p>
 <ol class="arabic simple">
 <li><p>Mount the holder to your telescope.</p></li>
 <li><p>Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder.</p></li>

@@ -13,8 +13,7 @@ Astroid User Manual
    :maxdepth: 2 
    :caption: Contents:
 
-   basic
-   hardware
+   basic   
    efinder
    eaa
    drpole   

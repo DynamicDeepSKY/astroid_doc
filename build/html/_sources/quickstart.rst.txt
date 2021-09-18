@@ -3,7 +3,6 @@
 Quick Start Guide
 =================
 
-
 Start Astroid
 -------------
 
@@ -32,57 +31,17 @@ Lens Mount
    :alt: Lens mount
    :align: center
    
-   
-eFinder Align
--------------
-
-If you would like to use astroid as a finder, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way in Astroid.
-
-
-.. admonition:: Important
-
-    The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope, the alignment can be done at night too.   
-
-1. Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.
-2. Press the eye button |liveps| to start sky recognition mode. 
-3. Press the setup button |toolbt| to open the setup panel.
-
-.. |toolbt| image:: /images/bbtSettings-on.png
-   :scale: 40 %
-   
-4. Open "Astro Tools" menu and check the following four options.
-
-.. figure:: /images/align_setup.png
-   :alt: Align setup
-   :align: center
-   
-5. Identify the location of the bright object in the image
-6. Adjust the joystick to move the red target mark toward the object  
-
-
-.. figure:: /images/target_mark.png
-   :alt: Target mark
-   :align: center   
-   
-   Target mark
-   
-.. figure:: /images/joystick_img.png
-   :alt: Joystick Image
-   :align: center   
-   
-   Joystick
-   
-7. Unchecking the FinderAlign will automatically save the current location so that you do not need to do the align next time. 
-
-
-
 
 
 
 eFinder 
 -----------
 
-You need a Astroid holder to use it as eFinder. You can either 3D print it or an aluminum version will be available soon.
+This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in sensor and the basic lens, you can use Astroid as an electronic finder. Astroid's eFinder does not just show you sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.
+
+To use Astroid as eFinder, you need a camera holder. You can either 3D print it or an aluminum version will be available soon.
+
+Follow the procedure below to use eFinder.
 
 1. Mount the holder to your telescope.  
 2. Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder. 
@@ -148,9 +107,59 @@ You need a Astroid holder to use it as eFinder. You can either 3D print it or an
      - 35.736418
 
 
+   
+eFinder Align
+-------------
+
+If you would like to use astroid as a finder, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.
+
+
+.. admonition:: Important
+
+    The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope, the alignment can be done at night too.   
+
+1. Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.
+2. Press the eye button |liveps| to start sky recognition mode. 
+3. Press the setup button |toolbt| to open the setup panel.
+
+.. |toolbt| image:: /images/bbtSettings-on.png
+   :scale: 40 %
+   
+4. Open "Astro Tools" menu and check the following four options.
+
+.. figure:: /images/align_setup.png
+   :alt: Align setup
+   :align: center
+   
+5. Identify the location of the bright object in the image
+6. Adjust the joystick to move the red target mark toward the object  
+
+
+.. figure:: /images/target_mark.png
+   :alt: Target mark
+   :align: center   
+   
+   Target mark
+   
+.. figure:: /images/joystick_img.png
+   :alt: Joystick Image
+   :align: center   
+   
+   Joystick
+   
+7. Unchecking the FinderAlign will automatically save the current location so that you do not need to do the align next time. 
+
+
+
+
+
 
 EAA Stacker
 ---------------
+
+Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration super easy. You can use this feature either for the basic lens, DLSR lens, or telescope. When the stacker is used with the basic lens, it will show the clear shape of the Milkyway which is often very useful to know the location of your interested sky object with respect to the Milkyway. DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with your bare eye.
+
+Follow the procedure below to use EAA stacker with DSLR lens or telescope lens. 
 
 1. Slide the camera into 2 inch scope eyepiece holder. Optionally you can purchase 1.25 inch extension tube and connect it to Astroid to slide it into a eyepiece hole.
 2. Set exposure to 0.3 second and gain to 150 for fast focusing
@@ -158,10 +167,14 @@ EAA Stacker
 4. Click the stack icon on the bottom right corner to start the image stacking.
 5. Stacking will show the best result if F number is low e.g. F2.
 
+To use EAA stacker with the basic lens, just activate click the stack icon.
+
 Dr. Pole
 ---------------
 
-You need a Astroid holder to use it as Dr. Pole. You can either 3D print it or an aluminum version will be available soon.
+Dr. Pole is a standalone polar alignment assistant tool for EQ mounts. Compared to the existing solution, Dr. Pole does not require the pole star to be within the camera view which makes the polar alignment much easier when you are in the Southern hemisphere or when the pole star is not visible around your place due to a tree or building.  
+
+Follow the procedure below for the polar alignment.
 
 1. Mount the holder to your telescope.  
 2. Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder.
