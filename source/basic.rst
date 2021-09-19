@@ -148,14 +148,6 @@ ZoomSize: Image size in pixel.
 
 
 
-2D Mode 
-------------------
-
-
-
-3D Mode 
-------------------
-
 
 
 Setting Up License

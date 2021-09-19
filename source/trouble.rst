@@ -91,7 +91,7 @@ eFinder Problems
 
 **Sky recognition is too slow or not working**
 
-* Normally the sky recognition takes 0.1~2 seconds
+* Normally the sky recognition takes 0.1~5 seconds
 * Adjust the Gain a bit higher or lower
 
 .. figure:: /images/gain_adjust.png

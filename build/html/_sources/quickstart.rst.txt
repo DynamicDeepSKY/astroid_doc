@@ -7,7 +7,7 @@ Start Astroid
 -------------
 
 1. Connect Astroid to a USB power. Make sure to use a stable power source that has at least 5V 3A capacity. 
-2. Open up your wifi setup in your mobile device or desktop and find DDS\_DIRECT. Password is 12345678
+2. Open up your wifi setup on your mobile device or desktop and find DDS\_DIRECT. Password is 12345678
 3. Open your web browser and type 10.10.10.10 or astroid.local 
 
 .. figure:: /images/ip_address.png
@@ -22,11 +22,10 @@ Start Astroid
    :align: center
 
 
-
 Lens Mount
 -------------
 
-**eFinder** and **Dr. Pole** requires provided 5mm lens to be mounted. When mounting the lens to Astroid, the lens should be carefully placed otherwise the plastic thread on the camera will be destroid and cannot be used. See the following instruction.
+**eFinder** and **Dr. Pole** requires provided 5mm lens to be mounted. When mounting the lens to Astroid, the lens should be carefully placed otherwise the plastic thread on the camera will be destroyed and cannot be used. See the following instruction.
 
 .. figure:: /images/lens_mnt.png
    :width: 400
@@ -46,8 +45,8 @@ To use Astroid as eFinder, you need a camera holder. You can either 3D print it 
 Follow the procedure below to use eFinder.
 
 1. Mount the holder to your telescope.  
-2. Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder. 
-3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 second and exposure to 150 for fast focusing
+2. Slide Astroid camera into the holder. If you are using a 3D printed version, make sure the backside is firmly held by the holder. 
+3. Rotate the lens to adjust focus if it is the first time.
 4. If it is the first time to use or the location you use Astroid is far away from the last location, update the long and lat under Astro Tools menu. If you don't know your long and lat, go to google map and see what is your long and lat. *This manual GPS input will be changed to automatic in the next update.*
 
 .. figure:: /images/gps_google_maps.png
@@ -60,7 +59,7 @@ Follow the procedure below to use eFinder.
                 :scale: 10 %
 
 
-6. Align Astroid to main telescope lens. To show the alignment joystick go to Astro Tools and check FinderAlign.  
+6. Align Astroid to the main telescope lens. To show the alignment joystick go to Astro Tools and check FinderAlign.  
 
 .. figure:: /images/finderalign.png
    :width: 400
@@ -68,21 +67,21 @@ Follow the procedure below to use eFinder.
    :align: center
 
 
-7. Touch the finder icon on the buttom side and search any object you want to find by typing a star ID
+7. Touch the finder icon on the bottom and search any object you want to find by typing a star ID
 
 .. figure:: /images/finder.png
    :width: 400
    :alt: Finder align 
    :align: center
 
-8. Red target mark is what your main lens is looking at and green mark is what you need to go.
+8. Red target mark is what your main lens is looking at and the green mark is what you need to go.
 
 .. figure:: /images/search_guideline.png
    :width: 400
    :alt: Guide line
    :align: center
 
-
+9. Move your mount slowly so that the red target mark and green mark meet
 
 
 .. list-table:: example longitude and lattitude
@@ -169,11 +168,11 @@ EAA Stacker
 
 Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration super easy. You can use this feature either for the basic lens, DLSR lens, or telescope. When the stacker is used with the basic lens, it will show the clear shape of the Milkyway which is often very useful to know the location of your interested sky object with respect to the Milkyway. DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with your bare eye.
 
-Follow the procedure below to use EAA stacker with DSLR lens or telescope lens. 
+Follow the procedure below to use EAA stacker with a DSLR lens or telescope lens. 
 
-1. Slide the camera into 2 inch scope eyepiece holder. Optionally you can purchase 1.25 inch extension tube and connect it to Astroid to slide it into a eyepiece hole.
-2. Set exposure to 0.3 second and gain to 150 for fast focusing
-3. Adjust your telescope's focus knob and see any star appears on the screen. Finding the right focus could be an extream job if you do it at night. Do it when it is not too dark and leave a mark around your telescope focuser so that you can easily set the focus to near position.  
+1. Slide the camera into 2 inch scope eyepiece holder. Optionally you can purchase 1.25 inch extension tube and connect it to Astroid to slide it into an eyepiece hole.
+2. Set exposure to 0.3 seconds and gain to 150 for fast focusing
+3. Adjust your telescope's focus knob and see any star appears on the screen. Finding the right focus could be an extreme job if you do it at night. Do it when it is not too dark and leave a mark around your telescope focuser so that you can easily set the focus to the near position.  
 4. Click the stack icon on the bottom right corner to start the image stacking.
 5. Stacking will show the best result if F number is low e.g. F2.
 
@@ -185,7 +184,7 @@ Stacking result on Samyang 85mm@F2.
    :align: center  
 
 
-To use the EAA stacker with the basic lens, just activate click the stack icon. Adjusting tone curve and lowering CurveHigh value will make the image even better like the following example.  
+To use the EAA stacker with the basic lens, just activate click the stack icon. Adjusting the tone curve and lowering CurveHigh value will make the image even better like the following example.  
 
 .. figure:: /images/stacker5mm_onoff.png
    :width: 400
@@ -216,16 +215,16 @@ Follow the procedure below for the polar alignment.
 
 .. admonition:: Important
 
-    Not like the other products, Astroid can be mounted on DEC axis or directly on lens. This gives you more flexibility when the pole star is not visible. You can mount Astroid on RA axis too. 
+    Not like the other products, Astroid can be mounted on the DEC axis or directly on the lens. This gives you more flexibility when the pole star is not visible. You can mount Astroid on the RA axis too. 
 
 
-3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 second and exposure to 150 for fast focusing
+3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 seconds and exposure to 150 for fast focusing
 4. Click the eye button to start live sky recognition. 
 5. Click the telescope icon on the buttom right corner.
-6. Move RA axis of the telescope to the first position (-30 degree) and wait until the sky is recognized
-7. Press next button and move the RA axis again to 0 degree and repeat 6,7 for one more time. 
-8. Once the he axis finder is normally finished, the rotation axis and the SCP or NCP will be displayed on the screen with a guide line.
-9. Adjust your mount base according to the guide line
+6. Move the RA axis of the telescope to the first position (-30 degrees) and wait until the sky is recognized
+7. Press the next button and move the RA axis again to 0 degrees and repeat 6,7 for one more time. 
+8. Once the axis finder is normally finished, the rotation axis and the SCP or NCP will be displayed on the screen with a guideline.
+9. Adjust your mount base according to the guideline
 
 
 How to Turn Off Astroid
@@ -238,4 +237,4 @@ How to Turn Off Astroid
 
 .. admonition:: Important
 
-    If you cut the power without parking, sometime SD card is corrupted and you have to recover it to factory setup.
+    If you cut the power without parking, sometimes the SD card is corrupted and you have to recover it to factory setup.
