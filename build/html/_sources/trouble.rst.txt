@@ -34,20 +34,23 @@ This can happen the connection between your phone and DDS device hasn't been pro
 First, connect to DDS_DIRECT with the default password as shown
 
 .. figure:: /images/dds_direct_pass.png
+   :width: 200
    :alt: DDS_DIRECT default passcode
    :align: center
 
 There will be a notification informing that DDS_DIRECT has no Internet access.
 
 .. figure:: /images/dds_no_internet_access2.png
-    :alt: DDS_DIRECT default passcode 
-    :align: center
+   :width: 200
+   :alt: DDS_DIRECT default passcode 
+   :align: center
 
 Press "Tap for options" and there will be a pop-up asking if stay connected? Select "Yes". You then established the connection.
 
 .. figure:: /images/dds_no_internet_access.png
-    :alt: DDS_DIRECT default passcode 
-    :align: center
+   :width: 200
+   :alt: DDS_DIRECT default passcode 
+   :align: center
 
 If the connection is correctly established, you should be able to find a small wifi icon with a questionmark beside at the top of your screen.
 
@@ -92,6 +95,7 @@ eFinder Problems
 * Adjust the Gain a bit higher or lower
 
 .. figure:: /images/gain_adjust.png
+   :width: 400
    :alt: Finder align 
    :align: center
 

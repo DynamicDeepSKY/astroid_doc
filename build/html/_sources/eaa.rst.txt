@@ -28,24 +28,28 @@ Astroid comes with a 50.0mm camera tube and 1.25-inch female thread for connecti
 To use Astroid, the 5mm lens should be removed. The figure on the left shows standard telescope adaptors and lens that can be used with Astroid.
 
 .. figure:: /images/adaptors.jpg
+   :width: 400
    :alt: Adaptors
    :align: center
 
 If your telescope only has a 1.25-inch eyepiece mount, use a 1.25-inch male-to-female adaptor to be able to mount Astroid on your telescope. The following shows an example configuration with Celestron's 1.25-inch adaptor.
 
 .. figure:: /images/125_inch_adaptor.jpg
+   :width: 400
    :alt: 1.25inch
    :align: center
 
 In case your telescope has a 2-inch adaptor you do not need to separately buy a 1.25-inch tube instead you can directly insert Astroid into a 2-inch adaptor.
     
 .. figure:: /images/2_inch_adaptor.jpg
+   :width: 400
    :alt: 2inch
    :align: center
 
 A bright DSLR lens such as Samyang(Rokinon) 85mm F1.4 or 135mm F2.0 lens also makes a great result with Astroid. Please note that mirrorless lenses such as the sony E-Mount lens are not suitable for Astroid due to the focal length. Canon EF mount lens is highly recommended.
    
 .. figure:: /images/Sony_emount.jpg
+   :width: 400
    :alt: dslr
    :align: center
       

@@ -7,6 +7,7 @@ GUI Layout
 --------------
 
 .. figure:: /images/screen_component.png
+   :width: 400
    :alt: Finder align 
    :align: center
 
@@ -168,10 +169,12 @@ Setting Up License
 2. Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly 
 
 .. figure:: /images/systeminfo.png
+   :width: 400
    :alt: Version check
    :align: center
 
 .. figure:: /images/license_check.png
+   :width: 400
    :alt: Finder align 
    :align: center
 

@@ -10,10 +10,12 @@ Checking Your System Version
 Go to system setting anc check system info to open the system information window. If your system version is outdated than the version on our hompage, you can update your system.  
 
 .. figure:: /images/systeminfo.png
+   :width: 400
    :alt: Version check
    :align: center
 
 .. figure:: /images/version_check.png
+   :width: 400
    :alt: Version check
    :align: center
 
