@@ -2,68 +2,65 @@
 
 eFinder
 =======
+Pressing the eye button on the downside icon bar will automatically change Astroid to eFinder mode and activate live sky recognition. If you would like to use eFinder as a sky navigator, make sure the sky is recognized. The red eye icon on the status bar will turn into the green eye in case the sky is recognized. 
+
+.. admonition:: Important
+
+	Note that the sky recognition mode only works with the provided 5mm lens. You can mount other lenses to use Astroid as an electronic finder but the sky recognition would not work.
+    
+Sky Recognition
+------------------------------------------------
+
+When the sky recognition is activated, Astroid will try to recognize the sky but it might fail in some cases. If the sky recognition status icon does not turn green in 5 seconds try the following.
+
+* Check if the lens focus is correct. With the blurry focus, Astroid does not recognize stars well.
+* Make sure there are enough stars in the image. 
+* Adjust the Gain a bit higher or lower. The image should not too bright or dark. Adjusting exposure to higher is not recommended as it slows down the response speed.
+* Point the camera to a direction where no cloud, moon, the building exists. Usually, it takes more time to recognize the sky when there are obstacles in the view. Once it is recognized slowly move the camera in the desired direction
+
 
 Geolocation and Time
-----------------------
+------------------------------------------------
 
-Time is automatically updated according to your device's time but you have to put long and lat information manually. Initially these are set to 0 and you will see the red GPS icon on the top status icon location. Time and GPS information is important to properly draw the predicted sky.
+System time is automatically updated according to your device's time but you have to put long and lat information manually. Initially, these are set to 0 and you will see the red GPS icon on the top status icon location. Time and GPS information are important to properly draw the predicted sky.
 
-After setting your GPS location, it is good idea to double check it with other software such as stellarium-web.org. Check if the four cardinal directions and the location of Milky Way is identical on both side. 
+After setting your GPS location, it is a good idea to double-check it with other software such as stellarium-web.org. Check if the four cardinal directions and the location of the Milkyway is identical on both sides. 
 
 Marker
 ------------------
 
-The red circle on the image is where your main telescope is looking at. Adjust your mount to put any object within this circle. You will see the same object in your main telescope.
+As soon as you activate eFinder mode you will see a red mark on the image. The center of the red circle is where your main telescope is looking at. If it is the first time to use this feature with your telescope, you might need to move this mark a little bit to make it aligned with your telescope's view. Refers to :ref:`eFinder Align <quickstart>` for the detailed procedure.
 
-
-Align with Main Lens
---------------------
-
-The first thing you need to do is aligning Astroid to main telescope lens. Not like conventional finder scope you don't need to physically move your finder. Instead Astroid support a digital way to align it.
-
-1. Go to Astro Tools under setting menu and check FinderAlign
-2. Move your main telescope and put some bright and unique object such as the Moon
-3. Adjust the joystick pad on the bottom left corner and to move the target mark to the center of the object.
-4. Uncheck the FinderAlign option and close the setting menu
-5. Check if the alignment is correct by moving the scope and aiming the other object. If the new object is visible on both side your alignment is good to go.
-
-Note that the location of the mark is automaitically save to your Astroid so that you don't need to do it again next time.
 
 
 Time Adjust
 ------------------
 
-Basically the planetarium will show you the current sky. But you can draw the past and future sky by adjusting the time bar. Supported range is -10 to +10 hours to the current time.
+By default, the planetarium will show you the current sky. But you can draw the past and future sky by adjusting the time bar. The supported range is -10 to +10 hours to the current time.
 
 
 Star Finder
 ------------------
 
-Astroid has built-in NGC, IC, M, HIP star list. To use star finder, find the number of the star object you are interested and put it to the search bar. It will show you it's photo and other information as well.
+Astroid has built-in NGC, IC, M, HIP star lists. To use the star finder, find the number of the star object that you are interested in and enter it into the search bar. It will show you its photo and other information as well.
 
-
-
-Guide Lines
-------------------
-
-Once you clicked any star on the star finder list, Astroid will display the location of the target and how many degree you should rotate along the left/right and up/down direction. Adjust your mount addording to this angle. Currently, EQ mount guide line is not supported but this feature will be added in the future.
+Once you clicked any star on the star finder list, Astroid will display the location of the target and how many degrees you should rotate along with the left/right and up/down direction. Adjust your mount according to this angle. Currently, the EQ mount guideline is not supported but this feature will be added in the next update.
 
 
 Camera Centric Mode
----------------------
+----------------------------------------
 
-As a default, when you drag the screen it will always move around AzAlt direction. You can for it to center the view on the camera view option . 
+As a default, when you drag the screen it will always move around AzAlt direction. But sometimes it is convenient to fix the screen view to the camera view and move the world instead. Enable the CameraView option in the setting menu, if you would like to enable this feature. 
 
-Constallations and Stars
----------------------------
+Constellations and Stars
+-----------------------------------------------------
 
-You can turn on/off the constrallation, stars, and star names according to your preference.
+You can turn on/off the constellations, stars, and star names according to your preference. Enable desired options in the control panel.
 
 
 
 
 Auto Center and FoV Mode
---------------------------
+----------------------------------------------------
 
-AutoCenter and AutoFoV mode automaticaly adjust the view so that you don't need to touch the phone screen and move the view while your hands are busy with adjust your mount.
-
+AutoCenter and AutoFoV mode automatically adjust the view so that you don't need to touch the phone screen and move the view while your hands are busy with adjusting your mount.

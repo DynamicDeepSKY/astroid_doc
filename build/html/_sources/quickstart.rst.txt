@@ -164,8 +164,6 @@ If you would like to use astroid as a finder, you have to align Astroid to your 
 
 
 
-
-
 EAA Stacker
 ---------------
 
