@@ -17,6 +17,7 @@ Start Astroid
 4. You should see the rotating logo soon
 
 .. figure:: /images/rotating_logo.png
+   :width: 400
    :alt: Rotating logo
    :align: center
 
@@ -28,6 +29,7 @@ Lens Mount
 **eFinder** and **Dr. Pole** requires provided 5mm lens to be mounted. When mounting the lens to Astroid, the lens should be carefully placed otherwise the plastic thread on the camera will be destroid and cannot be used. See the following instruction.
 
 .. figure:: /images/lens_mnt.png
+   :width: 400
    :alt: Lens mount
    :align: center
    
@@ -61,6 +63,7 @@ Follow the procedure below to use eFinder.
 6. Align Astroid to main telescope lens. To show the alignment joystick go to Astro Tools and check FinderAlign.  
 
 .. figure:: /images/finderalign.png
+   :width: 400
    :alt: Finder align 
    :align: center
 
@@ -68,12 +71,14 @@ Follow the procedure below to use eFinder.
 7. Touch the finder icon on the buttom side and search any object you want to find by typing a star ID
 
 .. figure:: /images/finder.png
+   :width: 400
    :alt: Finder align 
    :align: center
 
 8. Red target mark is what your main lens is looking at and green mark is what you need to go.
 
 .. figure:: /images/search_guideline.png
+   :width: 400
    :alt: Guide line
    :align: center
 
@@ -81,8 +86,10 @@ Follow the procedure below to use eFinder.
 
 
 .. list-table:: example longitude and lattitude
+   :align: center
    :widths: 25 25 50
    :header-rows: 1
+   
 
    * - Location
      - long
@@ -175,6 +182,7 @@ Follow the procedure below to use EAA stacker with DSLR lens or telescope lens.
 Stacking result on Samyang 85mm@F2. 
 
 .. figure:: /images/stacker85mm.png
+   :width: 400
    :alt: Stacker 85mm
    :align: center  
 
@@ -182,12 +190,14 @@ Stacking result on Samyang 85mm@F2.
 To use the EAA stacker with the basic lens, just activate click the stack icon. Adjusting tone curve and lowering CurveHigh value will make the image even better like the following example.  
 
 .. figure:: /images/stacker5mm_onoff.png
+   :width: 400
    :alt: Stacker
    :align: center  
 
 When stacking is enabled in eFinder mode, the stacked image will be aligned to the sky. You can enable eFinder features such as displaying a constellation as shown in the following example.
 
 .. figure:: /images/stacker_const.png
+   :width: 400
    :alt: Stacker
    :align: center  
 
@@ -202,6 +212,7 @@ Follow the procedure below for the polar alignment.
 2. Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder.
 
 .. figure:: /images/eq_mnt.png
+   :width: 400
    :alt: EQ mount
    :align: center
 
