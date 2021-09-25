@@ -28,9 +28,9 @@ https://www.lightpollutionmap.info/
 The following example shows the Bortle level of three different places around Brisbane city.
 
 .. figure:: /images/bortle.png
-   :width: 400
-   :alt: Finder align 
-   :align: center
+   :width: 600
+   :alt: Bortle
+   :align: center
 
 The sky recognition performance is not guaranteed around the high light pollution area above Bortle 6.
     

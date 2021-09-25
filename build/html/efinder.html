@@ -100,7 +100,7 @@
 <li class="toctree-l1"><a class="reference internal" href="basic.html">Web Interface</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">eFinder</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#sky-recognition">Sky Recognition</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#sky-condition">Sky Condition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#light-pollution">Light Pollution</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sky-recognition-with-moon-light-or-light-pollution">Sky Recognition with Moon Light or Light Pollution</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#geolocation-and-time">Geolocation and Time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#marker">Marker</a></li>
@@ -210,21 +210,21 @@
 <li><p>Point the camera to a direction where no cloud, moon, the building exists. Usually, it takes more time to recognize the sky when there are obstacles in the view. Once it is recognized slowly move the camera in the desired direction.</p></li>
 </ul>
 </div>
-<div class="section" id="sky-condition">
-<h2>Sky Condition<a class="headerlink" href="#sky-condition" title="Permalink to this headline">¶</a></h2>
-<p>One of the domainant factor that controls the sky recognition performance is the sky condition. The best sky condition would be very dark sky under Bortle 6 without the moon light. Bortle is a metric to estimate the amount of light pollution in the night sky. You can easily see the Bortle level of your place from the following site.</p>
+<div class="section" id="light-pollution">
+<h2>Light Pollution<a class="headerlink" href="#light-pollution" title="Permalink to this headline">¶</a></h2>
+<p>One of the dominant factors that control sky recognition performance is the sky condition. The best sky condition would be a very dark sky under Bortle 6 without the moonlight. Bortle is a metric to estimate the amount of light pollution in the night sky. You can easily see the Bortle level of your place from the following site.</p>
 <p><a class="reference external" href="https://www.lightpollutionmap.info/">https://www.lightpollutionmap.info/</a></p>
 <p>The following example shows the Bortle level of three different places around Brisbane city.</p>
 <div class="figure align-center">
-<a class="reference internal image-reference" href="_images/bortle.png"><img alt="Finder align" src="_images/bortle.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_images/bortle.png"><img alt="Bortle" src="_images/bortle.png" style="width: 600px;" /></a>
 </div>
-<p>The sky recognition performance is not gauranteed around the high light pollution area above Bortle 6.</p>
+<p>The sky recognition performance is not guaranteed around the high light pollution area above Bortle 6.</p>
 </div>
 <div class="section" id="sky-recognition-with-moon-light-or-light-pollution">
 <h2>Sky Recognition with Moon Light or Light Pollution<a class="headerlink" href="#sky-recognition-with-moon-light-or-light-pollution" title="Permalink to this headline">¶</a></h2>
-<p>Although it is recommanded to be used under Bortle 6 and without the moon light, if you can’t avoid such environment there is a trick that you can do to make eFinder works but with limitted speed and accuracy.</p>
-<p>The default setting of sky recogntion is 0.3 sec for the exposure and 140 for the gain which is optimized for Bortle 5 without the moon light. The low exposure helps to increase response speed but need high gain setup which result in noisy image under light pollution and the moon light condition. Noisy image decreases the sky recognition performance.</p>
-<p>The simple solution is compromizing the response speed by increasing exposure and lowering gain. The following example shows how the exposure and the gain setup reduces noise moon light condition.</p>
+<p>Although it is recommended to be used under Bortle 6 and without the moonlight, if you can’t avoid such an environment there is a trick that you can do to make eFinder works but with limited speed and accuracy.</p>
+<p>The default setting of sky recognition is 0.3 sec for the exposure and 140 for the gain which is optimized for Bortle 5 without the moonlight. The low exposure helps to increase response speed but needs a high gain setup which results in a noisy image under light pollution and the moonlight condition. Noisy image decreases the sky recognition performance.</p>
+<p>The simple solution is compromising the response speed by increasing exposure and lowering the gain. The following example shows how the exposure and the gain setup reduces noise moonlight conditions.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/light_condition_low_exposure.png"><img alt="Low exposure" src="_images/light_condition_low_exposure.png" style="width: 400px;" /></a>
 </div>
