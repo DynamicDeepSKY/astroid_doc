@@ -19,9 +19,9 @@ GUI Layout
 Status Icons
 --------------
 
-|bolt_green| Unstable power
+|bolt_green| Power normal
 
-|bolt_red| Power normal
+|bolt_red| Unstable power
 
 |eye_green| Sky recognized
 

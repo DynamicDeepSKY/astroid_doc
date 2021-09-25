@@ -16,7 +16,45 @@ When the sky recognition is activated, Astroid will try to recognize the sky but
 * Check if the lens focus is correct. With the blurry focus, Astroid does not recognize stars well.
 * Make sure there are enough stars in the image. 
 * Adjust the Gain a bit higher or lower. The image should not too bright or dark. Adjusting exposure to higher is not recommended as it slows down the response speed.
-* Point the camera to a direction where no cloud, moon, the building exists. Usually, it takes more time to recognize the sky when there are obstacles in the view. Once it is recognized slowly move the camera in the desired direction
+* Point the camera to a direction where no cloud, moon, the building exists. Usually, it takes more time to recognize the sky when there are obstacles in the view. Once it is recognized slowly move the camera in the desired direction.
+
+Light Pollution
+---------------------------------------------------
+
+One of the dominant factors that control sky recognition performance is the sky condition. The best sky condition would be a very dark sky under Bortle 6 without the moonlight. Bortle is a metric to estimate the amount of light pollution in the night sky. You can easily see the Bortle level of your place from the following site.
+
+https://www.lightpollutionmap.info/
+
+The following example shows the Bortle level of three different places around Brisbane city.
+
+.. figure:: /images/bortle.png
+   :width: 400
+   :alt: Finder align 
+   :align: center
+
+The sky recognition performance is not guaranteed around the high light pollution area above Bortle 6.
+    
+Sky Recognition with Moon Light or Light Pollution
+---------------------------------------------------
+
+Although it is recommended to be used under Bortle 6 and without the moonlight, if you can't avoid such an environment there is a trick that you can do to make eFinder works but with limited speed and accuracy.
+
+The default setting of sky recognition is 0.3 sec for the exposure and 140 for the gain which is optimized for Bortle 5 without the moonlight. The low exposure helps to increase response speed but needs a high gain setup which results in a noisy image under light pollution and the moonlight condition. Noisy image decreases the sky recognition performance.   
+
+
+The simple solution is compromising the response speed by increasing exposure and lowering the gain. The following example shows how the exposure and the gain setup reduces noise moonlight conditions.  
+
+.. figure:: /images/light_condition_low_exposure.png
+   :width: 400
+   :alt: Low exposure
+   :align: center   
+   
+.. figure:: /images/light_condition_max_exposure.png
+   :width: 400
+   :alt: Max exposure
+   :align: center
+
+
 
 
 Geolocation and Time
