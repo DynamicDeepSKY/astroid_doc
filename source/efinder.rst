@@ -32,7 +32,37 @@ The following example shows the Bortle level of three different places around Br
    :alt: Bortle
    :align: center
 
-The sky recognition performance is not guaranteed around the high light pollution area above Bortle 6.
+The sky recognition performance is not guaranteed around the high light pollution area above Bortle 6. Refers to the following table for the details of Bortle class.
+
+
+.. list-table:: Bortle Class
+   :align: center
+   :widths: 50 25
+   :header-rows: 1   
+
+   * - Sky Condition
+     - Bortle Class
+   * - Excellent dark sky
+     - 1
+   * - Average dark sky
+     - 2
+   * - Rural sky
+     - 3
+   * - Rural/Suburban transition
+     - 4     
+   * - Suburban
+     - 5
+   * - Bright suburban
+     - 6
+   * - Suburban/urban transition
+     - 7
+   * - City sky
+     - 8     
+   * - Inner city sky
+     - 9        
+        
+     
+
     
 Sky Recognition with Moon Light or Light Pollution
 ---------------------------------------------------
