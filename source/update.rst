@@ -3,6 +3,15 @@
 Updates Log
 ============================
 
+v1.0.4 04/10/2021
+----------------------------
+
+1. Polar alignment bug fixed 
+2. Debugging tools added.
+3. Camera calibration tools added
+4. System logger viewer added.
+
+
 v1.0.2 30/09/2021
 ----------------------------
 
