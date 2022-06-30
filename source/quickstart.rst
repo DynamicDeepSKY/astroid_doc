@@ -7,7 +7,7 @@ Start Astroid
 -------------
 
 1. Connect Astroid to a USB power. Make sure to use a stable power source that has at least 5V 3A capacity. 
-2. Open up your wifi setup on your mobile device or desktop and find DDS\_DIRECT. Password is 12345678
+2. Open up your wifi setup on your mobile device or desktop and find DDS\_DIRECT\_your\_serial. Password is 12345678
 3. Open your web browser and type 10.10.10.10 or astroid.local 
 
 .. figure:: /images/ip_address.png
@@ -21,11 +21,15 @@ Start Astroid
    :alt: Rotating logo
    :align: center
 
+.. admonition:: Note
+
+	The system wake-up usually takes about a minute. If you can't find the SSID in 2 minutes after connecting the power, try to reboot the system by disconnecting and connecting the power. If you can't start the system after multiple trials in this way, your power source might be not enough to stably run Astroid. Please try another power source. For more information, please refers to the manual.
+  
 
 Lens Mount
 -------------
 
-**eFinder** and **Dr. Pole** requires provided 5mm lens to be mounted. When mounting the lens to Astroid, the lens should be carefully placed otherwise the plastic thread on the camera will be destroyed and cannot be used. See the following instruction.
+Astroid Multi can be used in two diffrent ways. If you would like to use the sky recognition feature in **eFinder** and **Dr. Pole**, please mount the provided 5mm lens to the camera body as follow.
 
 .. figure:: /images/lens_mnt.png
    :width: 400
@@ -35,19 +39,20 @@ Lens Mount
 
 
 
+
 eFinder 
 -----------
 
 This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in sensor and the basic lens, you can use Astroid as an electronic finder. Astroid's eFinder does not just show you sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.
 
-To use Astroid as eFinder, you need a camera holder. You can either 3D print it or an aluminum version will be available soon.
+To use Astroid as eFinder, you need a camera holder. 
 
 Follow the procedure below to use eFinder.
 
 1. Mount the holder to your telescope.  
-2. Slide Astroid camera into the holder. If you are using a 3D printed version, make sure the backside is firmly held by the holder. 
-3. Rotate the lens to adjust focus if it is the first time.
-4. If it is the first time to use or the location you use Astroid is far away from the last location, update the long and lat under Astro Tools menu. If you don't know your long and lat, go to google map and see what is your long and lat. *This manual GPS input will be changed to automatic in the next update.*
+2. Slide Astroid camera into the holder.
+3. Rotate the lens to adjust focus if it is the first time. But the focus is adjusted to the right position when assembled in the factory. Please do this step only when required.
+4. If it is the first time to use or the location you use Astroid is far away from the last location, update the long and lat under Astro Tools menu. If you don't know your long and lat, go to google map and see what is your long and lat. *This manual GPS input will be changed to automatic in the future update.*
 
 .. figure:: /images/gps_google_maps.png
    :alt: GPS location from google maps
