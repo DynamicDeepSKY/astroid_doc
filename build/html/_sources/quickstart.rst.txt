@@ -45,48 +45,18 @@ eFinder
 
 This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in sensor and the basic lens, you can use Astroid as an electronic finder. Astroid's eFinder does not just show you sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.
 
-To use Astroid as eFinder, you need a camera holder. 
-
 Follow the procedure below to use eFinder.
 
 1. Mount the holder to your telescope.  
-2. Slide Astroid camera into the holder.
+2. Slide Astroid camera into the holder and lock the bolt on the holder using the provided hex key.
 3. Rotate the lens to adjust focus if it is the first time. But the focus is adjusted to the right position when assembled in the factory. Please do this step only when required.
-4. If it is the first time to use or the location you use Astroid is far away from the last location, update the long and lat under Astro Tools menu. If you don't know your long and lat, go to google map and see what is your long and lat. *This manual GPS input will be changed to automatic in the future update.*
+4. If it is the first time to use or the location you use Astroid is far away from the last location, update the longitude and latitude value under Astro Tools menu. If you don't know your longitude and latitude, go to google map and see what is your longitude and latitude. *This manual GPS input will be changed to automatic in the future update.*
 
 .. figure:: /images/gps_google_maps.png
    :alt: GPS location from google maps
    :align: center
-
-5. Click the eye button |liveps| to start live sky recognition. 
-
-.. |liveps| image:: /images/liveps.png
-                :scale: 10 %
-
-
-6. Align Astroid to the main telescope lens. To show the alignment joystick go to Astro Tools and check FinderAlign.  
-
-.. figure:: /images/finderalign.png
-   :width: 400
-   :alt: Finder align 
-   :align: center
-
-
-7. Touch the finder icon on the bottom and search any object you want to find by typing a star ID
-
-.. figure:: /images/finder.png
-   :width: 400
-   :alt: Finder align 
-   :align: center
-
-8. Red target mark is what your main lens is looking at and the green mark is what you need to go.
-
-.. figure:: /images/search_guideline.png
-   :width: 400
-   :alt: Guide line
-   :align: center
-
-9. Move your mount slowly so that the red target mark and green mark meet
+   
+   
 
 
 .. list-table:: example longitude and lattitude
@@ -116,6 +86,61 @@ Follow the procedure below to use eFinder.
    * - Japan
      - 140.002557
      - 35.736418
+
+5. Click the eye button |liveps| to start live sky recognition. 
+
+.. |liveps| image:: /images/liveps.png
+                :scale: 30 %
+
+
+6. Align Astroid to the main telescope lens. To show the alignment joystick, check |dgs_align| button on the down side icon bar.  
+   
+.. |dgs_align| image:: /images/dgs_align.png
+                :scale: 30 %
+
+
+
+7. Touch/click the finder icon |search_icon| on the bottom and search any object you want to find by typing a star ID or name. You can use search key word such as "M1", "ngc3372", "orion". 
+
+.. figure:: /images/finder.png
+   :width: 400
+   :alt: Finder align 
+   :align: center
+   
+.. |search_icon| image:: /images/search.png
+                :scale: 30 %   
+
+
+8. Touch the location preview icon |preview| to see the location and trail of the star or touch the photo to start the guide mode. The guide mode will tell you which direction you should move your main telescope to see the target start.
+
+
+.. |preview| image:: /images/btGotoSelectedObject-on.png
+                :scale: 70 %   
+
+
+9. Red target mark is what your main lens is looking at and the green mark is what you need to go. The small arrow around the red target is the direction you should move to.
+
+.. figure:: /images/search_guideline2.png
+   :width: 400
+   :alt: Guide line
+   :align: center
+
+10. Move your mount slowly so that the red target mark and green mark meet
+
+11. When the target star is close to the main scope, a fine tuning target board will appear on the top left corner to assis you with fine movement.
+
+
+
+.. figure:: /images/close_target_board.png
+   :width: 400
+   :alt: Guide line
+   :align: center
+   
+12. If you see the target object in your main telecope's eyepiece, terminate the guide mode by clicking "Finish" button on the left bottom corner.
+
+..
+   _This: 사람이 아이피스 보는 사진
+
 
 
 .. admonition:: Tips
