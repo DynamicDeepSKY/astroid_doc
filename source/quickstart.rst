@@ -205,9 +205,21 @@ If you don't know your longitude and latitude, go to google map and see what is 
 .. admonition:: Tips
 
     Once the sky is recognized, move your mount slowly so that Astroid does not lose the recognized stars. Once it lost the stars, it will take about 2~5 seconds to recover.
+
+
+ARZoom
+---------------
+ARZoom will show you a virtual view of your main telescope. If you set it to the same FoV of your eyepiece you will see the same view to the ARZoom image in your eye piece. Note that the red circle is your main telescope view and ARZoom will display the sky image around the red circle. You can zoom in or out as you want by pressing +/- button under the ARZoom window. 
+
+This feature only works when the sky is recognized.
     
-    
+.. figure:: /images/arzoom.png
+   :width: 400
+   :alt: Guide line
+   :align: center
    
+   
+      
 eFinder Align
 -------------
 
