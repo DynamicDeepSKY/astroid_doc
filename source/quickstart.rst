@@ -38,6 +38,9 @@ Astroid Multi can be used in two diffrent ways. If you would like to use the sky
    
 
 
+..
+   _This: 사진 바꿀것
+
 
 
 eFinder 
@@ -48,9 +51,34 @@ This feature of Astroid completely substitutes the conventional dot finder or fi
 Follow the procedure below to use eFinder.
 
 1. Mount the holder to your telescope.  
+
+..
+   _This: 실제 장착 사진, 마운트 사진
+
 2. Slide Astroid camera into the holder and lock the bolt on the holder using the provided hex key.
+
+..
+   _This: 사진
+
+
 3. Rotate the lens to adjust focus if it is the first time. But the focus is adjusted to the right position when assembled in the factory. Please do this step only when required.
-4. If it is the first time to use or the location you use Astroid is far away from the last location, update the longitude and latitude value under Astro Tools menu. If you don't know your longitude and latitude, go to google map and see what is your longitude and latitude. *This manual GPS input will be changed to automatic in the future update.*
+
+
+..
+   _This: 사진
+
+
+4. If it is the first time to use or the location you use Astroid is far away from the last location, update the longitude and latitude value under Astro Tools menu. Click the setting |setting_icon| icon to show the menu. 
+
+.. figure:: /images/longlat.png
+   :width: 400
+   :align: center
+   
+.. |setting_icon| image:: /images/setting.png
+                :scale: 30 %   
+
+
+If you don't know your longitude and latitude, go to google map and see what is your longitude and latitude. *This manual GPS input will be changed to automatic in the future update.*
 
 .. figure:: /images/gps_google_maps.png
    :alt: GPS location from google maps
@@ -86,6 +114,8 @@ Follow the procedure below to use eFinder.
    * - Japan
      - 140.002557
      - 35.736418
+
+
 
 5. Click the eye button |liveps| to start live sky recognition. 
 
