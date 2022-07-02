@@ -224,14 +224,24 @@ If you would like to use astroid as a finder along with your main telescope, you
 EAA Stacker
 ---------------
 
-Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration super easy. You can use this feature either for the basic lens, DLSR lens, or telescope. When the stacker is used with the basic lens, it will show the clear shape of the Milkyway which is often very useful to know the location of your interested sky object with respect to the Milkyway. DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with your bare eye.
+Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration easy. You can use this feature either for the basic lens, DLSR lens, or telescope. 
+
+When the stacker is used with the basic lens, you can observe the Milkway in real-time. 
+
+DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with your bare eye.
+
+If you use a high magnification lens, EAA stacker will automatically register moving star images to the first image so that you can obserbe the target without a star tracker.
 
 Follow the procedure below to use EAA stacker with a DSLR lens or telescope lens. 
 
-1. Slide the camera into 2 inch scope eyepiece holder. Optionally you can purchase 1.25 inch extension tube and connect it to Astroid to slide it into an eyepiece hole.
+1. Slide the camera into 2 inch scope eyepiece holder. Optionally you can use provided 1.25 inch extension tube and connect it to Astroid to slide it into an eyepiece hole.
 2. Set exposure to 0.3 seconds and gain to 150 for fast focusing
-3. Adjust your telescope's focus knob and see any star appears on the screen. Finding the right focus could be an extreme job if you do it at night. Do it when it is not too dark and leave a mark around your telescope focuser so that you can easily set the focus to the near position.  
-4. Click the stack icon on the bottom right corner to start the image stacking.
+3. Adjust your telescope's focus knob and see any star appears on the screen. Finding the right focus could be an extreme job if you do it at night. Do it when it is not too dark and leave a mark around your telescope focuser so that you can easily set the focus to the near position next time.  
+4. Click the stack icon |stack_icon| on the bottom icon bar to start the image stacking.
+   
+.. |stack_icon| image:: /images/stack.png
+                :scale: 30 %   
+
 5. Stacking will show the best result if F number is low e.g. F2.
 
 Stacking result on Samyang 85mm@F2. 
@@ -242,7 +252,7 @@ Stacking result on Samyang 85mm@F2.
    :align: center  
 
 
-To use the EAA stacker with the basic lens, just activate click the stack icon. Adjusting the tone curve and lowering CurveHigh value will make the image even better like the following example.  
+To use the EAA stacker with the basic lens, just activate click the stack icon. Image tone curve is automatic by default but for an advanced user can adjust the tone curve to make it look better.  
 
 .. figure:: /images/stacker5mm_onoff.png
    :width: 400
