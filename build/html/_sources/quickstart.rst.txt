@@ -123,7 +123,7 @@ If you don't know your longitude and latitude, go to google map and see what is 
                 :scale: 30 %
 
 
-6. Align Astroid to the main telescope lens. To show the alignment joystick, check |dgs_align| button on the down side icon bar.  
+6. Align Astroid to the main telescope lens. To show the alignment joystick, click align icon |dgs_align| on the down side icon bar. See the next section for more details.  
    
 .. |dgs_align| image:: /images/dgs_align.png
                 :scale: 30 %
@@ -182,43 +182,41 @@ If you don't know your longitude and latitude, go to google map and see what is 
 eFinder Align
 -------------
 
-If you would like to use astroid as a finder, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.
+If you would like to use astroid as a finder along with your main telescope, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.
 
 
 .. admonition:: Important
 
     The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope, the alignment can be done at night too.   
 
-1. Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.
+1. Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or house window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.
 2. Press the eye button |liveps| to start sky recognition mode. 
-3. Press the setup button |toolbt| to open the setup panel.
+3. Press the setup button |setting_icon| to open the setup panel.
 
 .. |toolbt| image:: /images/bbtSettings-on.png
    :scale: 40 %
    
-4. Open "Astro Tools" menu and check the following four options.
-
-.. figure:: /images/align_setup.png
-   :alt: Align setup
-   :align: center
+4. Press the align icon |dgs_align| on the down side icon bar to turn on the align mode.
    
 5. Identify the location of the bright object in the image
 6. Adjust the joystick to move the red target mark toward the object  
 
 
-.. figure:: /images/target_mark.png
+.. figure:: /images/align_star.png
    :alt: Target mark
    :align: center   
+   :width: 140
    
    Target mark
    
 .. figure:: /images/joystick_img.png
    :alt: Joystick Image
    :align: center   
+   :width: 140
    
    Joystick
    
-7. Unchecking the FinderAlign will automatically save the current location so that you do not need to do the align next time. 
+7. Press the align icon |dgs_align| again to terminate the align mode. This will automatically save the current location so that you do not need to do the align next time. 
 
 
 
