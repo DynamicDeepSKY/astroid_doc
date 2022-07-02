@@ -26,6 +26,35 @@ Start Astroid
 	The system wake-up usually takes about a minute. If you can't find the SSID in 2 minutes after connecting the power, try to reboot the system by disconnecting and connecting the power. If you can't start the system after multiple trials in this way, your power source might be not enough to stably run Astroid. Please try another power source. For more information, please refers to the manual.
   
 
+Quick Menu
+-------------
+
+For a quick control of the camera, open the quick menu by clicking the menu icon |quick_menu_panel| on the top left corner.
+
+.. figure:: /images/quick_menu_panel.png
+   :width: 400
+   :alt: Lens mount
+   :align: center
+   
+.. |quick_menu_panel| image:: /images/quick_menu_icon.png
+                :scale: 50 %   
+
+Exposure: Sensor exposure time. Longer exposure is available in the setting menu.
+
+Gain: Sensor gain. High exposure drastically increase noise. Enabling stacking or increasing exposure will reduce the noise.
+
+Manual Exposure: Enabling this will automatically adjust gain or exposure to meet the desired image brightness. More auto exposure setting can be found in the setting menu.
+
+Mean Subtraction: Enabling this will subtract mean pixel value from the entire image to remove light pollution.
+
+Dark Control: Move the slider to left to make darker. This only works when stacker is enabled.
+
+
+Enhance Control: Moving this slider to left will amplify a small image signal. This can be used to observe a faint object.
+
+Opacity: Adjust this slider to control line brightness.
+
+
 Lens Mount
 -------------
 
@@ -274,7 +303,7 @@ Dr. Pole is a standalone polar alignment assistant tool for EQ mounts. Compared 
 Follow the procedure below for the polar alignment.
 
 1. Mount the holder to your telescope.  
-2. Slide Astroid camera into the holder. If you are using 3D printed version, make sure the back side is firmly hold by the holder.
+2. Slide Astroid camera into the holder and tighten it.
 
 .. figure:: /images/eq_mnt.png
    :width: 400
@@ -283,7 +312,7 @@ Follow the procedure below for the polar alignment.
 
 .. admonition:: Important
 
-    Not like the other products, Astroid can be mounted on the DEC axis or directly on the lens. This gives you more flexibility when the pole star is not visible. You can mount Astroid on the RA axis too. 
+    Not like the other products, Astroid can be mounted on the DEC axis or directly on the telescope tube. This gives you more flexibility when the pole star is not visible. But you can mount Astroid on the RA axis too. 
 
 
 3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 seconds and exposure to 150 for fast focusing
@@ -298,10 +327,15 @@ Follow the procedure below for the polar alignment.
 How to Turn Off Astroid
 -----------------------
 
-1. Go to System Setting 
-2. Press PowerOff button
-3. Wait for 10 seconds to be safe
-4. Unplug the power
+1. Press PowerOff button |power_icon|
+2. Wait until you see the good bye message on the screen
+3. Unplug the power
+
+.. |power_icon| image:: /images/power.png
+                :scale: 30 %   
+
+
+
 
 .. admonition:: Important
 
