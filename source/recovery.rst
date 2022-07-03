@@ -3,6 +3,11 @@
 Recovery Instruction
 ====================
 
+Before you start recover:
+
+1. Please back up your license file
+2. Please back up your lens calibration file
+
 You can recover your broken Astroid image to the factory setting by following steps.
 
 1. Download Astroid OS image from dynamicdeepsky.com under the support page 

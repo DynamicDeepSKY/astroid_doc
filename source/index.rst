@@ -28,6 +28,7 @@ Languages
    arzoom
    eaa
    drpole   
+   lenscal
    timelapse
    collimation
    systemupdate   
