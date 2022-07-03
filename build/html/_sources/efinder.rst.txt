@@ -115,7 +115,7 @@ Astroid has built-in NGC, IC, M, HIP star lists. To use the star finder, find th
 Once you clicked any star on the star finder list, Astroid will display the location of the target and how many degrees you should rotate along with the left/right and up/down direction. Adjust your mount according to this angle. Currently, the EQ mount guideline is not supported but this feature will be added in the next update.
 
 
-Camera Centric Mode
+AR Mode
 ----------------------------------------
 
 As a default, when you drag the screen it will always move around AzAlt direction. But sometimes it is convenient to fix the screen view to the camera view and move the world instead. Enable the CameraView option in the setting menu, if you would like to enable this feature. 
@@ -132,3 +132,17 @@ Auto Center and FoV Mode
 ----------------------------------------------------
 
 AutoCenter and AutoFoV mode automatically adjust the view so that you don't need to touch the phone screen and move the view while your hands are busy with adjusting your mount.
+
+
+
+Star List
+----------------------------------------------------
+
+Under construction
+
+
+
+Automatic DSO search
+----------------------------------------------------
+
+Under construction

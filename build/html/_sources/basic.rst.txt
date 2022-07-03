@@ -185,7 +185,7 @@ Quick control icons
 .. |imgdown| image:: /images/imgdown.png
                 :scale: 60 %
                 
-|imgdown| Eject USB memory
+|ejectmain| Eject USB memory
                 
 .. |ejectmain| image:: /images/ejectmain.png
                 :scale: 60 %
@@ -195,35 +195,136 @@ Quick control icons
 .. |refresh| image:: /images/refresh.png
                 :scale: 60 %
                 
-|refresh| Power off
+|power| Power off
                 
 .. |power| image:: /images/power.png
                 :scale: 60 %
 
 
 
-Camera Control
---------------
+Camera Control Menu
+---------------------
 
 
-.. figure:: /images/camera_ctrl.png
+.. figure:: /images/menu_cam_setting.png
    :alt: Finder align 
    :align: center
+
+
+
+Auto Mode: Auto exposure mode selection. AUTOGAIN fix exposure and only adjust gain
+
+Brightness: Sensor auto exposure level.
 
 Exposure: Sensor exposure time in second.
 
 Gain: Sensor gain 
 
-ImageQuality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.
-
-FlipImage: This option will flip image which might be useful in some mounting conditions.
+Image Quality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.
 
 ZoomMode: Turning this optin will force Astroid to send down sized image in faster frame transfere rate. This option is usuful when focusing.
 
-
 ZoomSize: Image size in pixel.
 
+Mean Subtraction: Mean subtraction.
 
+Mean Low Cut: Mean subtraction level.
+
+Light Pollution Removal: This will remove gradiant caused by light pollution.
+
+No IR-CUT: Check this option when the IR cut filter is removed
+
+AUTO WB: automatic white balance
+
+PNG Format: Png format image downlaod
+
+TIFF Format: Raw format image download
+
+
+
+Astro Tools Menu
+---------------------
+
+
+.. figure:: /images/menu_astro_tools.png
+   :alt: Finder align 
+   :align: center
+
+Detector: Star detector option
+
+Longitude: Longitude of your location. 
+
+Latitude: Latitude of your location. 
+
+Time Adjust: This can adjust system time to preview the sky at given time
+
+Show Mini Map: Mini image turn on/off
+
+Show Image: Uncheck this option if you only want to see the red circle marker
+
+Show Finder Mark: Uncheck this option if you want to remove the red circle marker
+
+Marker Size: Adjust this slider to set the red circle marker size identical to your main telescope
+
+Show Names: Uncheck this if you want to hide all names
+
+Guide Line: Check this option if you want to see azimuth and elevation guide line in guide mode
+
+Catalogue: This is the star catalogue that automatic nearest star search feature uses.
+
+Min/Max Size: Any DSO larger/smaller than these values will not be automatically searched. Adjust min/max value according to your main telescope's field of view.
+
+Max Distance: Search boundary. Larger value will search wider area.
+
+Min/Max Mag: Any DSO darker/brighter than these values will not be automatically searched. Adjust min/max value according to your preference.
+
+Sort By: When auto search button is clicked in the star list, the found stars will be sorted by this option.
+
+RA(h:m:s), DEC(h:m:s): Custom RA, DEC location for commet and etc. Click "Add to the list" button to add the custom location to the star list.
+
+
+Timelapse Menu
+---------------------
+
+
+.. figure:: /images/menu_timelapse.png
+   :alt: Finder align 
+   :align: center
+
+You can select differnt formats for timelapse image saving feature.
+
+
+System Setting Menu
+---------------------
+
+
+.. figure:: /images/menu_systemsetting.png
+   :alt: Finder align 
+   :align: center
+
+Support Mode: Checking this to let our support team to remotely dignose your device. Plase speak with our support team first before you use this option.
+
+ID: External wifi's SSID
+
+Pass: External wifi's password
+
+Email: Put your email here to receive the ip address of the device when it connected to the network
+
+Phone: Enter your phone number in international format to receive the IP address.
+
+Get License File: You can download your license file by clicking this button. Downloaded license file can be used to recover your license setting after you recover the system. If you have not sotred this license file download system ID by clicking "Get System ID" and contact us.
+
+
+
+Collimation Menu
+---------------------
+
+
+.. figure:: /images/menu_collimation.png
+   :alt: Finder align 
+   :align: center
+
+Under construction
 
 
 
@@ -232,7 +333,7 @@ Setting Up License
 
 .. admonition:: Information
 
-    You need to activate a license key only in two cases: 1. when you ordered a new app license code. 2. when you ordered a diy kit
+    You need to activate a license key only in two cases: 1. when you ordered a new app license code. 2. when you recovered Astroid using the recovery image
 
 1. Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.
 2. Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly 
@@ -251,38 +352,24 @@ Setting Up License
 Hot Pixel Correction
 --------------------
 
-The number of hot pixel naturally increses over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the following procedure to detect the hot pixels. 
+The number of hot pixel naturally increses over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the procedure below to detect and correct the hot pixels. 
 
-1. Complete block the lens port of Astroid. Turn off every light around the room and make it completely dar. The DDS made lens cover will be available soon.
-2. To go camera setting and increase exposure to maximum and set gain to 150.
-3. Go to system menu and adjust hot pixel level. Lower value will pick more hot pixels. Try with the default value and if you still see some week hot pixels, lower the value little bit more until satisfactory.
+1. Completly block the sensor using the provided sensor lid. Turn off every light around the room and make the room completely dark. 
+2. Go to the camera setting and increase exposure to 1 second and set gain to 150.
+3. Go to system menu and adjust hot pixel level. Lower value will pick more hot pixels. 
 4. Click hot pixel correction button.
-5. Run EAA stacker and see if hot pixels are disappeared
+5. Try with the default value and if you still see some week hot pixels, lower the value little bit more until satisfactory.
+6. Run EAA stacker and see if hot pixels are disappeared
 
 
-
-Changing WIFI SSID and Pass
----------------------------
-
-* Using this option is currently not recommanded due to a bug. Don't use this option until there is further notice.
- 
-The default Wifi SSID is DDS_DIRECT but you can change it what ever you want. Just go to the system setup and type SSID and Pass you want and press set button.
-
-
-
-
-.. admonition:: Warnning
-
-    If you cut the power without parking Astroid, sometime SD card is currped and you have to recover it to factory setup.
 
 
 Writing Images to USB Memory
 ------------------------------
 
-1. Format a usb memory with NTFS format
-2. Change name to DDS
-3. Insert the usb to Astroid and see if USB buttons are recognized
-4. Click the save button
+1. Prepare a DDS USB. Refer to the next section to make a DDS USB
+2. Insert the usb to Astroid and see if USB buttons are recognized
+3. Click the timelapse button
 
 
 
@@ -302,9 +389,4 @@ Making DDS USB
 2. Format the disk with NTFS format and change name to DDS. 
 3. Insert the USB to Astroid and see if USB icon appears on the top.
 
-
-Changing Web Address
---------------------
-
-If you have to run multiple Astroid camera under a same network you should change it's host ID. Log in to Astroid using SSH and change host name in raspi-config.
 

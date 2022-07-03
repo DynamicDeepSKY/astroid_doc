@@ -25,11 +25,14 @@ Languages
 
    basic   
    efinder
+   arzoom
    eaa
    drpole   
-   systemupdate
-   asminstruction
+   timelapse
+   collimation
+   systemupdate   
    remotesystem  
+   
    
 .. toctree:: 
    :maxdepth: 2 

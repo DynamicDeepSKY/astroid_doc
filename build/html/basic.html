@@ -101,20 +101,24 @@
 <li class="toctree-l2"><a class="reference internal" href="#user-interface-layout">User Interface Layout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#status-icons">Status Icons</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#quick-control-icons">Quick control icons</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#camera-control">Camera Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#camera-control-menu">Camera Control Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#astro-tools-menu">Astro Tools Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#timelapse-menu">Timelapse Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-setting-menu">System Setting Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collimation-menu">Collimation Menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#setting-up-license">Setting Up License</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#hot-pixel-correction">Hot Pixel Correction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#changing-wifi-ssid-and-pass">Changing WIFI SSID and Pass</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#writing-images-to-usb-memory">Writing Images to USB Memory</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#making-dds-usb">Making DDS USB</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#changing-web-address">Changing Web Address</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="efinder.html">eFinder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arzoom.html">ARZoom</a></li>
 <li class="toctree-l1"><a class="reference internal" href="eaa.html">EAA Stacker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="drpole.html">Dr. Pole</a></li>
+<li class="toctree-l1"><a class="reference internal" href="timelapse.html">Timelapse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="collimation.html">Collimation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="systemupdate.html">System Update</a></li>
-<li class="toctree-l1"><a class="reference internal" href="asminstruction.html">Assembly Instruction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="remotesystem.html">Making A Remote System</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">TroubleShooting:</span></p>
@@ -245,27 +249,83 @@
 <p><a class="reference internal" href="_images/fullscreen.png"><img alt="fullscreen" src="_images/fullscreen.png" style="width: 39.0px; height: 39.0px;" /></a> Full screen mode (Android and Desktop only)</p>
 <p><a class="reference internal" href="_images/polaralign.png"><img alt="polaralign" src="_images/polaralign.png" style="width: 38.4px; height: 38.4px;" /></a> Polar align mode start</p>
 <p><a class="reference internal" href="_images/imgdown.png"><img alt="imgdown" src="_images/imgdown.png" style="width: 38.4px; height: 38.4px;" /></a> Image download</p>
-<p><a class="reference internal" href="_images/imgdown.png"><img alt="imgdown" src="_images/imgdown.png" style="width: 38.4px; height: 38.4px;" /></a> Eject USB memory</p>
+<p><a class="reference internal" href="_images/ejectmain.png"><img alt="ejectmain" src="_images/ejectmain.png" style="width: 38.4px; height: 38.4px;" /></a> Eject USB memory</p>
 <p><a class="reference internal" href="_images/refresh.png"><img alt="refresh" src="_images/refresh.png" style="width: 38.4px; height: 38.4px;" /></a> Refresh screen</p>
-<p><a class="reference internal" href="_images/refresh.png"><img alt="refresh" src="_images/refresh.png" style="width: 38.4px; height: 38.4px;" /></a> Power off</p>
+<p><a class="reference internal" href="_images/power.png"><img alt="power" src="_images/power.png" style="width: 38.4px; height: 38.4px;" /></a> Power off</p>
 </div>
-<div class="section" id="camera-control">
-<h2>Camera Control<a class="headerlink" href="#camera-control" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="camera-control-menu">
+<h2>Camera Control Menu<a class="headerlink" href="#camera-control-menu" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center">
-<img alt="Finder align" src="_images/camera_ctrl.png" />
+<img alt="Finder align" src="_images/menu_cam_setting.png" />
 </div>
+<p>Auto Mode: Auto exposure mode selection. AUTOGAIN fix exposure and only adjust gain</p>
+<p>Brightness: Sensor auto exposure level.</p>
 <p>Exposure: Sensor exposure time in second.</p>
 <p>Gain: Sensor gain</p>
-<p>ImageQuality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.</p>
-<p>FlipImage: This option will flip image which might be useful in some mounting conditions.</p>
+<p>Image Quality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.</p>
 <p>ZoomMode: Turning this optin will force Astroid to send down sized image in faster frame transfere rate. This option is usuful when focusing.</p>
 <p>ZoomSize: Image size in pixel.</p>
+<p>Mean Subtraction: Mean subtraction.</p>
+<p>Mean Low Cut: Mean subtraction level.</p>
+<p>Light Pollution Removal: This will remove gradiant caused by light pollution.</p>
+<p>No IR-CUT: Check this option when the IR cut filter is removed</p>
+<p>AUTO WB: automatic white balance</p>
+<p>PNG Format: Png format image downlaod</p>
+<p>TIFF Format: Raw format image download</p>
+</div>
+<div class="section" id="astro-tools-menu">
+<h2>Astro Tools Menu<a class="headerlink" href="#astro-tools-menu" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center">
+<img alt="Finder align" src="_images/menu_astro_tools.png" />
+</div>
+<p>Detector: Star detector option</p>
+<p>Longitude: Longitude of your location.</p>
+<p>Latitude: Latitude of your location.</p>
+<p>Time Adjust: This can adjust system time to preview the sky at given time</p>
+<p>Show Mini Map: Mini image turn on/off</p>
+<p>Show Image: Uncheck this option if you only want to see the red circle marker</p>
+<p>Show Finder Mark: Uncheck this option if you want to remove the red circle marker</p>
+<p>Marker Size: Adjust this slider to set the red circle marker size identical to your main telescope</p>
+<p>Show Names: Uncheck this if you want to hide all names</p>
+<p>Guide Line: Check this option if you want to see azimuth and elevation guide line in guide mode</p>
+<p>Catalogue: This is the star catalogue that automatic nearest star search feature uses.</p>
+<p>Min/Max Size: Any DSO larger/smaller than these values will not be automatically searched. Adjust min/max value according to your main telescope’s field of view.</p>
+<p>Max Distance: Search boundary. Larger value will search wider area.</p>
+<p>Min/Max Mag: Any DSO darker/brighter than these values will not be automatically searched. Adjust min/max value according to your preference.</p>
+<p>Sort By: When auto search button is clicked in the star list, the found stars will be sorted by this option.</p>
+<p>RA(h:m:s), DEC(h:m:s): Custom RA, DEC location for commet and etc. Click “Add to the list” button to add the custom location to the star list.</p>
+</div>
+<div class="section" id="timelapse-menu">
+<h2>Timelapse Menu<a class="headerlink" href="#timelapse-menu" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center">
+<img alt="Finder align" src="_images/menu_timelapse.png" />
+</div>
+<p>You can select differnt formats for timelapse image saving feature.</p>
+</div>
+<div class="section" id="system-setting-menu">
+<h2>System Setting Menu<a class="headerlink" href="#system-setting-menu" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center">
+<img alt="Finder align" src="_images/menu_systemsetting.png" />
+</div>
+<p>Support Mode: Checking this to let our support team to remotely dignose your device. Plase speak with our support team first before you use this option.</p>
+<p>ID: External wifi’s SSID</p>
+<p>Pass: External wifi’s password</p>
+<p>Email: Put your email here to receive the ip address of the device when it connected to the network</p>
+<p>Phone: Enter your phone number in international format to receive the IP address.</p>
+<p>Get License File: You can download your license file by clicking this button. Downloaded license file can be used to recover your license setting after you recover the system. If you have not sotred this license file download system ID by clicking “Get System ID” and contact us.</p>
+</div>
+<div class="section" id="collimation-menu">
+<h2>Collimation Menu<a class="headerlink" href="#collimation-menu" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-center">
+<img alt="Finder align" src="_images/menu_collimation.png" />
+</div>
+<p>Under construction</p>
 </div>
 <div class="section" id="setting-up-license">
 <h2>Setting Up License<a class="headerlink" href="#setting-up-license" title="Permalink to this headline">¶</a></h2>
 <div class="admonition-information admonition">
 <p class="admonition-title">Information</p>
-<p>You need to activate a license key only in two cases: 1. when you ordered a new app license code. 2. when you ordered a diy kit</p>
+<p>You need to activate a license key only in two cases: 1. when you ordered a new app license code. 2. when you recovered Astroid using the recovery image</p>
 </div>
 <ol class="arabic simple">
 <li><p>Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.</p></li>
@@ -280,33 +340,22 @@
 </div>
 <div class="section" id="hot-pixel-correction">
 <h2>Hot Pixel Correction<a class="headerlink" href="#hot-pixel-correction" title="Permalink to this headline">¶</a></h2>
-<p>The number of hot pixel naturally increses over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the following procedure to detect the hot pixels.</p>
+<p>The number of hot pixel naturally increses over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the procedure below to detect and correct the hot pixels.</p>
 <ol class="arabic simple">
-<li><p>Complete block the lens port of Astroid. Turn off every light around the room and make it completely dar. The DDS made lens cover will be available soon.</p></li>
-<li><p>To go camera setting and increase exposure to maximum and set gain to 150.</p></li>
-<li><p>Go to system menu and adjust hot pixel level. Lower value will pick more hot pixels. Try with the default value and if you still see some week hot pixels, lower the value little bit more until satisfactory.</p></li>
+<li><p>Completly block the sensor using the provided sensor lid. Turn off every light around the room and make the room completely dark.</p></li>
+<li><p>Go to the camera setting and increase exposure to 1 second and set gain to 150.</p></li>
+<li><p>Go to system menu and adjust hot pixel level. Lower value will pick more hot pixels.</p></li>
 <li><p>Click hot pixel correction button.</p></li>
+<li><p>Try with the default value and if you still see some week hot pixels, lower the value little bit more until satisfactory.</p></li>
 <li><p>Run EAA stacker and see if hot pixels are disappeared</p></li>
 </ol>
-</div>
-<div class="section" id="changing-wifi-ssid-and-pass">
-<h2>Changing WIFI SSID and Pass<a class="headerlink" href="#changing-wifi-ssid-and-pass" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Using this option is currently not recommanded due to a bug. Don’t use this option until there is further notice.</p></li>
-</ul>
-<p>The default Wifi SSID is DDS_DIRECT but you can change it what ever you want. Just go to the system setup and type SSID and Pass you want and press set button.</p>
-<div class="admonition-warnning admonition">
-<p class="admonition-title">Warnning</p>
-<p>If you cut the power without parking Astroid, sometime SD card is currped and you have to recover it to factory setup.</p>
-</div>
 </div>
 <div class="section" id="writing-images-to-usb-memory">
 <h2>Writing Images to USB Memory<a class="headerlink" href="#writing-images-to-usb-memory" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Format a usb memory with NTFS format</p></li>
-<li><p>Change name to DDS</p></li>
+<li><p>Prepare a DDS USB. Refer to the next section to make a DDS USB</p></li>
 <li><p>Insert the usb to Astroid and see if USB buttons are recognized</p></li>
-<li><p>Click the save button</p></li>
+<li><p>Click the timelapse button</p></li>
 </ol>
 <div class="admonition-warnning admonition">
 <p class="admonition-title">Warnning</p>
@@ -324,10 +373,6 @@
 <li><p>Format the disk with NTFS format and change name to DDS.</p></li>
 <li><p>Insert the USB to Astroid and see if USB icon appears on the top.</p></li>
 </ol>
-</div>
-<div class="section" id="changing-web-address">
-<h2>Changing Web Address<a class="headerlink" href="#changing-web-address" title="Permalink to this headline">¶</a></h2>
-<p>If you have to run multiple Astroid camera under a same network you should change it’s host ID. Log in to Astroid using SSH and change host name in raspi-config.</p>
 </div>
 </div>
 
