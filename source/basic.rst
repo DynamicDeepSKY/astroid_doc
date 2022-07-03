@@ -95,6 +95,33 @@ Quick control icons
 -------------------------
 
 
+|lock| Screen lock/unlock
+
+.. |lock| image:: /images/lock.png
+                :scale: 60 %
+
+
+|plus| Zoom in
+
+.. |plus| image:: /images/plus.png
+                :scale: 60 %
+
+
+
+|minus| Zoom out
+
+.. |minus| image:: /images/minus.png
+                :scale: 60 %
+
+
+
+|imgrot| Image rotation
+
+.. |imgrot| image:: /images/imgrot.png
+                :scale: 60 %
+
+
+
 |setting| Advanced setting menu open/close
 
 .. |setting| image:: /images/setting.png
@@ -324,7 +351,13 @@ Collimation Menu
    :alt: Finder align 
    :align: center
 
-Under construction
+Camera: Currently only internal camera is supported
+
+Focus: Focus control for the external auto focus camera
+
+X Offset: To move the circle around x axis
+
+Y Offset: To move the circle around y axis
 
 
 
