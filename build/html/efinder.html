@@ -105,17 +105,18 @@
 <li class="toctree-l2"><a class="reference internal" href="#geolocation-and-time">Geolocation and Time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#marker">Marker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#time-adjust">Time Adjust</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#star-finder">Star Finder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ar-mode">AR Mode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#constellations-and-stars">Constellations and Stars</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#auto-center-and-fov-mode">Auto Center and FoV Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#star-finder-search">Star Finder </a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ar-mode-ar">AR Mode </a></li>
+<li class="toctree-l2"><a class="reference internal" href="#click-and-find">Click and Find</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#camera-lock-and-unlock-lock">Camera Lock and Unlock </a></li>
 <li class="toctree-l2"><a class="reference internal" href="#star-list">Star List</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#automatic-dso-search">Automatic DSO search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#automatic-dso-search-autodso-search">Automatic DSO search </a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="arzoom.html">ARZoom</a></li>
 <li class="toctree-l1"><a class="reference internal" href="eaa.html">EAA Stacker</a></li>
 <li class="toctree-l1"><a class="reference internal" href="drpole.html">Dr. Pole</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lenscal.html">Lens Calibration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="timelapse.html">Timelapse</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collimation.html">Collimation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="systemupdate.html">System Update</a></li>
@@ -125,7 +126,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="trouble.html">Troubleshooting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="recovery.html">Recovery Instruction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="issues.html">Known Issues V1.0.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="issues.html">Known Issues V1.1.0</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Updates:</span></p>
 <ul>
@@ -199,30 +200,30 @@
             
   <div class="section" id="efinder">
 <span id="id1"></span><h1>eFinder<a class="headerlink" href="#efinder" title="Permalink to this headline">¶</a></h1>
-<p>Pressing the eye button on the downside icon bar will automatically change Astroid to eFinder mode and activate live sky recognition. If you would like to use eFinder as a sky navigator, make sure the sky is recognized. The red eye icon on the status bar will turn into the green eye in case the sky is recognized.</p>
+<p>Clicking the eye button <a class="reference internal" href="_images/liveps.png"><img alt="liveps" src="_images/liveps.png" style="width: 19.5px; height: 19.5px;" /></a> on the downside icon bar will swith Astroid’s operation mode to eFinder and activate live sky recognition. Before you use eFinder, make sure the sky is recognized. The red eye icon <a class="reference internal" href="_images/eye_red.png"><img alt="eye_red" src="_images/eye_red.png" style="width: 19.2px; height: 19.2px;" /></a> on the status bar will turn into the green eye <a class="reference internal" href="_images/eye_green.png"><img alt="eye_green" src="_images/eye_green.png" style="width: 19.2px; height: 19.2px;" /></a> when the sky is recognized.</p>
 <div class="admonition-important admonition">
 <p class="admonition-title">Important</p>
-<p>Note that the sky recognition mode only works with the provided 5mm lens. You can mount other lenses to use Astroid as an electronic finder but the sky recognition would not work.</p>
+<p>Note that the sky recognition mode only works with the provided 5mm lens. You can mount other lenses to use Astroid as a camera but the sky recognition would not work.</p>
 </div>
 <div class="section" id="sky-recognition">
 <h2>Sky Recognition<a class="headerlink" href="#sky-recognition" title="Permalink to this headline">¶</a></h2>
-<p>When the sky recognition is activated, Astroid will try to recognize the sky but it might fail in some cases. If the sky recognition status icon does not turn green in 5 seconds try the following.</p>
+<p>When the sky recognition is activated, Astroid will try to recognize the sky but it might fail in some cases. If the sky recognition status icon does not turn to green in 5 seconds try the following.</p>
 <ul class="simple">
 <li><p>Check if the lens focus is correct. With the blurry focus, Astroid does not recognize stars well.</p></li>
 <li><p>Make sure there are enough stars in the image.</p></li>
-<li><p>Adjust the Gain a bit higher or lower. The image should not too bright or dark. Adjusting exposure to higher is not recommended as it slows down the response speed.</p></li>
+<li><p>Adjust the gain/exposure a bit higher or lower. The image should not too bright or dark. Note that adjusting exposure to higher slows down the response speed.</p></li>
 <li><p>Point the camera to a direction where no cloud, moon, the building exists. Usually, it takes more time to recognize the sky when there are obstacles in the view. Once it is recognized slowly move the camera in the desired direction.</p></li>
 </ul>
 </div>
 <div class="section" id="light-pollution">
 <h2>Light Pollution<a class="headerlink" href="#light-pollution" title="Permalink to this headline">¶</a></h2>
-<p>One of the dominant factors that control sky recognition performance is the sky condition. The best sky condition would be a very dark sky under Bortle 6 without the moonlight. Bortle is a metric to estimate the amount of light pollution in the night sky. You can easily see the Bortle level of your place from the following site.</p>
+<p>One of the dominant factors that affect sky recognition performance is the sky condition. The best sky condition would be a very dark sky under Bortle 6 without the moonlight. Bortle is a metric to estimate the amount of light pollution in the night sky. You can easily see the Bortle level of your place from the following site.</p>
 <p><a class="reference external" href="https://www.lightpollutionmap.info/">https://www.lightpollutionmap.info/</a></p>
 <p>The following example shows the Bortle level of three different places around Brisbane city.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/bortle.png"><img alt="Bortle" src="_images/bortle.png" style="width: 600px;" /></a>
 </div>
-<p>The sky recognition performance is not guaranteed around the high light pollution area above Bortle 6. Refers to the following table for the details of Bortle class.</p>
+<p>Although it might work, the sky recognition performance is not guaranteed around the high light pollution area above Bortle 6. Refers to the following table for the details of Bortle class.</p>
 <table class="colwidths-given docutils align-center" id="id2">
 <caption><span class="caption-text">Bortle Class</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <colgroup>
@@ -269,7 +270,7 @@
 <h2>Sky Recognition with Moon Light or Light Pollution<a class="headerlink" href="#sky-recognition-with-moon-light-or-light-pollution" title="Permalink to this headline">¶</a></h2>
 <p>Although it is recommended to be used under Bortle 6 and without the moonlight, if you can’t avoid such an environment there is a trick that you can do to make eFinder works but with limited speed and accuracy.</p>
 <p>The default setting of sky recognition is 0.3 sec for the exposure and 140 for the gain which is optimized for Bortle 5 without the moonlight. The low exposure helps to increase response speed but needs a high gain setup which results in a noisy image under light pollution and the moonlight condition. Noisy image decreases the sky recognition performance.</p>
-<p>The simple solution is compromising the response speed by increasing exposure and lowering the gain. The following example shows how the exposure and the gain setup reduces noise moonlight conditions.</p>
+<p>A simple solution is compromising the response speed by increasing exposure and lowering the gain. The following example shows how the exposure and the gain setup reduces noise moonlight conditions.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/light_condition_low_exposure.png"><img alt="Low exposure" src="_images/light_condition_low_exposure.png" style="width: 400px;" /></a>
 </div>
@@ -279,41 +280,53 @@
 </div>
 <div class="section" id="geolocation-and-time">
 <h2>Geolocation and Time<a class="headerlink" href="#geolocation-and-time" title="Permalink to this headline">¶</a></h2>
-<p>System time is automatically updated according to your device’s time but you have to put long and lat information manually. Initially, these are set to 0 and you will see the red GPS icon on the top status icon location. Time and GPS information are important to properly draw the predicted sky.</p>
-<p>After setting your GPS location, it is a good idea to double-check it with other software such as stellarium-web.org. Check if the four cardinal directions and the location of the Milkyway is identical on both sides.</p>
+<p>System time is automatically updated according to your device’s time but you have to put longitude and lattitude information manually. Initially, these are set to 0 and you will see the red GPS icon on the top status icon location. Time and GPS information are important to properly draw the predicted sky.</p>
 </div>
 <div class="section" id="marker">
 <h2>Marker<a class="headerlink" href="#marker" title="Permalink to this headline">¶</a></h2>
-<p>As soon as you activate eFinder mode you will see a red mark on the image. The center of the red circle is where your main telescope is looking at. If it is the first time to use this feature with your telescope, you might need to move this mark a little bit to make it aligned with your telescope’s view. Refers to <a class="reference internal" href="quickstart.html#quickstart"><span class="std std-ref">eFinder Align</span></a> for the detailed procedure.</p>
+<p>As soon as you activate eFinder mode you will see a red mark on the image. The center of the red circle is where your main telescope is looking at. If it is the first time to use this feature with your telescope, you might need to move this marker to make it aligned with your telescope’s view. Refers to <a class="reference internal" href="quickstart.html#quickstart"><span class="std std-ref">eFinder Align</span></a> for the detailed procedure.</p>
 </div>
 <div class="section" id="time-adjust">
 <h2>Time Adjust<a class="headerlink" href="#time-adjust" title="Permalink to this headline">¶</a></h2>
 <p>By default, the planetarium will show you the current sky. But you can draw the past and future sky by adjusting the time bar. The supported range is -10 to +10 hours to the current time.</p>
 </div>
-<div class="section" id="star-finder">
-<h2>Star Finder<a class="headerlink" href="#star-finder" title="Permalink to this headline">¶</a></h2>
-<p>Astroid has built-in NGC, IC, M, HIP star lists. To use the star finder, find the number of the star object that you are interested in and enter it into the search bar. It will show you its photo and other information as well.</p>
-<p>Once you clicked any star on the star finder list, Astroid will display the location of the target and how many degrees you should rotate along with the left/right and up/down direction. Adjust your mount according to this angle. Currently, the EQ mount guideline is not supported but this feature will be added in the next update.</p>
+<div class="section" id="star-finder-search">
+<h2>Star Finder <a class="reference internal" href="_images/search.png"><img alt="search" src="_images/search.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#star-finder-search" title="Permalink to this headline">¶</a></h2>
+<p>Astroid has built-in NGC, IC, M, HIP star lists. To use the star finder, find the number of the star object that you are interested in and enter it to the search bar. It will show you its photo and other information as well.</p>
+<p>Once you clicked a star on the star finder list, Astroid will display the location of the target and how many degrees you should rotate along the left/right and up/down direction. Adjust your mount according to this angle. Currently, the EQ mount guideline is not supported but this feature will be added in the future update.</p>
 </div>
-<div class="section" id="ar-mode">
-<h2>AR Mode<a class="headerlink" href="#ar-mode" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ar-mode-ar">
+<h2>AR Mode <a class="reference internal" href="_images/AR.png"><img alt="AR" src="_images/AR.png" style="width: 25.6px; height: 25.6px;" /></a><a class="headerlink" href="#ar-mode-ar" title="Permalink to this headline">¶</a></h2>
 <p>As a default, when you drag the screen it will always move around AzAlt direction. But sometimes it is convenient to fix the screen view to the camera view and move the world instead. Enable the CameraView option in the setting menu, if you would like to enable this feature.</p>
 </div>
-<div class="section" id="constellations-and-stars">
-<h2>Constellations and Stars<a class="headerlink" href="#constellations-and-stars" title="Permalink to this headline">¶</a></h2>
-<p>You can turn on/off the constellations, stars, and star names according to your preference. Enable desired options in the control panel.</p>
+<div class="section" id="click-and-find">
+<h2>Click and Find<a class="headerlink" href="#click-and-find" title="Permalink to this headline">¶</a></h2>
+<p>One of the most unique feature of Astroid is that you can click and find the star and DSO infromation from the camera’s image. Combined with EAA stacker, Astroid provides visually interective way to explorer the night sky rather than just selecting a star on a list.</p>
 </div>
-<div class="section" id="auto-center-and-fov-mode">
-<h2>Auto Center and FoV Mode<a class="headerlink" href="#auto-center-and-fov-mode" title="Permalink to this headline">¶</a></h2>
-<p>AutoCenter and AutoFoV mode automatically adjust the view so that you don’t need to touch the phone screen and move the view while your hands are busy with adjusting your mount.</p>
+<div class="section" id="camera-lock-and-unlock-lock">
+<h2>Camera Lock and Unlock <a class="reference internal" href="_images/lock.png"><img alt="lock" src="_images/lock.png" style="width: 25.6px; height: 25.6px;" /></a><a class="headerlink" href="#camera-lock-and-unlock-lock" title="Permalink to this headline">¶</a></h2>
+<p>User interface automatically follows center of the camera image by default. If you would like to unlock the automatic camera follow mode, simply click the lock button on the left side <a class="reference internal" href="_images/lock.png"><img alt="lock" src="_images/lock.png" style="width: 25.6px; height: 25.6px;" /></a>.</p>
+<p>Clicking the button one more time will switch it back to the lock mode and follow the camera.</p>
 </div>
 <div class="section" id="star-list">
 <h2>Star List<a class="headerlink" href="#star-list" title="Permalink to this headline">¶</a></h2>
-<p>Under construction</p>
+<p>You can make your own star list by clicking add button <a class="reference internal" href="_images/add-list.png"><img alt="add_to_list" src="_images/add-list.png" style="width: 25.6px; height: 25.6px;" /></a> in the star finder window.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/searched_star.png"><img alt="Max exposure" src="_images/searched_star.png" style="width: 200px;" /></a>
 </div>
-<div class="section" id="automatic-dso-search">
-<h2>Automatic DSO search<a class="headerlink" href="#automatic-dso-search" title="Permalink to this headline">¶</a></h2>
-<p>Under construction</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/auto_search.png"><img alt="Max exposure" src="_images/auto_search.png" style="width: 400px;" /></a>
+</div>
+<p>The added stars can be seen on the star list window. Click <a class="reference internal" href="_images/starlist.png"><img alt="starlist" src="_images/starlist.png" style="width: 25.6px; height: 25.6px;" /></a> to open the star list window.</p>
+<p>Also, you can automatically search the nearby DSO to your current telescope and add it to the list by clicking <a class="reference internal" href="_images/search_list.png"><img alt="search_list" src="_images/search_list.png" style="width: 25.6px; height: 25.6px;" /></a> icon.</p>
+<p><a class="reference internal" href="_images/search_list.png"><img alt="search_list" src="_images/search_list.png" style="width: 25.6px; height: 25.6px;" /></a> Search nearby DSO. By default M is used but you can change it to NGC, IC in the Astro tools menu.</p>
+<p>To save and load the star list use the following icons.</p>
+<p><a class="reference internal" href="_images/save_list.png"><img alt="save_list" src="_images/save_list.png" style="width: 25.6px; height: 25.6px;" /></a> Save list. The list is stored on Astroid’s internal memory.</p>
+<p><a class="reference internal" href="_images/download_list.png"><img alt="download_list" src="_images/download_list.png" style="width: 25.6px; height: 25.6px;" /></a> Load list.</p>
+</div>
+<div class="section" id="automatic-dso-search-autodso-search">
+<h2>Automatic DSO search <a class="reference internal" href="_images/autodso_search.png"><img alt="autodso_search" src="_images/autodso_search.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#automatic-dso-search-autodso-search" title="Permalink to this headline">¶</a></h2>
+<p>Enabling this will automaticall find the nearest DSO to the current main telescope’s view and display it on the screen.</p>
 </div>
 </div>
 
