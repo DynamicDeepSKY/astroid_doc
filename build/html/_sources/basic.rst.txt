@@ -331,23 +331,15 @@ Under construction
 Setting Up License
 -----------------------
 
-.. admonition:: Information
+Astroid's basic system and apps are protected by HW license keys. For this reason, if you recovered your device from the recovery image provided from the homepage, you have to recover the license as well. This requires to upload the license file to the web interface. The license file can be downloaded by clicking "Get License File" button in the system setting menu. It would be a good pratics to download the license file and store it on your computer once you receive the device. 
 
-    You need to activate a license key only in two cases: 1. when you ordered a new app license code. 2. when you recovered Astroid using the recovery image
+To upload the license file go to the system setting menu and click "License Code File" button and select the license file you sotred on your computer.
 
-1. Once you receve the license key by email copy the key and paste it in the setting menu and press set license button.
-2. Refresh the screen with F5 key and check the system info menu to see if your license is recognized correctly 
+In case you can't access to the license file, please send us your system ID and serial number. Our staff will send you the license file as soon as possible. 
 
-.. figure:: /images/systeminfo.png
-   :width: 400
-   :alt: Version check
-   :align: center
 
-.. figure:: /images/license_check.png
-   :width: 400
-   :alt: Finder align 
-   :align: center
-
+Also, if you replace Raspberry Pi 4, the original license code would not work. So, if you have any Raspberry Pi related problem please contact us rather than replace the Raspberry Pi yourself.  
+ 
 
 Hot Pixel Correction
 --------------------
@@ -369,7 +361,7 @@ Writing Images to USB Memory
 
 1. Prepare a DDS USB. Refer to the next section to make a DDS USB
 2. Insert the usb to Astroid and see if USB buttons are recognized
-3. Click the timelapse button
+3. Click the timelapse button to start recording
 
 
 
