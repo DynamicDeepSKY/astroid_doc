@@ -213,7 +213,7 @@ To save and load the star list use the following icons.
 Automatic DSO search |autodso_search|
 ----------------------------------------------------
 
-Enabling this will automaticall find the nearest DSO to the current main telescope's view and display it on the screen.
+Enabling this will automatically find the nearest DSO to the current main telescope's view and display it on the screen.
 
 .. |autodso_search| image:: /images/autodso_search.png
                 :scale: 40 %
