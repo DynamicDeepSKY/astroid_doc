@@ -124,34 +124,79 @@ Quick control icons
 
 .. |dgs_align| image:: /images/dgs_align.png
                 :scale: 60 %
+                
+|AR| Augmented reality mode on/off       
+                
 .. |AR| image:: /images/AR.png
-                :scale: 60 %
+                :scale: 15 %
+                
+|showstar| Star display on/off                     
+                
 .. |showstar| image:: /images/showstar.png
                 :scale: 60 %
+                
+|showdso| DSO display on/off                   
+                
 .. |showdso| image:: /images/showdso.png
                 :scale: 60 %
+                
+|autodso_search| Nearist DSO auto display on/off        
+                
 .. |autodso_search| image:: /images/autodso_search.png
                 :scale: 60 %
+                
+|const| Constellation display on/off        
+                       
 .. |const| image:: /images/const.png
                 :scale: 60 %
+                
+|timelapse| Time lapse start/end       
+                
 .. |timelapse| image:: /images/timelapse.png
                 :scale: 60 %
+                
+|nightmode| Night mode on/off  
+                
 .. |nightmode| image:: /images/nightmode.png
                 :scale: 60 %
+                
+|eclgrid| Elliptical grid on/off  
+
 .. |eclgrid| image:: /images/eclgrid.png
                 :scale: 60 %
+                
+|azigrid| Azimuth grid on/off  
+                
 .. |azigrid| image:: /images/azigrid.png
                 :scale: 60 %
+                
+|fullscreen| Full screen mode (Android and Desktop only)
+                
 .. |fullscreen| image:: /images/fullscreen.png
                 :scale: 60 %
+                
+|polaralign| Polar align mode start
+             
 .. |polaralign| image:: /images/polaralign.png
                 :scale: 60 %
+                
+|imgdown| Image download
+                
 .. |imgdown| image:: /images/imgdown.png
                 :scale: 60 %
+                
+|imgdown| Eject USB memory
+                
 .. |ejectmain| image:: /images/ejectmain.png
                 :scale: 60 %
+                
+|refresh| Refresh screen
+                
 .. |refresh| image:: /images/refresh.png
                 :scale: 60 %
+                
+|refresh| Power off
+                
 .. |power| image:: /images/power.png
                 :scale: 60 %
 
