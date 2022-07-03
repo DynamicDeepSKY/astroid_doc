@@ -58,13 +58,7 @@ Opacity: Adjust this slider to control line brightness.
 Lens Mount
 -------------
 
-Astroid Multi can be used in two diffrent ways. If you would like to use the sky recognition feature in **eFinder** and **Dr. Pole**, please mount the provided 5mm lens to the camera body as follow.
-
-.. figure:: /images/lens_mnt.png
-   :width: 400
-   :alt: Lens mount
-   :align: center
-   
+Astroid Multi can be used in two diffrent ways. If you would like to use the sky recognition feature in **eFinder** and **Dr. Pole**, please mount the provided 5mm lens to the camera body.
 
 
 ..

@@ -3,18 +3,21 @@
 Web Interface
 ========================
 
-GUI Layout
---------------
+User Interface Layout
+------------------------
 
 .. figure:: /images/screen_component.png
-   :width: 400
+   :width: 700
    :alt: Finder align 
    :align: center
 
 1. Camera image
-2. Status icons
-3. Current frame number, Field of view, Current time
-4. Quick control icons
+2. Quick control icon bar
+3. Status icons
+4. ARZoom image
+5. Quick menu
+6. Search
+7. Search result
 
 Status Icons
 --------------
@@ -91,37 +94,66 @@ Status Icons
 Quick control icons
 -------------------------
 
+
+|setting| Advanced setting menu open/close
+
+.. |setting| image:: /images/setting.png
+                :scale: 60 %
+                
 |liveps| Live sky recognition on/off
 
-|bbtSearch| Star search
-
-|bbtSettings| Setting pannel
-
-|btAzimuthalGrid| Azimuthal grid
-
-|btEclipticGrid| Ecliptic grid
-
-|stack| Image stack
-
-|align| Pole align start
-
-
-.. |bbtSearch| image:: /images/bbtSearch-on.png
-                :scale: 60 %
-
-.. |bbtSettings| image:: /images/bbtSettings-on.png
-                :scale: 60 %
-.. |btAzimuthalGrid| image:: /images/btAzimuthalGrid-on.png
-                :scale: 70 %
 .. |liveps| image:: /images/liveps.png
-                :scale: 10 %
-.. |btEclipticGrid| image:: /images/btEclipticGrid-on.png
-                :scale: 70 %
-.. |stack| image:: /images/stack.png
-                :scale: 10 %
+                :scale: 60 %
 
-.. |align| image:: /images/align.png
-                :scale: 10 %
+|stack| Staker on/off
+
+.. |stack| image:: /images/stack.png
+                :scale: 60 %
+
+|search| Star search
+
+.. |search| image:: /images/search.png
+                :scale: 60 %
+
+|starlist| Open/close star list 
+
+.. |starlist| image:: /images/starlist.png
+                :scale: 60 %
+
+|dgs_align| Camera align mode on/off to the main telescope 
+
+.. |dgs_align| image:: /images/dgs_align.png
+                :scale: 60 %
+.. |AR| image:: /images/AR.png
+                :scale: 60 %
+.. |showstar| image:: /images/showstar.png
+                :scale: 60 %
+.. |showdso| image:: /images/showdso.png
+                :scale: 60 %
+.. |autodso_search| image:: /images/autodso_search.png
+                :scale: 60 %
+.. |const| image:: /images/const.png
+                :scale: 60 %
+.. |timelapse| image:: /images/timelapse.png
+                :scale: 60 %
+.. |nightmode| image:: /images/nightmode.png
+                :scale: 60 %
+.. |eclgrid| image:: /images/eclgrid.png
+                :scale: 60 %
+.. |azigrid| image:: /images/azigrid.png
+                :scale: 60 %
+.. |fullscreen| image:: /images/fullscreen.png
+                :scale: 60 %
+.. |polaralign| image:: /images/polaralign.png
+                :scale: 60 %
+.. |imgdown| image:: /images/imgdown.png
+                :scale: 60 %
+.. |ejectmain| image:: /images/ejectmain.png
+                :scale: 60 %
+.. |refresh| image:: /images/refresh.png
+                :scale: 60 %
+.. |power| image:: /images/power.png
+                :scale: 60 %
 
 
 

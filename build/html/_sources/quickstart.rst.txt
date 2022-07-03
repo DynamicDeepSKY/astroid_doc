@@ -58,13 +58,7 @@ Opacity: Adjust this slider to control line brightness.
 Lens Mount
 -------------
 
-Astroid Multi can be used in two diffrent ways. If you would like to use the sky recognition feature in **eFinder** and **Dr. Pole**, please mount the provided 5mm lens to the camera body as follow.
-
-.. figure:: /images/lens_mnt.png
-   :width: 400
-   :alt: Lens mount
-   :align: center
-   
+Astroid Multi can be used in two diffrent ways. If you would like to use the sky recognition feature in **eFinder** and **Dr. Pole**, please mount the provided 5mm lens to the camera body.
 
 
 ..
@@ -296,7 +290,7 @@ Stacking result on Samyang 85mm@F2.
    :alt: Stacker 85mm
    :align: center  
 
-The following shows the images captured with Astroid on Celestron 90GT without tracking.
+The following shows the images captured with Astroid on Celestron 90GT without the mount star tracking on.
 
 .. figure:: /images/c90gt_images.jpg
    :width: 400
