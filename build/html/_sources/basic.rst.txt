@@ -393,7 +393,7 @@ Writing Images to USB Memory
 ------------------------------
 
 1. Prepare a DDS USB. Refer to the next section to make a DDS USB
-2. Insert the usb to Astroid and see if USB buttons are recognized
+2. Insert the usb to Astroid and see if USB icon appear on the top status bar
 3. Click the timelapse button to start recording
 
 
