@@ -260,6 +260,10 @@ If you would like to use astroid as a finder along with your main telescope, you
 7. Press the align icon |dgs_align| again to terminate the align mode. This will automatically save the current location so that you do not need to do the align next time. 
 
 
+.. admonition:: Tips
+
+    Zoom out to move fast and zoom in for fine tuning. Target mark move speed changes according to the screen view angle.
+
 
 
 EAA Stacker
@@ -292,20 +296,35 @@ Stacking result on Samyang 85mm@F2.
    :alt: Stacker 85mm
    :align: center  
 
+The following shows the images captured with Astroid on Celestron 90GT without the mount star tracking on.
 
-To use the EAA stacker with the basic lens, just activate click the stack icon. Image tone curve is automatic by default but for an advanced user can adjust the tone curve to make it look better.  
+.. figure:: /images/c90gt_images.jpg
+   :width: 400
+   :align: center  
+   
+   Image credit: youtuber 우주in
+   
+
+
+
+To use the EAA stacker with the basic lens, just click the stack icon |stack_icon|. Image tone curve setting is automatic by default but for an advanced user it can be adjusted to make it look better.  
 
 .. figure:: /images/stacker5mm_onoff.png
    :width: 400
    :alt: Stacker
    :align: center  
 
-When stacking is enabled in eFinder mode, the stacked image will be aligned to the sky. You can enable eFinder features such as displaying a constellation as shown in the following example.
+When stacking is enabled in eFinder mode, the stacked image will be aligned to the sky. You can enable eFinder features such as displaying a constellation |const_icon| as shown in the following example.
 
 .. figure:: /images/stacker_const.png
    :width: 400
    :alt: Stacker
    :align: center  
+
+.. |const_icon| image:: /images/const.png
+                :scale: 30 %   
+
+
 
 Dr. Pole
 ---------------
@@ -322,18 +341,28 @@ Follow the procedure below for the polar alignment.
    :alt: EQ mount
    :align: center
 
-.. admonition:: Important
+.. admonition:: Tips
 
-    Not like the other products, Astroid can be mounted on the DEC axis or directly on the telescope tube. This gives you more flexibility when the pole star is not visible. But you can mount Astroid on the RA axis too. 
+    Not like the other products, Astroid can be mounted on the DEC axis or directly on the telescope tube. This gives you more flexibility when the pole star is not visible. But you can mount Astroid on the RA axis too.
 
 
 3. Rotate the lens to adjust focus if it is the first time. Set exposure to 0.3 seconds and exposure to 150 for fast focusing
-4. Click the eye button to start live sky recognition. 
-5. Click the telescope icon on the buttom right corner.
+4. Click the eye button |liveps| to start live sky recognition. 
+5. Click the telescope icon |polaralign| on the buttom icon bar.
+
+.. |polaralign| image:: /images/polaralign.png
+                :scale: 30 %
+                                
 6. Move the RA axis of the telescope to the first position (-30 degrees) and wait until the sky is recognized
-7. Press the next button and move the RA axis again to 0 degrees and repeat 6,7 for one more time. 
-8. Once the axis finder is normally finished, the rotation axis and the SCP or NCP will be displayed on the screen with a guideline.
-9. Adjust your mount base according to the guideline
+7. Press the next button and move the RA axis again to 0,+30 degrees and repeat 6,7 for two more time. 
+8. Once the axis finder is normally finished, you can start the poalignment mode by pressing "Start" button on the right down side corner.
+9. The red circle mark is your rotation axis and SCP/NCP is the pole location. Adjust your mount base according to the guideline so that the red circle mark is close enough to the pole location. 
+
+.. figure:: /images/polaralign_mode.png
+   :width: 400
+   :alt: EQ mount
+   :align: center
+
 
 
 How to Turn Off Astroid
