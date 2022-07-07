@@ -273,16 +273,35 @@ If you would like to use astroid as a finder along with your main telescope, you
     The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope point your telescope to that object and then use the joystick to move the target mark. But the alignment can be done at night too using stars.
 
 
-EAA Stacker
----------------
+Live Image Stacking
+--------------------
 
 Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration easy. You can use this feature either for the basic lens, DLSR lens, or telescope. 
 
 When the stacker is used with the basic lens, you can observe the Milkway in real-time. 
 
-DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with your bare eye.
+To use the EAA stacker with the basic lens, just click the stack icon |stack_icon|. 
 
-If you use a high magnification lens, EAA stacker will automatically register moving star images to the first image so that you can obserbe the target without a star tracker.
+.. figure:: /images/stacker5mm_onoff.png
+   :width: 400
+   :alt: Stacker
+   :align: center  
+
+When stacking is enabled in eFinder mode, the stacked image will be aligned to the sky. You can enable eFinder features such as displaying a constellation |const_icon| as shown in the following example.
+
+.. figure:: /images/stacker_const.png
+   :width: 400
+   :alt: Stacker
+   :align: center  
+
+.. |const_icon| image:: /images/const.png
+                :scale: 30 %   
+
+Also, once the sky is recognized you can click and figure out the name of the shiny sky object.
+
+DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with bare eye.
+
+If you use a high magnification lens, turn on Auto registration mode. EAA stacker will automatically register moving star images to the first image so that you can obserbe the target without a star tracker.
 
 Follow the procedure below to use EAA stacker with a DSLR lens or telescope lens. 
 
@@ -315,22 +334,6 @@ The following shows the images captured with Astroid on Celestron 90GT without t
 
 
 
-To use the EAA stacker with the basic lens, just click the stack icon |stack_icon|. 
-
-.. figure:: /images/stacker5mm_onoff.png
-   :width: 400
-   :alt: Stacker
-   :align: center  
-
-When stacking is enabled in eFinder mode, the stacked image will be aligned to the sky. You can enable eFinder features such as displaying a constellation |const_icon| as shown in the following example.
-
-.. figure:: /images/stacker_const.png
-   :width: 400
-   :alt: Stacker
-   :align: center  
-
-.. |const_icon| image:: /images/const.png
-                :scale: 30 %   
 
 
 
