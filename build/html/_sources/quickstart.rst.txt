@@ -29,7 +29,7 @@ Start Astroid
 Quick Menu
 -------------
 
-For a quick control of the camera, open the quick menu by clicking the menu icon |quick_menu_panel| on the top left corner.
+For quick control of the camera, open the quick menu by clicking the menu icon |quick_menu_panel| on the top left corner.
 
 .. figure:: /images/quick_menu_panel.png
    :width: 400
@@ -41,13 +41,13 @@ For a quick control of the camera, open the quick menu by clicking the menu icon
 
 Exposure: Sensor exposure time. Longer exposure is available in the setting menu.
 
-Gain: Sensor gain. High exposure drastically increase noise. Enabling stacking or increasing exposure will reduce the noise.
+Gain: Sensor gain. High exposure drastically increases noise. Enabling stacking or increasing exposure will reduce the noise.
 
-Manual Exposure: Enabling this will automatically adjust gain or exposure to meet the desired image brightness. More auto exposure setting can be found in the setting menu.
+Manual Exposure: Enabling this will automatically adjust gain or exposure to meet the desired image brightness. More auto exposure controls can be found in the setting menu.
 
-Mean Subtraction: Enabling this will subtract mean pixel value from the entire image to remove light pollution.
+Mean Subtraction: Enabling this will subtract the mean pixel value from the entire image to remove light pollution.
 
-Dark Control: Move the slider to left to make darker. This only works when stacker is enabled.
+Dark Control: Move the slider to the left to make it darker. This only works when the stacker is enabled.
 
 
 Enhance Control: Moving this slider to left will amplify a small image signal. This can be used to observe a faint object.
@@ -58,18 +58,21 @@ Opacity: Adjust this slider to control line brightness.
 Lens Mount
 -------------
 
-Astroid Multi can be used in two diffrent ways. If you would like to use the sky recognition feature in **eFinder** and **Dr. Pole**, please mount the provided 5mm lens to the camera body.
+Astroid Multi can be used in two different ways. If you would like to use the sky recognition feature in **eFinder** and **Dr. Pole**, please mount the provided 5mm lens to the camera body.
 
 
 ..
    _This: 사진 바꿀것
 
 
+eFinder 
+--------------------------
+
+
+This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in image sensor and the basic lens, you can use Astroid as an electronic finder. Astroid's eFinder does not just show you a sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.
 
 Starting eFinder 
--------------------
-
-This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in image sensor and the basic lens, you can use Astroid as an electronic finder. Astroid's eFinder does not just show you sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.
+~~~~~~~~~~~~~~~~~~~~~~
 
 Follow the procedure below to start eFinder.
 
@@ -114,9 +117,9 @@ Follow the procedure below to start eFinder.
 
 
 Star Searching with eFinder 
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Touch/click the finder icon |search_icon| on the bottom and search any object you want to find by typing a star ID or name. You can use search key word such as "M1", "ngc3372", "orion". 
+1. Touch/click the finder icon |search_icon| on the bottom and search any object you want to find by typing a star ID or name. You can use search keyword such as "M1", "ngc3372", "orion". 
 
 .. figure:: /images/finder.png
    :width: 400
@@ -134,7 +137,7 @@ Star Searching with eFinder
                 :scale: 70 %   
 
 
-3. Red target mark is what your main lens is looking at and the green mark is where you need to move your telescope to. The small arrow around the red target is the direction you should move to.
+3. Red target mark is what your main lens is looking at and the green mark is where you need to move your telescope. The small arrow around the red target is the direction you should move to.
 
 .. figure:: /images/search_guideline2.png
    :width: 400
@@ -165,11 +168,11 @@ Star Searching with eFinder
 
 
 GPS Location
----------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 The 3D planetarium feature requires the GPS location to draw the night sky pattern above your location.
 
-If it is the first time to use or the location you use Astroid is far away from the last location, update the longitude and latitude value under **Astro Tools** menu. Click the setting |setting_icon| icon to show the menu. 
+If it is the first time use or the location you use Astroid is far away from the last location, update the longitude and latitude value under **Astro Tools** menu. Click the setting |setting_icon| icon to show the menu. 
 
 .. figure:: /images/longlat.png
    :width: 400
@@ -179,7 +182,7 @@ If it is the first time to use or the location you use Astroid is far away from 
                 :scale: 30 %   
 
 
-If you don't know your longitude and latitude, go to google map and see what is your longitude and latitude. **This manual GPS input will be changed to automatic in the future update.**
+If you don't know your longitude and latitude, go to google maps and see what is your longitude and latitude. **This manual GPS input will be changed to automatic in the future update.**
 
 .. figure:: /images/gps_google_maps.png
    :alt: GPS location from google maps
@@ -219,8 +222,8 @@ If you don't know your longitude and latitude, go to google map and see what is 
 
 
 ARZoom
----------------
-ARZoom will show you a virtual view of your main telescope. If you set it to the same FoV of your eyepiece you will see the same view to the ARZoom image in your eye piece. Note that the red circle is your main telescope view and ARZoom will display the sky image around the red circle. You can zoom in or out as you want by pressing +/- button under the ARZoom window. 
+~~~~~~~~~~~~~~~~~~~~~~
+ARZoom will show you a virtual view of your main telescope. If you set it to the same FoV of your eyepiece you will see the same view as the ARZoom image in your eye piece. Note that the red circle is your main telescope view and ARZoom will display the sky image around the red circle. You can zoom in or out as you want by pressing +/- button under the ARZoom window. 
 
 This feature only works when the sky is recognized.
     
@@ -232,12 +235,12 @@ This feature only works when the sky is recognized.
    
       
 eFinder Align
--------------
+~~~~~~~~~~~~~~~~~~~~~~
 
-If you would like to use astroid as a finder along with your main telescope, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.
+If you would like to use Astroid as a finder along with your main telescope, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.
 
 
-1. Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or house window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.
+1. Adjust your telescope to put a bright and distinctive object in the center of the eyepiece. Street light or house window light is useful for this. Starlight is not recommended as it is not very distinctive and is moving.
 2. Press the eye button |liveps| to start sky recognition mode. 
 
 3. Press the align icon |dgs_align| on the down side icon bar to turn on the align mode.
@@ -260,7 +263,7 @@ If you would like to use astroid as a finder along with your main telescope, you
    
    Joystick
    
-6. Press the align icon |dgs_align| again to terminate the align mode. This will automatically save the current location so that you do not need to do the align next time. 
+6. Press the align icon |dgs_align| again to terminate the align mode. This will automatically save the current location so that you do not need to do the alignment next time. 
 
 
 .. admonition:: Tips
@@ -270,7 +273,7 @@ If you would like to use astroid as a finder along with your main telescope, you
 
 .. admonition:: Important
 
-    The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope point your telescope to that object and then use the joystick to move the target mark. But the alignment can be done at night too using stars.
+    The first alignment is highly recommended to be done at sunset rather than a dark night. If you have a bright object like a street light around your telescope point your telescope to that object and then use the joystick to move the target mark. But the alignment can be done at night too using stars.
 
 
 Live Image Stacking
@@ -278,6 +281,9 @@ Live Image Stacking
 
 Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration easy. You can use this feature either for the basic lens, DLSR lens, or telescope. 
 
+
+Basic Lens
+~~~~~~~~~~~~~~~~~~~~~~
 When the stacker is used with the basic lens, you can observe the Milkway in real-time. 
 
 To use the EAA stacker with the basic lens, just click the stack icon |stack_icon|. 
@@ -299,7 +305,11 @@ When stacking is enabled in eFinder mode, the stacked image will be aligned to t
 
 Also, once the sky is recognized you can click and figure out the name of the shiny sky object.
 
-DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with bare eye.
+
+
+Custom Lens
+~~~~~~~~~~~~~~~~~~~~~~
+DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lenses, it will give you a much brighter image of the sky object than observing them with the bare eye.
 
 If you use a high magnification lens, turn on Auto registration mode. EAA stacker will automatically register moving star images to the first image so that you can obserbe the target without a star tracker.
 
@@ -337,8 +347,8 @@ The following shows the images captured with Astroid on Celestron 90GT without t
 
 
 
-Dr. Pole
----------------
+Polar Alignment with Dr. Pole
+---------------------------------
 
 Dr. Pole is a standalone polar alignment assistant tool for EQ mounts. Compared to the existing solution, **Dr. Pole does not require the pole star to be within the camera view** which makes the polar alignment much easier when you are in the Southern hemisphere or when the pole star is not visible around your place due to a tree or building.  
 
@@ -358,14 +368,14 @@ Follow the procedure below for the polar alignment.
 
 
 3. Click the eye button |liveps| to start live sky recognition and wait until the sky is recognized.
-4. Click the telescope icon |polaralign| on the buttom icon bar.
+4. Click the telescope icon |polaralign| on the bottom icon bar.
 
 .. |polaralign| image:: /images/polaralign.png
                 :scale: 30 %
                                 
 5. Move the RA axis of the telescope to the first position (-30 degrees) and wait until the sky is recognized
-6. Press the next button and move the RA axis again to 0,+30 degrees and repeat 6,7 for two more time. 
-7. Once the axis finder is normally finished, you can start the poalignment mode by pressing "Start" button on the right down side corner.
+6. Press the next button and move the RA axis again to 0,+30 degrees and repeat 6,7 for two more times. 
+7. Once the axis finder is normally finished, you can start the alignment mode by pressing the "Start" button on the right downside corner.
 8. The red circle mark is your rotation axis and SCP/NCP is the pole location. Adjust your mount base according to the guideline so that the red circle mark is close enough to the pole location. 
 
 .. figure:: /images/polaralign_mode.png
@@ -379,7 +389,7 @@ How to Turn Off Astroid
 -----------------------
 
 1. Press PowerOff button |power_icon|
-2. Wait until you see the good bye message on the screen
+2. Wait until you see the goodbye message on the screen
 3. Unplug the power
 
 .. |power_icon| image:: /images/power.png
@@ -390,4 +400,4 @@ How to Turn Off Astroid
 
 .. admonition:: Important
 
-    If you cut the power without parking, sometimes the SD card is corrupted and you have to recover it to factory setup.
+    If you cut the power without parking, sometimes the SD card is corrupted and you have to recover it to the factory setup.

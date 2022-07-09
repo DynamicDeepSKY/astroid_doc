@@ -44,13 +44,20 @@
 <li class="toctree-l2"><a class="reference internal" href="#start-astroid">Start Astroid</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#quick-menu">Quick Menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#lens-mount">Lens Mount</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#starting-efinder">Starting eFinder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#star-searching-with-efinder">Star Searching with eFinder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#gps-location">GPS Location</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#arzoom">ARZoom</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#efinder-align">eFinder Align</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#live-image-stacking">Live Image Stacking</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#dr-pole">Dr. Pole</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#efinder">eFinder</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#starting-efinder">Starting eFinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#star-searching-with-efinder">Star Searching with eFinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gps-location">GPS Location</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#arzoom">ARZoom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#efinder-align">eFinder Align</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#live-image-stacking">Live Image Stacking</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#basic-lens">Basic Lens</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#custom-lens">Custom Lens</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#polar-alignment-with-dr-pole">Polar Alignment with Dr. Pole</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-turn-off-astroid">How to Turn Off Astroid</a></li>
 </ul>
 </li>
@@ -128,25 +135,27 @@
 </div>
 <div class="section" id="quick-menu">
 <h2>Quick Menu<a class="headerlink" href="#quick-menu" title="Permalink to this headline">¶</a></h2>
-<p>For a quick control of the camera, open the quick menu by clicking the menu icon <a class="reference internal" href="_images/quick_menu_icon.png"><img alt="quick_menu_panel" src="_images/quick_menu_icon.png" style="width: 22.5px; height: 19.5px;" /></a> on the top left corner.</p>
+<p>For quick control of the camera, open the quick menu by clicking the menu icon <a class="reference internal" href="_images/quick_menu_icon.png"><img alt="quick_menu_panel" src="_images/quick_menu_icon.png" style="width: 22.5px; height: 19.5px;" /></a> on the top left corner.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/quick_menu_panel.png"><img alt="Lens mount" src="_images/quick_menu_panel.png" style="width: 400px;" /></a>
 </div>
 <p>Exposure: Sensor exposure time. Longer exposure is available in the setting menu.</p>
-<p>Gain: Sensor gain. High exposure drastically increase noise. Enabling stacking or increasing exposure will reduce the noise.</p>
-<p>Manual Exposure: Enabling this will automatically adjust gain or exposure to meet the desired image brightness. More auto exposure setting can be found in the setting menu.</p>
-<p>Mean Subtraction: Enabling this will subtract mean pixel value from the entire image to remove light pollution.</p>
-<p>Dark Control: Move the slider to left to make darker. This only works when stacker is enabled.</p>
+<p>Gain: Sensor gain. High exposure drastically increases noise. Enabling stacking or increasing exposure will reduce the noise.</p>
+<p>Manual Exposure: Enabling this will automatically adjust gain or exposure to meet the desired image brightness. More auto exposure controls can be found in the setting menu.</p>
+<p>Mean Subtraction: Enabling this will subtract the mean pixel value from the entire image to remove light pollution.</p>
+<p>Dark Control: Move the slider to the left to make it darker. This only works when the stacker is enabled.</p>
 <p>Enhance Control: Moving this slider to left will amplify a small image signal. This can be used to observe a faint object.</p>
 <p>Opacity: Adjust this slider to control line brightness.</p>
 </div>
 <div class="section" id="lens-mount">
 <h2>Lens Mount<a class="headerlink" href="#lens-mount" title="Permalink to this headline">¶</a></h2>
-<p>Astroid Multi can be used in two diffrent ways. If you would like to use the sky recognition feature in <strong>eFinder</strong> and <strong>Dr. Pole</strong>, please mount the provided 5mm lens to the camera body.</p>
+<p>Astroid Multi can be used in two different ways. If you would like to use the sky recognition feature in <strong>eFinder</strong> and <strong>Dr. Pole</strong>, please mount the provided 5mm lens to the camera body.</p>
 </div>
+<div class="section" id="efinder">
+<h2>eFinder<a class="headerlink" href="#efinder" title="Permalink to this headline">¶</a></h2>
+<p>This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in image sensor and the basic lens, you can use Astroid as an electronic finder. Astroid’s eFinder does not just show you a sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.</p>
 <div class="section" id="starting-efinder">
-<h2>Starting eFinder<a class="headerlink" href="#starting-efinder" title="Permalink to this headline">¶</a></h2>
-<p>This feature of Astroid completely substitutes the conventional dot finder or finder scope. With the built-in image sensor and the basic lens, you can use Astroid as an electronic finder. Astroid’s eFinder does not just show you sky image but can tell you what are you looking at and guide you to the sky objects you would like to see.</p>
+<h3>Starting eFinder<a class="headerlink" href="#starting-efinder" title="Permalink to this headline">¶</a></h3>
 <p>Follow the procedure below to start eFinder.</p>
 <ol class="arabic simple">
 <li>Mount the holder to your telescope.</li>
@@ -168,9 +177,9 @@
 </ol>
 </div>
 <div class="section" id="star-searching-with-efinder">
-<h2>Star Searching with eFinder<a class="headerlink" href="#star-searching-with-efinder" title="Permalink to this headline">¶</a></h2>
+<h3>Star Searching with eFinder<a class="headerlink" href="#star-searching-with-efinder" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Touch/click the finder icon <a class="reference internal" href="_images/search.png"><img alt="search_icon" src="_images/search.png" style="width: 19.5px; height: 19.5px;" /></a> on the bottom and search any object you want to find by typing a star ID or name. You can use search key word such as “M1”, “ngc3372”, “orion”.</li>
+<li>Touch/click the finder icon <a class="reference internal" href="_images/search.png"><img alt="search_icon" src="_images/search.png" style="width: 19.5px; height: 19.5px;" /></a> on the bottom and search any object you want to find by typing a star ID or name. You can use search keyword such as “M1”, “ngc3372”, “orion”.</li>
 </ol>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/finder.png"><img alt="Finder align" src="_images/finder.png" style="width: 400px;" /></a>
@@ -179,7 +188,7 @@
 <li>Touch the location preview icon <a class="reference internal" href="_images/btGotoSelectedObject-on.png"><img alt="preview" src="_images/btGotoSelectedObject-on.png" style="width: 22.4px; height: 22.4px;" /></a> to see the location and trail of the star or touch the photo to start the guide mode. The guide mode will tell you which direction you should move your main telescope to see the target start.</li>
 </ol>
 <ol class="arabic simple" start="3">
-<li>Red target mark is what your main lens is looking at and the green mark is where you need to move your telescope to. The small arrow around the red target is the direction you should move to.</li>
+<li>Red target mark is what your main lens is looking at and the green mark is where you need to move your telescope. The small arrow around the red target is the direction you should move to.</li>
 </ol>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/search_guideline2.png"><img alt="Guide line" src="_images/search_guideline2.png" style="width: 400px;" /></a>
@@ -200,13 +209,13 @@
 </div>
 </div>
 <div class="section" id="gps-location">
-<h2>GPS Location<a class="headerlink" href="#gps-location" title="Permalink to this headline">¶</a></h2>
+<h3>GPS Location<a class="headerlink" href="#gps-location" title="Permalink to this headline">¶</a></h3>
 <p>The 3D planetarium feature requires the GPS location to draw the night sky pattern above your location.</p>
-<p>If it is the first time to use or the location you use Astroid is far away from the last location, update the longitude and latitude value under <strong>Astro Tools</strong> menu. Click the setting <a class="reference internal" href="_images/setting.png"><img alt="setting_icon" src="_images/setting.png" style="width: 19.5px; height: 19.5px;" /></a> icon to show the menu.</p>
+<p>If it is the first time use or the location you use Astroid is far away from the last location, update the longitude and latitude value under <strong>Astro Tools</strong> menu. Click the setting <a class="reference internal" href="_images/setting.png"><img alt="setting_icon" src="_images/setting.png" style="width: 19.5px; height: 19.5px;" /></a> icon to show the menu.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/longlat.png"><img alt="_images/longlat.png" src="_images/longlat.png" style="width: 400px;" /></a>
 </div>
-<p>If you don’t know your longitude and latitude, go to google map and see what is your longitude and latitude. <strong>This manual GPS input will be changed to automatic in the future update.</strong></p>
+<p>If you don’t know your longitude and latitude, go to google maps and see what is your longitude and latitude. <strong>This manual GPS input will be changed to automatic in the future update.</strong></p>
 <div class="figure align-center">
 <img alt="GPS location from google maps" src="_images/gps_google_maps.png" />
 </div>
@@ -252,18 +261,18 @@
 </table>
 </div>
 <div class="section" id="arzoom">
-<h2>ARZoom<a class="headerlink" href="#arzoom" title="Permalink to this headline">¶</a></h2>
-<p>ARZoom will show you a virtual view of your main telescope. If you set it to the same FoV of your eyepiece you will see the same view to the ARZoom image in your eye piece. Note that the red circle is your main telescope view and ARZoom will display the sky image around the red circle. You can zoom in or out as you want by pressing +/- button under the ARZoom window.</p>
+<h3>ARZoom<a class="headerlink" href="#arzoom" title="Permalink to this headline">¶</a></h3>
+<p>ARZoom will show you a virtual view of your main telescope. If you set it to the same FoV of your eyepiece you will see the same view as the ARZoom image in your eye piece. Note that the red circle is your main telescope view and ARZoom will display the sky image around the red circle. You can zoom in or out as you want by pressing +/- button under the ARZoom window.</p>
 <p>This feature only works when the sky is recognized.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/arzoom.png"><img alt="Guide line" src="_images/arzoom.png" style="width: 400px;" /></a>
 </div>
 </div>
 <div class="section" id="efinder-align">
-<h2>eFinder Align<a class="headerlink" href="#efinder-align" title="Permalink to this headline">¶</a></h2>
-<p>If you would like to use astroid as a finder along with your main telescope, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.</p>
+<h3>eFinder Align<a class="headerlink" href="#efinder-align" title="Permalink to this headline">¶</a></h3>
+<p>If you would like to use Astroid as a finder along with your main telescope, you have to align Astroid to your main telescope view just like what you do with a conventional finder scope but in a digital way. Follow the procedure below to align Astroid to your main lens.</p>
 <ol class="arabic simple">
-<li>Adjust your telescope to put a bright and distinctive&nbsp;object in the center of the eyepiece. Street light or house window light is useful for this. Starlight is not recommended as it is not very distinctive and moving.</li>
+<li>Adjust your telescope to put a bright and distinctive&nbsp;object in the center of the eyepiece. Street light or house window light is useful for this. Starlight is not recommended as it is not very distinctive and is moving.</li>
 <li>Press the eye button <a class="reference internal" href="_images/liveps.png"><img alt="liveps" src="_images/liveps.png" style="width: 19.5px; height: 19.5px;" /></a> to start sky recognition mode.</li>
 <li>Press the align icon <a class="reference internal" href="_images/dgs_align.png"><img alt="dgs_align" src="_images/dgs_align.png" style="width: 19.2px; height: 19.2px;" /></a> on the down side icon bar to turn on the align mode.</li>
 <li>Identify the location of the bright object in the image</li>
@@ -278,7 +287,7 @@
 <p class="caption"><span class="caption-text">Joystick</span></p>
 </div>
 <ol class="arabic simple" start="6">
-<li>Press the align icon <a class="reference internal" href="_images/dgs_align.png"><img alt="dgs_align" src="_images/dgs_align.png" style="width: 19.2px; height: 19.2px;" /></a> again to terminate the align mode. This will automatically save the current location so that you do not need to do the align next time.</li>
+<li>Press the align icon <a class="reference internal" href="_images/dgs_align.png"><img alt="dgs_align" src="_images/dgs_align.png" style="width: 19.2px; height: 19.2px;" /></a> again to terminate the align mode. This will automatically save the current location so that you do not need to do the alignment next time.</li>
 </ol>
 <div class="admonition-tips admonition">
 <p class="first admonition-title">Tips</p>
@@ -286,12 +295,15 @@
 </div>
 <div class="admonition-important admonition">
 <p class="first admonition-title">Important</p>
-<p class="last">The first alignment is highly recommended to be done in the sunset rather than a dark night. If you have a bright object like a street light around your telescope point your telescope to that object and then use the joystick to move the target mark. But the alignment can be done at night too using stars.</p>
+<p class="last">The first alignment is highly recommended to be done at sunset rather than a dark night. If you have a bright object like a street light around your telescope point your telescope to that object and then use the joystick to move the target mark. But the alignment can be done at night too using stars.</p>
+</div>
 </div>
 </div>
 <div class="section" id="live-image-stacking">
 <h2>Live Image Stacking<a class="headerlink" href="#live-image-stacking" title="Permalink to this headline">¶</a></h2>
 <p>Electronically Assisted Astronomy (EAA) stacker offers a set of tools that make the live stacking and registration easy. You can use this feature either for the basic lens, DLSR lens, or telescope.</p>
+<div class="section" id="basic-lens">
+<h3>Basic Lens<a class="headerlink" href="#basic-lens" title="Permalink to this headline">¶</a></h3>
 <p>When the stacker is used with the basic lens, you can observe the Milkway in real-time.</p>
 <p>To use the EAA stacker with the basic lens, just click the stack icon <a class="reference internal" href="_images/stack.png"><img alt="stack_icon" src="_images/stack.png" style="width: 19.2px; height: 19.2px;" /></a>.</p>
 <div class="figure align-center">
@@ -302,7 +314,10 @@
 <a class="reference internal image-reference" href="_images/stacker_const.png"><img alt="Stacker" src="_images/stacker_const.png" style="width: 400px;" /></a>
 </div>
 <p>Also, once the sky is recognized you can click and figure out the name of the shiny sky object.</p>
-<p>DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lens, it will give you a much brighter image of the sky object than observing them with bare eye.</p>
+</div>
+<div class="section" id="custom-lens">
+<h3>Custom Lens<a class="headerlink" href="#custom-lens" title="Permalink to this headline">¶</a></h3>
+<p>DSLR lens or telescope lens can be mounted on Astroid after removing the basic lens. When EAA stacker is used with these two types of lenses, it will give you a much brighter image of the sky object than observing them with the bare eye.</p>
 <p>If you use a high magnification lens, turn on Auto registration mode. EAA stacker will automatically register moving star images to the first image so that you can obserbe the target without a star tracker.</p>
 <p>Follow the procedure below to use EAA stacker with a DSLR lens or telescope lens.</p>
 <ol class="arabic simple">
@@ -322,8 +337,9 @@
 <p class="caption"><span class="caption-text">Image credit: youtuber 우주in</span></p>
 </div>
 </div>
-<div class="section" id="dr-pole">
-<h2>Dr. Pole<a class="headerlink" href="#dr-pole" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="polar-alignment-with-dr-pole">
+<h2>Polar Alignment with Dr. Pole<a class="headerlink" href="#polar-alignment-with-dr-pole" title="Permalink to this headline">¶</a></h2>
 <p>Dr. Pole is a standalone polar alignment assistant tool for EQ mounts. Compared to the existing solution, <strong>Dr. Pole does not require the pole star to be within the camera view</strong> which makes the polar alignment much easier when you are in the Southern hemisphere or when the pole star is not visible around your place due to a tree or building.</p>
 <p>Follow the procedure below for the polar alignment.</p>
 <ol class="arabic simple">
@@ -339,12 +355,12 @@
 </div>
 <ol class="arabic simple" start="3">
 <li>Click the eye button <a class="reference internal" href="_images/liveps.png"><img alt="liveps" src="_images/liveps.png" style="width: 19.5px; height: 19.5px;" /></a> to start live sky recognition and wait until the sky is recognized.</li>
-<li>Click the telescope icon <a class="reference internal" href="_images/polaralign.png"><img alt="polaralign" src="_images/polaralign.png" style="width: 19.2px; height: 19.2px;" /></a> on the buttom icon bar.</li>
+<li>Click the telescope icon <a class="reference internal" href="_images/polaralign.png"><img alt="polaralign" src="_images/polaralign.png" style="width: 19.2px; height: 19.2px;" /></a> on the bottom icon bar.</li>
 </ol>
 <ol class="arabic simple" start="5">
 <li>Move the RA axis of the telescope to the first position (-30 degrees) and wait until the sky is recognized</li>
-<li>Press the next button and move the RA axis again to 0,+30 degrees and repeat 6,7 for two more time.</li>
-<li>Once the axis finder is normally finished, you can start the poalignment mode by pressing “Start” button on the right down side corner.</li>
+<li>Press the next button and move the RA axis again to 0,+30 degrees and repeat 6,7 for two more times.</li>
+<li>Once the axis finder is normally finished, you can start the alignment mode by pressing the “Start” button on the right downside corner.</li>
 <li>The red circle mark is your rotation axis and SCP/NCP is the pole location. Adjust your mount base according to the guideline so that the red circle mark is close enough to the pole location.</li>
 </ol>
 <div class="figure align-center">
@@ -355,12 +371,12 @@
 <h2>How to Turn Off Astroid<a class="headerlink" href="#how-to-turn-off-astroid" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Press PowerOff button <a class="reference internal" href="_images/power.png"><img alt="power_icon" src="_images/power.png" style="width: 19.2px; height: 19.2px;" /></a></li>
-<li>Wait until you see the good bye message on the screen</li>
+<li>Wait until you see the goodbye message on the screen</li>
 <li>Unplug the power</li>
 </ol>
 <div class="admonition-important admonition">
 <p class="first admonition-title">Important</p>
-<p class="last">If you cut the power without parking, sometimes the SD card is corrupted and you have to recover it to factory setup.</p>
+<p class="last">If you cut the power without parking, sometimes the SD card is corrupted and you have to recover it to the factory setup.</p>
 </div>
 </div>
 </div>
