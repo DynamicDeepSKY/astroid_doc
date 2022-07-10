@@ -132,9 +132,9 @@
 <p><a class="reference internal" href="_images/satellite_green.png"><img alt="satellite_green" src="_images/satellite_green.png" style="width: 32.0px; height: 32.0px;" /></a> GPS valid</p>
 <p><a class="reference internal" href="_images/satellite_red.png"><img alt="satellite_red" src="_images/satellite_red.png" style="width: 32.0px; height: 32.0px;" /></a> GPS input required</p>
 <p><a class="reference internal" href="_images/save_green.png"><img alt="save_green" src="_images/save_green.png" style="width: 32.0px; height: 32.0px;" /></a> Inave save on</p>
-<p><a class="reference internal" href="_images/temp_green.png"><img alt="temp_green" src="_images/temp_green.png" style="width: 32.0px; height: 32.0px;" /></a> CPU temparature is in normal range</p>
+<p><a class="reference internal" href="_images/temp_green.png"><img alt="temp_green" src="_images/temp_green.png" style="width: 32.0px; height: 32.0px;" /></a> CPU temparature is in a normal range</p>
 <p><a class="reference internal" href="_images/temp_red.png"><img alt="temp_red" src="_images/temp_red.png" style="width: 32.0px; height: 32.0px;" /></a> CPU is overheated</p>
-<p><a class="reference internal" href="_images/usbmemory_green.png"><img alt="usbmemory_green" src="_images/usbmemory_green.png" style="width: 32.0px; height: 32.0px;" /></a> USB recognized</p>
+<p><a class="reference internal" href="_images/usbmemory_green.png"><img alt="usbmemory_green" src="_images/usbmemory_green.png" style="width: 19.2px; height: 19.2px;" /></a> USB recognized</p>
 </div>
 <div class="section" id="quick-control-icons">
 <h2>Quick control icons<a class="headerlink" href="#quick-control-icons" title="Permalink to this headline">¶</a></h2>
@@ -151,7 +151,7 @@
 <p><a class="reference internal" href="_images/AR.png"><img alt="AR" src="_images/AR.png" style="width: 38.4px; height: 38.4px;" /></a> Augmented reality mode on/off</p>
 <p><a class="reference internal" href="_images/showstar.png"><img alt="showstar" src="_images/showstar.png" style="width: 38.4px; height: 38.4px;" /></a> Star display on/off</p>
 <p><a class="reference internal" href="_images/showdso.png"><img alt="showdso" src="_images/showdso.png" style="width: 39.0px; height: 39.0px;" /></a> DSO display on/off</p>
-<p><a class="reference internal" href="_images/autodso_search.png"><img alt="autodso_search" src="_images/autodso_search.png" style="width: 39.0px; height: 39.0px;" /></a> Nearist DSO auto display on/off</p>
+<p><a class="reference internal" href="_images/autodso_search.png"><img alt="autodso_search" src="_images/autodso_search.png" style="width: 39.0px; height: 39.0px;" /></a> Nearest DSO auto display on/off</p>
 <p><a class="reference internal" href="_images/const.png"><img alt="const" src="_images/const.png" style="width: 39.0px; height: 39.0px;" /></a> Constellation display on/off</p>
 <p><a class="reference internal" href="_images/timelapse.png"><img alt="timelapse" src="_images/timelapse.png" style="width: 39.0px; height: 39.0px;" /></a> Time lapse start/end</p>
 <p><a class="reference internal" href="_images/nightmode.png"><img alt="nightmode" src="_images/nightmode.png" style="width: 39.0px; height: 39.0px;" /></a> Night mode on/off</p>
@@ -169,61 +169,61 @@
 <div class="figure align-center">
 <img alt="Finder align" src="_images/menu_cam_setting.png" />
 </div>
-<p>Auto Mode: Auto exposure mode selection. AUTOGAIN fix exposure and only adjust gain</p>
-<p>Brightness: Sensor auto exposure level.</p>
+<p>Auto Mode: Auto exposure mode selection. AUTOGAIN fixes exposure and only adjusts the gain.</p>
+<p>Brightness: Sensor auto exposure level. Gain or exposure will be automatically adjusted to meet this value.</p>
 <p>Exposure: Sensor exposure time in second.</p>
-<p>Gain: Sensor gain</p>
+<p>Gain: Sensor gain.</p>
 <p>Image Quality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.</p>
-<p>ZoomMode: Turning this optin will force Astroid to send down sized image in faster frame transfere rate. This option is usuful when focusing.</p>
+<p>ZoomMode: Turn on this option to receive the cropped image at a faster frame rate. This option is useful when adjusting the focus.</p>
 <p>ZoomSize: Image size in pixel.</p>
-<p>Mean Subtraction: Mean subtraction.</p>
+<p>Mean Subtraction: Check this option to subtract the mean pixel value from the image. This can be used to remove light pollution from the image.</p>
 <p>Mean Low Cut: Mean subtraction level.</p>
-<p>Light Pollution Removal: This will remove gradiant caused by light pollution.</p>
-<p>No IR-CUT: Check this option when the IR cut filter is removed</p>
-<p>AUTO WB: automatic white balance</p>
-<p>PNG Format: Png format image downlaod</p>
-<p>TIFF Format: Raw format image download</p>
+<p>Light Pollution Removal: This will remove gradient caused by light pollution. Note that Mean Subtraction above cannot handle light pollution with gradient.</p>
+<p>No IR-CUT: Check this option when the IR-CUT filter is removed. This will disable the wrong color correction.</p>
+<p>AUTO WB: Automatic white balance. Select this option when IR-CUT filter is removed. The system tries to adjust the white balance without IR-CUT filter.</p>
+<p>PNG Format: Png format image download.</p>
+<p>TIFF Format: Raw format image download.</p>
 </div>
 <div class="section" id="astro-tools-menu">
 <h2>Astro Tools Menu<a class="headerlink" href="#astro-tools-menu" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center">
 <img alt="Finder align" src="_images/menu_astro_tools.png" />
 </div>
-<p>Detector: Star detector option</p>
+<p>Detector: Star detector method selection.</p>
 <p>Longitude: Longitude of your location.</p>
 <p>Latitude: Latitude of your location.</p>
-<p>Time Adjust: This can adjust system time to preview the sky at given time</p>
+<p>Time Adjust: This can adjust system time to preview the sky at a given time</p>
 <p>Show Mini Map: Mini image turn on/off</p>
 <p>Show Image: Uncheck this option if you only want to see the red circle marker</p>
 <p>Show Finder Mark: Uncheck this option if you want to remove the red circle marker</p>
-<p>Marker Size: Adjust this slider to set the red circle marker size identical to your main telescope</p>
+<p>Marker Size: Adjust this slider to adjust the red circle marker size identical to your main telescope</p>
 <p>Show Names: Uncheck this if you want to hide all names</p>
-<p>Guide Line: Check this option if you want to see azimuth and elevation guide line in guide mode</p>
-<p>Catalogue: This is the star catalogue that automatic nearest star search feature uses.</p>
-<p>Min/Max Size: Any DSO larger/smaller than these values will not be automatically searched. Adjust min/max value according to your main telescope’s field of view.</p>
-<p>Max Distance: Search boundary. Larger value will search wider area.</p>
-<p>Min/Max Mag: Any DSO darker/brighter than these values will not be automatically searched. Adjust min/max value according to your preference.</p>
-<p>Sort By: When auto search button is clicked in the star list, the found stars will be sorted by this option.</p>
-<p>RA(h:m:s), DEC(h:m:s): Custom RA, DEC location for commet and etc. Click “Add to the list” button to add the custom location to the star list.</p>
+<p>Guide Line: Check this option if you want to see azimuth and elevation guideline in guide mode</p>
+<p>Catalog: This is the star catalog that the automatic nearest star search feature uses.</p>
+<p>Min/Max Size: Any DSO larger/smaller than these values will not be automatically searched. Adjust the min/max value according to your main telescope’s field of view.</p>
+<p>Max Distance: Search boundary. A larger value will search a wider area.</p>
+<p>Min/Max Mag: Any DSO darker/brighter than these values will not be automatically searched. Adjust the min/max value according to your preference.</p>
+<p>Sort By: When the auto search button is clicked in the star list, the found stars will be sorted by this option.</p>
+<p>RA(h:m:s), DEC(h:m:s): Custom RA, DEC location for comet and etc. Click “Add to the list” button to add the custom location to the star list.</p>
 </div>
 <div class="section" id="timelapse-menu">
 <h2>Timelapse Menu<a class="headerlink" href="#timelapse-menu" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center">
 <img alt="Finder align" src="_images/menu_timelapse.png" />
 </div>
-<p>You can select differnt formats for timelapse image saving feature.</p>
+<p>You can select different formats for the&nbsp;timelapse image saving feature.</p>
 </div>
 <div class="section" id="system-setting-menu">
 <h2>System Setting Menu<a class="headerlink" href="#system-setting-menu" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-center">
 <img alt="Finder align" src="_images/menu_systemsetting.png" />
 </div>
-<p>Support Mode: Checking this to let our support team to remotely dignose your device. Plase speak with our support team first before you use this option.</p>
+<p>Support Mode: Check this to let our support team remotely diagnose your device. Please speak with our support team first before you use this option.</p>
 <p>ID: External wifi’s SSID</p>
 <p>Pass: External wifi’s password</p>
-<p>Email: Put your email here to receive the ip address of the device when it connected to the network</p>
+<p>Email: Put your email here to receive the IP address of the device when it connected to the network</p>
 <p>Phone: Enter your phone number in international format to receive the IP address.</p>
-<p>Get License File: You can download your license file by clicking this button. Downloaded license file can be used to recover your license setting after you recover the system. If you have not sotred this license file download system ID by clicking “Get System ID” and contact us.</p>
+<p>Get License File: You can download your license file by clicking this button. The downloaded license file can be used to recover your license setting after you recover the system. If you have not stored this license file, download the system ID by clicking “Get System ID” and contact us.</p>
 </div>
 <div class="section" id="collimation-menu">
 <h2>Collimation Menu<a class="headerlink" href="#collimation-menu" title="Permalink to this headline">¶</a></h2>
@@ -237,45 +237,45 @@
 </div>
 <div class="section" id="setting-up-license">
 <h2>Setting Up License<a class="headerlink" href="#setting-up-license" title="Permalink to this headline">¶</a></h2>
-<p>Astroid’s basic system and apps are protected by HW license keys. For this reason, if you recovered your device from the recovery image provided from the homepage, you have to recover the license as well. This requires to upload the license file to the web interface. The license file can be downloaded by clicking “Get License File” button in the system setting menu. It would be a good pratics to download the license file and store it on your computer once you receive the device.</p>
-<p>To upload the license file go to the system setting menu and click “License Code File” button and select the license file you sotred on your computer.</p>
-<p>In case you can’t access to the license file, please send us your system ID and serial number. Our staff will send you the license file as soon as possible.</p>
-<p>Also, if you replace Raspberry Pi 4, the original license code would not work. So, if you have any Raspberry Pi related problem please contact us rather than replace the Raspberry Pi yourself.</p>
+<p>Astroid’s basic system and apps are protected by HW license keys. For this reason, if you recover your device from the recovery image, you have to recover the license as well. This requires uploading the license file to the web interface. The license file can be downloaded by clicking “Get License File” button in the system setting menu. It would be a good practice to download the license file and store it on your computer once you receive the device.</p>
+<p>To upload the license file, go to the system setting menu and click <strong>License Code File</strong> button and select the license file you stored on your computer.</p>
+<p>In case you can’t access the license file, please send us your system ID and serial number. Our staff will send you the license file as soon as possible.</p>
+<p>Also, if you replace Raspberry Pi 4, the original license code would not work. So, if you have any Raspberry Pi related problems, please contact us rather than replace the Raspberry Pi yourself.</p>
 </div>
 <div class="section" id="hot-pixel-correction">
 <h2>Hot Pixel Correction<a class="headerlink" href="#hot-pixel-correction" title="Permalink to this headline">¶</a></h2>
-<p>The number of hot pixel naturally increses over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the procedure below to detect and correct the hot pixels.</p>
+<p>The number of hot pixels naturally increases over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel detector and corrector. But to correct the hot pixel you need to manually activate the hot pixel detector. Please, follow the procedure below to detect and correct the hot pixels.</p>
 <ol class="arabic simple">
 <li>Completly block the sensor using the provided sensor lid. Turn off every light around the room and make the room completely dark.</li>
-<li>Go to the camera setting and increase exposure to 1 second and set gain to 150.</li>
-<li>Go to system menu and adjust hot pixel level. Lower value will pick more hot pixels.</li>
-<li>Click hot pixel correction button.</li>
-<li>Try with the default value and if you still see some week hot pixels, lower the value little bit more until satisfactory.</li>
+<li>Go to the camera setting and increase exposure to 1 second and set the gain to 150.</li>
+<li>Go to the system menu and the adjust the hot pixel level. A lower value will pick more hot pixels.</li>
+<li>Click the hot pixel correction button.</li>
 <li>Run EAA stacker and see if hot pixels are disappeared</li>
+<li>Try with the default value and if you still see some weak hot pixels, lower the value and repeat the above until satisfactory.</li>
 </ol>
 </div>
 <div class="section" id="writing-images-to-usb-memory">
 <h2>Writing Images to USB Memory<a class="headerlink" href="#writing-images-to-usb-memory" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Prepare a DDS USB. Refer to the next section to make a DDS USB</li>
-<li>Insert the usb to Astroid and see if USB icon appear on the top status bar</li>
+<li>Insert the USB to Astroid and see if USB icon <a class="reference internal" href="_images/usbmemory_green.png"><img alt="usbmemory_green" src="_images/usbmemory_green.png" style="width: 19.2px; height: 19.2px;" /></a> appears on the top status bar</li>
 <li>Click the timelapse button to start recording</li>
 </ol>
-<div class="admonition-warnning admonition">
-<p class="first admonition-title">Warnning</p>
-<p class="last">Use high speed USB memorys only. With low speed usb, Astroid will continue to write files to USB even after you finished recording which will drastically increases the chance of file curruption.</p>
+<div class="admonition-warning admonition">
+<p class="first admonition-title">Warning</p>
+<p class="last">Use high-speed USB memory only. With low-speed USB, Astroid will continue to write files to USB even after you finished recording which will drastically increase the chance of file corruption.</p>
 </div>
 <div class="admonition-how-to-eject admonition">
 <p class="first admonition-title">How to eject</p>
-<p class="last">USB must be ejected after eject button is clicked and all the usb related icons are disappeared. Otherwise, the USB will be currupted and you will lost all data in the USB.</p>
+<p class="last">USB must be ejected after the eject button is clicked and all the USB related icons are disappeared. Otherwise, the USB will be corrupted and you will lose all data in the USB.</p>
 </div>
 </div>
 <div class="section" id="making-dds-usb">
 <h2>Making DDS USB<a class="headerlink" href="#making-dds-usb" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Prepare a SanDisk 32GB Ultra Fit or equivalant. High speed USB memory is highly recommanded to prevent any data lost</li>
-<li>Format the disk with NTFS format and change name to DDS.</li>
-<li>Insert the USB to Astroid and see if USB icon appears on the top.</li>
+<li>Prepare a SanDisk 32GB Ultra Fit or equivalent. High-speed USB memory is highly recommended to prevent any data lost</li>
+<li>Format the disk with NTFS format and change the name to DDS.</li>
+<li>Insert the USB to Astroid and see if the USB icon appears on the top.</li>
 </ol>
 </div>
 </div>

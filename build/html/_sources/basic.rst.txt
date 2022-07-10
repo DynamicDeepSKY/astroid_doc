@@ -40,7 +40,7 @@ Status Icons
 
 |save_green| Inave save on
 
-|temp_green| CPU temparature is in normal range 
+|temp_green| CPU temparature is in a normal range 
 
 |temp_red| CPU is overheated
 
@@ -167,7 +167,7 @@ Quick control icons
 .. |showdso| image:: /images/showdso.png
                 :scale: 60 %
                 
-|autodso_search| Nearist DSO auto display on/off        
+|autodso_search| Nearest DSO auto display on/off        
                 
 .. |autodso_search| image:: /images/autodso_search.png
                 :scale: 60 %
@@ -239,33 +239,33 @@ Camera Control Menu
 
 
 
-Auto Mode: Auto exposure mode selection. AUTOGAIN fix exposure and only adjust gain
+Auto Mode: Auto exposure mode selection. AUTOGAIN fixes exposure and only adjusts the gain.
 
-Brightness: Sensor auto exposure level.
+Brightness: Sensor auto exposure level. Gain or exposure will be automatically adjusted to meet this value.
 
 Exposure: Sensor exposure time in second.
 
-Gain: Sensor gain 
+Gain: Sensor gain.
 
 Image Quality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.
 
-ZoomMode: Turning this optin will force Astroid to send down sized image in faster frame transfere rate. This option is usuful when focusing.
+ZoomMode: Turn on this option to receive the cropped image at a faster frame rate. This option is useful when adjusting the focus.
 
 ZoomSize: Image size in pixel.
 
-Mean Subtraction: Mean subtraction.
+Mean Subtraction: Check this option to subtract the mean pixel value from the image. This can be used to remove light pollution from the image.
 
 Mean Low Cut: Mean subtraction level.
 
-Light Pollution Removal: This will remove gradiant caused by light pollution.
+Light Pollution Removal: This will remove gradient caused by light pollution. Note that Mean Subtraction above cannot handle light pollution with gradient.
 
-No IR-CUT: Check this option when the IR cut filter is removed
+No IR-CUT: Check this option when the IR-CUT filter is removed. This will disable the wrong color correction.
 
-AUTO WB: automatic white balance
+AUTO WB: Automatic white balance. Select this option when IR-CUT filter is removed. The system tries to adjust the white balance without IR-CUT filter.
 
-PNG Format: Png format image downlaod
+PNG Format: Png format image download.
 
-TIFF Format: Raw format image download
+TIFF Format: Raw format image download.
 
 
 
@@ -277,13 +277,13 @@ Astro Tools Menu
    :alt: Finder align 
    :align: center
 
-Detector: Star detector option
+Detector: Star detector method selection.
 
 Longitude: Longitude of your location. 
 
 Latitude: Latitude of your location. 
 
-Time Adjust: This can adjust system time to preview the sky at given time
+Time Adjust: This can adjust system time to preview the sky at a given time
 
 Show Mini Map: Mini image turn on/off
 
@@ -291,23 +291,23 @@ Show Image: Uncheck this option if you only want to see the red circle marker
 
 Show Finder Mark: Uncheck this option if you want to remove the red circle marker
 
-Marker Size: Adjust this slider to set the red circle marker size identical to your main telescope
+Marker Size: Adjust this slider to adjust the red circle marker size identical to your main telescope
 
 Show Names: Uncheck this if you want to hide all names
 
-Guide Line: Check this option if you want to see azimuth and elevation guide line in guide mode
+Guide Line: Check this option if you want to see azimuth and elevation guideline in guide mode
 
-Catalogue: This is the star catalogue that automatic nearest star search feature uses.
+Catalog: This is the star catalog that the automatic nearest star search feature uses.
 
-Min/Max Size: Any DSO larger/smaller than these values will not be automatically searched. Adjust min/max value according to your main telescope's field of view.
+Min/Max Size: Any DSO larger/smaller than these values will not be automatically searched. Adjust the min/max value according to your main telescope's field of view.
 
-Max Distance: Search boundary. Larger value will search wider area.
+Max Distance: Search boundary. A larger value will search a wider area.
 
-Min/Max Mag: Any DSO darker/brighter than these values will not be automatically searched. Adjust min/max value according to your preference.
+Min/Max Mag: Any DSO darker/brighter than these values will not be automatically searched. Adjust the min/max value according to your preference.
 
-Sort By: When auto search button is clicked in the star list, the found stars will be sorted by this option.
+Sort By: When the auto search button is clicked in the star list, the found stars will be sorted by this option.
 
-RA(h:m:s), DEC(h:m:s): Custom RA, DEC location for commet and etc. Click "Add to the list" button to add the custom location to the star list.
+RA(h:m:s), DEC(h:m:s): Custom RA, DEC location for comet and etc. Click "Add to the list" button to add the custom location to the star list.
 
 
 Timelapse Menu
@@ -318,7 +318,8 @@ Timelapse Menu
    :alt: Finder align 
    :align: center
 
-You can select differnt formats for timelapse image saving feature.
+You can select different formats for the timelapse image saving feature.
+
 
 
 System Setting Menu
@@ -329,17 +330,18 @@ System Setting Menu
    :alt: Finder align 
    :align: center
 
-Support Mode: Checking this to let our support team to remotely dignose your device. Plase speak with our support team first before you use this option.
+Support Mode: Check this to let our support team remotely diagnose your device. Please speak with our support team first before you use this option.
 
 ID: External wifi's SSID
 
 Pass: External wifi's password
 
-Email: Put your email here to receive the ip address of the device when it connected to the network
+Email: Put your email here to receive the IP address of the device when it connected to the network
 
 Phone: Enter your phone number in international format to receive the IP address.
 
-Get License File: You can download your license file by clicking this button. Downloaded license file can be used to recover your license setting after you recover the system. If you have not sotred this license file download system ID by clicking "Get System ID" and contact us.
+Get License File: You can download your license file by clicking this button. The downloaded license file can be used to recover your license setting after you recover the system. If you have not stored this license file, download the system ID by clicking "Get System ID" and contact us.
+
 
 
 
@@ -364,28 +366,27 @@ Y Offset: To move the circle around y axis
 Setting Up License
 -----------------------
 
-Astroid's basic system and apps are protected by HW license keys. For this reason, if you recovered your device from the recovery image provided from the homepage, you have to recover the license as well. This requires to upload the license file to the web interface. The license file can be downloaded by clicking "Get License File" button in the system setting menu. It would be a good pratics to download the license file and store it on your computer once you receive the device. 
+Astroid's basic system and apps are protected by HW license keys. For this reason, if you recover your device from the recovery image, you have to recover the license as well. This requires uploading the license file to the web interface. The license file can be downloaded by clicking "Get License File" button in the system setting menu. It would be a good practice to download the license file and store it on your computer once you receive the device.
 
-To upload the license file go to the system setting menu and click "License Code File" button and select the license file you sotred on your computer.
+To upload the license file, go to the system setting menu and click **License Code File** button and select the license file you stored on your computer.
 
-In case you can't access to the license file, please send us your system ID and serial number. Our staff will send you the license file as soon as possible. 
+In case you can't access the license file, please send us your system ID and serial number. Our staff will send you the license file as soon as possible. 
 
 
-Also, if you replace Raspberry Pi 4, the original license code would not work. So, if you have any Raspberry Pi related problem please contact us rather than replace the Raspberry Pi yourself.  
+Also, if you replace Raspberry Pi 4, the original license code would not work. So, if you have any Raspberry Pi related problems, please contact us rather than replace the Raspberry Pi yourself.  
  
 
 Hot Pixel Correction
 --------------------
 
-The number of hot pixel naturally increses over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel dector and corrector. But to correct the hot pixel you need to manually activate the hot pixel dector. Please follow the procedure below to detect and correct the hot pixels. 
+The number of hot pixels naturally increases over time. These hot pixels are especially noticeable if you run EAA stacker with tracking option on. Astroid has a built-in hot pixel detector and corrector. But to correct the hot pixel you need to manually activate the hot pixel detector. Please, follow the procedure below to detect and correct the hot pixels. 
 
 1. Completly block the sensor using the provided sensor lid. Turn off every light around the room and make the room completely dark. 
-2. Go to the camera setting and increase exposure to 1 second and set gain to 150.
-3. Go to system menu and adjust hot pixel level. Lower value will pick more hot pixels. 
-4. Click hot pixel correction button.
-5. Try with the default value and if you still see some week hot pixels, lower the value little bit more until satisfactory.
-6. Run EAA stacker and see if hot pixels are disappeared
-
+2. Go to the camera setting and increase exposure to 1 second and set the gain to 150.
+3. Go to the system menu and the adjust the hot pixel level. A lower value will pick more hot pixels. 
+4. Click the hot pixel correction button.
+5. Run EAA stacker and see if hot pixels are disappeared
+6. Try with the default value and if you still see some weak hot pixels, lower the value and repeat the above until satisfactory.
 
 
 
@@ -393,25 +394,30 @@ Writing Images to USB Memory
 ------------------------------
 
 1. Prepare a DDS USB. Refer to the next section to make a DDS USB
-2. Insert the usb to Astroid and see if USB icon appear on the top status bar
+2. Insert the USB to Astroid and see if USB icon |usbmemory_green| appears on the top status bar
 3. Click the timelapse button to start recording
 
+.. |usbmemory_green| image:: /images/usbmemory_green.png
+                :scale: 30 %
 
 
-.. admonition:: Warnning
 
-    Use high speed USB memorys only. With low speed usb, Astroid will continue to write files to USB even after you finished recording which will drastically increases the chance of file curruption.
+
+.. admonition:: Warning
+
+    Use high-speed USB memory only. With low-speed USB, Astroid will continue to write files to USB even after you finished recording which will drastically increase the chance of file corruption.
+    
 
 .. admonition:: How to eject
 
-    USB must be ejected after eject button is clicked and all the usb related icons are disappeared. Otherwise, the USB will be currupted and you will lost all data in the USB.
+    USB must be ejected after the eject button is clicked and all the USB related icons are disappeared. Otherwise, the USB will be corrupted and you will lose all data in the USB.
     
 
 Making DDS USB
 ------------------------------
 
-1. Prepare a SanDisk 32GB Ultra Fit or equivalant. High speed USB memory is highly recommanded to prevent any data lost
-2. Format the disk with NTFS format and change name to DDS. 
-3. Insert the USB to Astroid and see if USB icon appears on the top.
+1. Prepare a SanDisk 32GB Ultra Fit or equivalent. High-speed USB memory is highly recommended to prevent any data lost
+2. Format the disk with NTFS format and change the name to DDS. 
+3. Insert the USB to Astroid and see if the USB icon appears on the top.
 
 

@@ -156,9 +156,13 @@ Clicking the button one more time will switch it back to the lock mode and follo
 
 
 
-Star List
+Star List |starlist2|
 ----------------------------------------------------
 
+.. |starlist2| image:: /images/starlist.png
+                :scale: 40 %
+                
+                
 You can make your own star list by clicking add button |add_to_list| in the star finder window.
 
 .. figure:: /images/searched_star.png
