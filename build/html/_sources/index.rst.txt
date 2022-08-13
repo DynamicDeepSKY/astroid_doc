@@ -7,6 +7,8 @@ Note: 2022年7月1日の時点で、ユーザーマニュアルは現在改訂�
 
 Note: 2022년 7월 1일 현재 사용자 매뉴얼이 개정 중입니다. 최종 사용자 매뉴얼을 최대한 빨리 제공할 수 있도록 최선을 다하겠습니다. 기다려 주셔서 감사합니다.
 
+Lastupdate: 14/Aug/2022
+
 Languages
    
 `日本語クイックマニュアル <https://www.dropbox.com/s/ecybr3r0dq1uzuu/Manual_Japan.pdf?dl=1>`_

@@ -92,19 +92,56 @@
              
   <div class="section" id="recovery-instruction">
 <span id="recovery"></span><h1>Recovery Instruction<a class="headerlink" href="#recovery-instruction" title="Permalink to this headline">¶</a></h1>
-<p>Before you start recover:</p>
+<p>Before you start the recovery process you have to backup your license and calibration files.</p>
 <ol class="arabic simple">
-<li>Please back up your license file</li>
-<li>Please back up your lens calibration file</li>
+<li>Download your license file</li>
 </ol>
-<p>You can recover your broken Astroid image to the factory setting by following steps.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/license_download.png"><img alt="License Download" src="_images/license_download.png" style="width: 400px;" /></a>
+</div>
+<ol class="arabic simple" start="2">
+<li>Download your lens calibration file</li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/calibration_download.png"><img alt="Calibration Download" src="_images/calibration_download.png" style="width: 400px;" /></a>
+</div>
+<p>If your device does not boot and cannot download these files please contact us at <a class="reference external" href="mailto:info&#37;&#52;&#48;dynamicdeepsky&#46;com">info<span>&#64;</span>dynamicdeepsky<span>&#46;</span>com</a>. We will send you those files as soon as possible.</p>
+<p>Follow the steps below to recover your device to the factory setup.</p>
 <ol class="arabic simple">
-<li>Download Astroid OS image from dynamicdeepsky.com under the support page</li>
-<li>Download Raspberry pi imager from <a class="reference external" href="https://www.raspberrypi.org/software/">https://www.raspberrypi.org/software/</a></li>
-<li>Pull out the OS SD card from Astroid and mount it to your computer either by SD card usb adaptor or built in sd card reader.</li>
+<li>Download the Astroid OS image from dynamicdeepsky.com under the support page</li>
+<li>Download the Raspberry pi imager from <a class="reference external" href="https://www.raspberrypi.org/software/">https://www.raspberrypi.org/software/</a></li>
+<li>Pull out the OS SD card from Astroid and mount it to your computer either by SD card USB adaptor or built-in sd card reader.</li>
 <li>Burn your SD card with the downloaded image.</li>
-<li>Put it back to Astroid and connect a power.</li>
-<li>Now, you need to setup your license and serial. Refers to <a class="reference internal" href="asminstruction.html#asminstruction"><span class="std std-ref">Assembly Instruction</span></a> to see how you set up the license and serial.</li>
+<li>Put it back to Astroid and connect the power.</li>
+<li>Wait for 5~10 minutes until you see “RPiHotspot” in the WIFI list.</li>
+</ol>
+<div class="admonition-important admonition">
+<p class="first admonition-title">Important</p>
+<p class="last">If you cut the power before you see “RPiHotspot”, you have to start from 3 again.</p>
+</div>
+<ol class="arabic simple" start="7">
+<li>Connect to RPiHotspot and set your serial by entering the following into the web browser:</li>
+</ol>
+<p><strong>http://10.10.10.10/setserial/YOUR_SERIALNUMBER</strong></p>
+<p>For example, if your serial number is 1030001 use the following command.</p>
+<p><a class="reference external" href="http://10.10.10.10/setserial/1030001">http://10.10.10.10/setserial/1030001</a></p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/set_serial.png"><img alt="Set serial" src="_images/set_serial.png" style="width: 400px;" /></a>
+</div>
+<p>Once you enter the serial number your device’s WIFI ID will be changed to DDS_DIRECT_1030001</p>
+<ol class="arabic simple" start="8">
+<li>Now, you need to set up your license and serial. Click the”License Code File” button under “System Setting”-&gt;”License Management” and select the file you downloaded before the reset.</li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/license_upload.png"><img alt="Calibration Upload" src="_images/license_upload.png" style="width: 400px;" /></a>
+</div>
+<ol class="arabic simple" start="9">
+<li>Click the “Load Calibration” button under “System Setting”-&gt;”Calibration” and select the file you downloaded before the reset.</li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/calibration_upload.png"><img alt="Calibration Upload" src="_images/calibration_upload.png" style="width: 400px;" /></a>
+</div>
+<ol class="arabic simple" start="10">
 <li>Check the system version on the ShowInfo window and run update if it is outdated. See <a class="reference internal" href="systemupdate.html#systemupdate"><span class="std std-ref">System Update</span></a> for more information</li>
 </ol>
 </div>

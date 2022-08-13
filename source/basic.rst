@@ -247,7 +247,7 @@ Exposure: Sensor exposure time in second.
 
 Gain: Sensor gain.
 
-Image Quality: JPG image quality in percentage. Higher value increase file size and image quality but slower the frame transfer rate.
+Image Quality: JPG image quality in percentage. A higher value increase file size and image quality but slower the frame transfer rate.
 
 ZoomMode: Turn on this option to receive the cropped image at a faster frame rate. This option is useful when adjusting the focus.
 
@@ -383,7 +383,7 @@ The number of hot pixels naturally increases over time. These hot pixels are esp
 
 1. Completly block the sensor using the provided sensor lid. Turn off every light around the room and make the room completely dark. 
 2. Go to the camera setting and increase exposure to 1 second and set the gain to 150.
-3. Go to the system menu and the adjust the hot pixel level. A lower value will pick more hot pixels. 
+3. Go to the system menu and adjust the hot pixel level. A lower value will pick more hot pixels. 
 4. Click the hot pixel correction button.
 5. Run EAA stacker and see if hot pixels are disappeared
 6. Try with the default value and if you still see some weak hot pixels, lower the value and repeat the above until satisfactory.
