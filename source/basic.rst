@@ -318,8 +318,13 @@ Timelapse Menu
    :alt: Finder align 
    :align: center
 
-You can select different formats for the timelapse image saving feature.
+You can select different formats for the timelapse image saving feature. When you press the timelapse icon |timelapse_small|, the system will write the images in the format you selected above.
+                
+.. |timelapse_small| image:: /images/timelapse.png
+                :scale: 40 %
 
+
+Tiff and png format will save raw images whereas "Save Annotated" will save the image with additional information such as the direction of the main telescope
 
 
 System Setting Menu

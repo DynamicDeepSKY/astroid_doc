@@ -8,6 +8,7 @@ Lens calibration is important for accurate sky recognition and polar alignment. 
 If you feel eFinder alignment between the telescope and Astroid is not accurate, you can try to calibrate the lens using the lens calibration feature.
 
 Requirements
+------------------------
 
 1. Clear and open sky
 2. Sky without light pollution and Moonlight 
@@ -16,6 +17,7 @@ Requirements
 The calibration is using the location of the stars in the image. Make sure you perform the calibration at a place where Astroid can see the stars well. It is possible to perform the calibration without such conditions but the quality of the calibration is not guaranteed.
 
 Calibration procedure
+------------------------
 
 1. Clear any prior calibration images by clicking "Clear Calib Img" under "System Setting"->"Calibration".
 
