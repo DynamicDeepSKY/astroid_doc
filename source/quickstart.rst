@@ -220,7 +220,6 @@ If you don't know your longitude and latitude, go to google maps and see what is
      - 35.736418
 
 
-
 ARZoom
 ~~~~~~~~~~~~~~~~~~~~~~
 ARZoom will show you a virtual view of your main telescope. If you set it to the same FoV of your eyepiece you will see the same view as the ARZoom image in your eye piece. Note that the red circle is your main telescope view and ARZoom will display the sky image around the red circle. You can zoom in or out as you want by pressing +/- button under the ARZoom window. 
@@ -344,6 +343,14 @@ The following shows the images captured with Astroid on Celestron 90GT without t
 
 
 
+
+Timelapse
+--------------------
+
+You can record the images to make a timelapse. Press the timelapse icon |timelapse| to start the recording after inserting a DDS USB. Refers to  :ref:`Making DDS USB <basic>`, regarding a DDS USB.
+
+.. |timelapse| image:: /images/timelapse.png
+                :scale: 30 %
 
 
 
