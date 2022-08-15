@@ -95,6 +95,18 @@ A simple solution is compromising the response speed by increasing exposure and 
    :align: center
 
 
+Automatic DSO search |autodso_search|
+----------------------------------------------------
+
+Automatic DSO search is very useful when you would like to run a free-style sky exploration without any preparation. Enabling this will automatically find the nearest DSO to the current main telescope's view and display its shape and id on the screen.
+
+.. |autodso_search| image:: /images/autodso_search.png
+                :scale: 40 %
+
+By default, this feature will show sky objects in NGC, but you can select another catalog under "Astro Tools Menu"->"Search Setting". Also, you might don't want to find too small or too large stars according to your eyepiece's field of view. Adjust Min and Max size options.
+
+If you don't see anything on the screen after turning on this option, try to zoom in a little bit and move around different parts of the sky.
+
 
 
 Geolocation and Time
@@ -211,14 +223,3 @@ To save and load the star list use the following icons.
 
 
 
-
-
-
-Automatic DSO search |autodso_search|
-----------------------------------------------------
-
-Enabling this will automatically find the nearest DSO to the current main telescope's view and display it on the screen.
-
-.. |autodso_search| image:: /images/autodso_search.png
-                :scale: 40 %
-                
