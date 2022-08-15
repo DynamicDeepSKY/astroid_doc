@@ -34,21 +34,21 @@ This can happen the connection between your phone and DDS device hasn't been pro
 First, connect to DDS_DIRECT with the default password as shown
 
 .. figure:: /images/dds_direct_pass.png
-   :width: 200
+   :width: 400
    :alt: DDS_DIRECT default passcode
    :align: center
 
 There will be a notification informing that DDS_DIRECT has no Internet access.
 
 .. figure:: /images/dds_no_internet_access2.png
-   :width: 200
+   :width: 400
    :alt: DDS_DIRECT default passcode 
    :align: center
 
 Press "Tap for options" and there will be a pop-up asking if stay connected? Select "Yes". You then established the connection.
 
 .. figure:: /images/dds_no_internet_access.png
-   :width: 200
+   :width: 400
    :alt: DDS_DIRECT default passcode 
    :align: center
 

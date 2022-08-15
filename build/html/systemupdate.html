@@ -54,7 +54,8 @@
 <li class="toctree-l1"><a class="reference internal" href="collimation.html">Collimation</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">System Update</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#checking-your-system-version">Checking Your System Version</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id1">System Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-online-update">System Online Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-offline-update">System Offline Update</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="remotesystem.html">Making A Remote System</a></li>
@@ -98,7 +99,7 @@
 <span id="systemupdate"></span><h1>System Update<a class="headerlink" href="#system-update" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="checking-your-system-version">
 <h2>Checking Your System Version<a class="headerlink" href="#checking-your-system-version" title="Permalink to this headline">¶</a></h2>
-<p>Go to system setting anc check system info to open the system information window. If your system version is outdated than the version on our hompage, you can update your system.</p>
+<p>Go to system setting and click “System info” to open the system information window. If your system version is older than the version on our homepage, you can update your system.</p>
 <div class="figure align-center">
 <a class="reference internal image-reference" href="_images/systeminfo.png"><img alt="Version check" src="_images/systeminfo.png" style="width: 400px;" /></a>
 </div>
@@ -106,15 +107,30 @@
 <a class="reference internal image-reference" href="_images/version_check.png"><img alt="Version check" src="_images/version_check.png" style="width: 400px;" /></a>
 </div>
 </div>
-<div class="section" id="id1">
-<h2>System Update<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="system-online-update">
+<h2>System Online Update<a class="headerlink" href="#system-online-update" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Download an update file from DynamicDeepSKY.com. The update files are under support tab.</li>
-<li>Copy the downloaded file to DDS usb. If you don’t have the DDS usb, see <a class="reference internal" href="basic.html#basic"><span class="std std-ref">Making a DDS USB</span></a> for more information</li>
-<li>Insert the USB to Astroid. You will see the USB icons <a class="reference internal" href="_images/usbmemory_green.png"><img alt="usbmemory_green" src="_images/usbmemory_green.png" style="width: 19.2px; height: 19.2px;" /></a> on the top side.</li>
+<li>Connect your device to the internet either by ethernet cable or external WIFI. If you registered your email or phone number in the system setting menu, you will receive the IP address of the device as a message.</li>
+<li>Open the web interface and go to the setting menu -&gt; “System Setting” and click “Check system update”. If there is a new version, the system update will be automatically started and you will see the USB icons <a class="reference internal" href="_images/usbmemory_green.png"><img alt="usbmemory_green" src="_images/usbmemory_green.png" style="width: 19.2px; height: 19.2px;" /></a> on the top side. You can see the progress in the system log. To see the system log, click “Show System Log” under the “System Setting” menu.</li>
+</ol>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/start_update.png"><img alt="Version check" src="_images/start_update.png" style="width: 400px;" /></a>
+</div>
+<ol class="arabic simple" start="4">
 <li>Wait until the update icon <a class="reference internal" href="_images/update.png"><img alt="update" src="_images/update.png" style="width: 19.2px; height: 19.2px;" /></a> disappear</li>
 <li>Reboot the system</li>
-<li>Check the system version is up to date.</li>
+<li>Check if the system version is up to date.</li>
+</ol>
+</div>
+<div class="section" id="system-offline-update">
+<h2>System Offline Update<a class="headerlink" href="#system-offline-update" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Download an update file from DynamicDeepSKY.com. The update files are under the support tab.</li>
+<li>Copy the downloaded file to DDS USB. If you don’t have the DDS USB, see <a class="reference internal" href="basic.html#basic"><span class="std std-ref">Making a DDS USB</span></a> for more information</li>
+<li>Insert the USB to Astroid. You will see the USB icons <a class="reference internal" href="_images/usbmemory_green.png"><img alt="usbmemory_green" src="_images/usbmemory_green.png" style="width: 19.2px; height: 19.2px;" /></a> on the top side.</li>
+<li>Wait until the update icon <a class="reference internal" href="_images/update.png"><img alt="update" src="_images/update.png" style="width: 19.2px; height: 19.2px;" /></a> disappears</li>
+<li>Reboot the system</li>
+<li>Check if the system version is up to date.</li>
 </ol>
 </div>
 </div>

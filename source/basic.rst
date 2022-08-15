@@ -40,7 +40,7 @@ Status Icons
 
 |save_green| Inave save on
 
-|temp_green| CPU temparature is in a normal range 
+|temp_green| CPU temperature is in a normal range 
 
 |temp_red| CPU is overheated
 
@@ -257,7 +257,7 @@ Mean Subtraction: Check this option to subtract the mean pixel value from the im
 
 Mean Low Cut: Mean subtraction level.
 
-Light Pollution Removal: This will remove gradient caused by light pollution. Note that Mean Subtraction above cannot handle light pollution with gradient.
+Light Pollution Removal: This will remove the gradient caused by light pollution. Note that Mean Subtraction above cannot handle light pollution with gradient.
 
 No IR-CUT: Check this option when the IR-CUT filter is removed. This will disable the wrong color correction.
 
@@ -341,9 +341,37 @@ ID: External wifi's SSID
 
 Pass: External wifi's password
 
-Email: Put your email here to receive the IP address of the device when it connected to the network
+Email: Put your email here to receive the IP address of the device when it is connected to the network. Note that the email from Astroid is often filtered and delivered to your spam email box. 
 
-Phone: Enter your phone number in international format to receive the IP address.
+.. figure:: /images/wifi_email.png
+   :width: 400
+   :alt: Wifi notification by email
+   :align: center
+
+
+Phone: Enter your phone number in international format to receive the IP address. The message will be sent only once a day.
+
+.. list-table:: Dialing codes
+   :align: center
+   :widths: 50 25
+   :header-rows: 1   
+
+   * - Region
+     - Number
+   * - Japan
+     - +61
+   * - Korea
+     - +81
+   * - Australia
+     - +82     
+     
+For example, if you connect your device in Australia with the phone number 0401 123 456, you should put it as follows.
+
+.. figure:: /images/wifi_phone.png
+   :width: 400
+   :alt: Wifi notification by phone
+   :align: center
+
 
 Get License File: You can download your license file by clicking this button. The downloaded license file can be used to recover your license setting after you recover the system. If you have not stored this license file, download the system ID by clicking "Get System ID" and contact us.
 
