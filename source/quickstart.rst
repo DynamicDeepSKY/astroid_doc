@@ -13,7 +13,15 @@ Start Astroid
 .. figure:: /images/ip_address.png
    :alt: IP address
    :align: center
+   
+.. admonition:: Note
 
+	If 10.10.10.10 does not work try http://10.10.10.10 instead of 10.10.10.10. Some web browsers add https infront of the IP address which make it fail to find the device.	
+	
+	http://10.10.10.10    (O)
+	
+	https://10.10.10.10   (X)
+  
 4. You should see the rotating logo soon
 
 .. figure:: /images/rotating_logo.png
